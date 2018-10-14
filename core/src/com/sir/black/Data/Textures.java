@@ -34,8 +34,8 @@ public class Textures {
     //endregion
 
     //region singlePicture
-    public static Texture hitAnimation = new Texture("Texture/Animation/BallFlyAnimation.png");
-            //"BallHit.png");
+    public static Texture hitAnimation = new Texture("Texture/Animation/BallHit.png");
+    public static Texture ballFlyAnimation = new Texture("Texture/Animation/BallFlyAnimation.png");
     //endregion
 
     //region multiPicture
