@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\I\do\III\SaveCode\Runner\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="55ac63e3b654a871238e5b61a91ca40c754b78cb">
+        <dex dex="D:\I\do\III\SaveCode\Runner\android\build\intermediates\pre-dexed\debug\core-1.0_85bc1a0acf1a5e2f707b2a40ed181a4a3fabaee7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NoOne\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.8\84024cd60ad6f26370891fbcd17de9f0167e662\gdx-backend-android-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="084024cd60ad6f26370891fbcd17de9f0167e662">
+        <dex dex="D:\I\do\III\SaveCode\Runner\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.8_1e486133cbc02cf05d912b0abcf424522a198b4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NoOne\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.8\a35a0076fbce873f9c2d5a1a1c8066244231bb3c\gdx-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a35a0076fbce873f9c2d5a1a1c8066244231bb3c">
+        <dex dex="D:\I\do\III\SaveCode\Runner\android\build\intermediates\pre-dexed\debug\gdx-1.9.8_6a26c3817f8f5ff92dda6895ffbf3f302126b5b3.jar" />
+    </item>
+
+</items>
