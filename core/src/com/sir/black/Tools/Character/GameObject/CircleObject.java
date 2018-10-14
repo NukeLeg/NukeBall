@@ -1,8 +1,7 @@
-package com.sir.black.Tools.GO;
-
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Vector2;
+import com.sir.black.Tools.Character.GameObject.GameObject;
 
 public class CircleObject extends GameObject {
     //region fields

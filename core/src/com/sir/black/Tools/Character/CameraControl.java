@@ -1,8 +1,9 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character;
 
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Fin;
+import com.sir.black.Tools.Character.GameObject.GameObject;
 
 /**
  * Контроль руху камери
@@ -94,9 +95,9 @@ public class CameraControl {
      * Знаходимо позицію за якою будемо слідкувати
      */
     private void lookingPosition() {
-        if (gameObject != null && gameObject.position != null) {
-                positionLooking.x = gameObject.position.x + gameObject.srcW * gameObject.scale.x / 2;
-                positionLooking.y = gameObject.position.y + gameObject.srcH * gameObject.scale.y / 2;
+        if (gameObject != null && gameObject.getPosition() != null) {
+                positionLooking.x = gameObject.getPosition().x + gameObject.getSrcW() * gameObject.getScale().x / 2;
+                positionLooking.y = gameObject.getPosition().y + gameObject.getSrcH() * gameObject.getScale().y / 2;
         }
 
     }

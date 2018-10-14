@@ -1,4 +1,4 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character.Status;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Fin;
 import com.sir.black.Data.Textures;
+import com.sir.black.Tools.Character.GameObject.GameObject;
 
 /**
  * Відображає стан полоски даного обєкта
@@ -215,16 +216,16 @@ public class Status {
      */
     protected void defaultValue() {
         this.head = new GameObject(Textures.healthHead, new Vector2());
-        this.head.layer = layerHealthHead;
-        this.head.color = statusHeadColor;
+        this.head.setLayer(layerHealthHead);
+        this.head.setColor(statusHeadColor);
 
         this.frame = new GameObject(Textures.healthHpFrame, new Vector2(Textures.healthHead.getWidth(),0));
-        this.frame.layer = layerHealthFrame;
-        this.frame.color = statusFrameColor;
+        this.frame.setLayer(layerHealthFrame);
+        this.frame.setColor(statusFrameColor);
 
         this.level = new GameObject(Textures.healthHpLev, new Vector2(Textures.healthHead.getWidth(),0));
-        this.level.layer = layerHealthLevel;
-        this.level.color = statusLevelColor;
+        this.level.setLayer(layerHealthLevel);
+        this.level.setColor(statusLevelColor);
     }
 
     /**
@@ -378,9 +379,9 @@ public class Status {
      * @param position позиція де буде промальовуватися шкала
      */
     public void setLineCoords(Vector2 position) {
-        head.position = new Vector2(position.x, position.y);
-        level.position = new Vector2(position.x + head.getCurrentSize().x, position.y);
-        frame.position = new Vector2(position.x + head.getCurrentSize().x, position.y);
+        head.setPosition(new Vector2(position.x, position.y));
+        level.setPosition(new Vector2(position.x + head.getCurrentSize().x, position.y));
+        frame.setPosition(new Vector2(position.x + head.getCurrentSize().x, position.y));
     }
 
     /**
@@ -398,10 +399,10 @@ public class Status {
      */
     public void changeHeadPicture(Texture texture, int scrX, int scrY, int scrW, int scrH) {
         this.head.setTexture(texture);
-        this.head.srcX = scrX;
-        this.head.srcY = scrY;
-        this.head.srcW = scrW;
-        this.head.srcH = scrH;
+        this.head.setSrcW(scrX);
+        this.head.setSrcY(scrY);
+        this.head.setSrcW(scrW);
+        this.head.setSrcH(scrH);
         //this.head.scaleStart = new Vector2(textureHeadSize.x/scrW, textureHeadSize.y/scrH);
     }
 
@@ -454,8 +455,11 @@ public class Status {
      * Обновити показники лінії
      */
     protected void updateLine() {
-        level.srcX =(int)(level.texture.getWidth() * current / max);
-        level.WH.x = (int)(level.texture.getWidth() * current / max);
+        level.setSrcX((int)(level.getTexture().getWidth() * current / max));
+        level.setWH(
+                new Vector2(
+                        (int)(level.getTexture().getWidth() * current / max),
+                        level.getWH().y));
     }
     //endregion
 }

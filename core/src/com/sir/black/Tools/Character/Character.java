@@ -1,9 +1,15 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
+import com.sir.black.Tools.Character.Behaviour.Behaviour;
+import com.sir.black.Tools.Character.Condition.Condition;
+import com.sir.black.Tools.Character.Fraction.Fraction;
+import com.sir.black.Tools.Character.GameObject.GameObject;
+import com.sir.black.Tools.Character.Shader.ShaderRull;
+import com.sir.black.Tools.Character.Status.Status;
 
 /**
  * Created by NoOne on 10.09.2018.

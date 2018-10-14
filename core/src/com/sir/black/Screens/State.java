@@ -1,7 +1,6 @@
 package com.sir.black.Screens;
 
 import com.sir.black.Common.GameStateManager;
-import com.sir.black.Screens.Maps.UsualMap;
 import com.sir.black.Screens.SupportState.Camera2D;
 import com.sir.black.Screens.SupportState.DrawTools;
 import com.sir.black.Screens.SupportState.InputControl;
@@ -38,26 +37,16 @@ public class State {
      */
     public State(GameStateManager gameStateManager){
         // Вхідні параметри
-        this.gameStateManager = gameStateManager;
-
-        archive(); // З архіва
-        defaultValue(); // Дефолтні значення
-
-        cameraUpdate(); /**Обновлення камери гри*/
-        cameraMenuUpdate(); /**Обновлення камери меню*/
-    }
-
-    /**
-     * Взято із архіва
-     */
-    protected void archive() {
-        //Параметри взяті з інших зовнішніх джерел
+        initialize(); // Дефолтні значення
+        refreshExternalDependencies(); // З архіва
+        create(gameStateManager);
+        firstAction();
     }
 
     /**
      * Значення за замовчуванням
      */
-    protected void defaultValue() {
+    protected void initialize() {
         screenParams = new ScreenParams();
         localCounter = new LocalCounter();
         map = new Map();
@@ -66,6 +55,21 @@ public class State {
         camera2D = new Camera2D(screenParams.getWIDTH(), screenParams.getHEIGHT());
         camera2DMenu = new Camera2D(screenParams.getWIDTH(), screenParams.getHEIGHT());
         camera2DMenu.setCameraMenu(screenParams.getHDWidth(), screenParams.getHDHeight(), screenParams.getWIDTH(), screenParams.getHEIGHT());
+        gameStateManager = null;//new GameStateManager();
+    }
+
+    /**
+     * Параметри взяті з інших зовнішніх джерел
+     */
+    protected void refreshExternalDependencies() { }
+
+    protected void create(GameStateManager gameStateManager){
+        this.gameStateManager = gameStateManager;
+    }
+
+    protected void firstAction(){
+        cameraUpdate(); /**Обновлення камери гри*/
+        cameraMenuUpdate(); /**Обновлення камери меню*/
     }
     //endregion
 
@@ -101,14 +105,17 @@ public class State {
         if (camera2D != null) camera2D.setTouchPos(inputControl.getX(), inputControl.getY());
         if (camera2DMenu != null) camera2DMenu.setTouchPos(inputControl.getX(), inputControl.getY());
     }
+
     /**
      * Відредагувати на те що відбувається в меню
      * На яку кнопку було натиснуто
      */
     protected void menuUpdate() {
         Menu.checkGlobalTouch(inputControl.isTouched()); // Перевірка першого нажимання
-        if (menu != null) // Якщо меню існує то зробити відповідні дії
-            eventListener(menu.update(inputControl.isTouched(), camera2DMenu.getTouchPosV2()));
+        if (menu != null) { // Якщо меню існує то зробити відповідні дії
+            int numberButton = menu.update(inputControl.isTouched(), camera2DMenu.getTouchPosV2());
+            eventListener(numberButton);
+        }
     }
 
     protected void screenParamsUpdate(){

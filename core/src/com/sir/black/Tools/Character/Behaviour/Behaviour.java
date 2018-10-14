@@ -1,4 +1,4 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character.Behaviour;
 
 /**
  * Визначає поводження частинки, як вона буде рухатися, крутится, змінювати розмір, змінювати колір

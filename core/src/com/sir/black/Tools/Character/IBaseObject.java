@@ -1,10 +1,9 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
-import com.sir.black.Data.Fin;
 
 public interface IBaseObject {
     //region get/set/mod

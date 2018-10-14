@@ -3,9 +3,9 @@ package com.sir.black.Screens.Maps;
 import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Textures;
 import com.sir.black.Screens.SupportState.Map;
-import com.sir.black.Tools.GO.Character;
-import com.sir.black.Tools.GO.Fraction;
-import com.sir.black.Tools.GO.GameObject;
+import com.sir.black.Tools.Character.Character;
+import com.sir.black.Tools.Character.Fraction.Fraction;
+import com.sir.black.Tools.Character.GameObject.GameObject;
 
 /**
  * Created by NoOne on 10.09.2018.

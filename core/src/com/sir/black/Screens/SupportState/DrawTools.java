@@ -1,13 +1,9 @@
 package com.sir.black.Screens.SupportState;
 
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g3d.ModelBatch;
-import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Fin;
-import com.sir.black.Data.Textures;
-import com.sir.black.Tools.GO.LayerRuler;
+import com.sir.black.Tools.Character.LayerRuler;
 import com.sir.black.Tools.Menu.Menu;
 
 /**

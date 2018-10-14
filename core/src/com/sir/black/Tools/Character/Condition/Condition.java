@@ -1,4 +1,4 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character.Condition;
 
 /**
  * Стани обєтка

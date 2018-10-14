@@ -1,4 +1,4 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character.GameObject;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
@@ -6,6 +6,8 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Fin;
 import com.sir.black.Data.Textures;
+import com.sir.black.Tools.Character.IBaseObject;
+import com.sir.black.Tools.Character.LayerRuler;
 
 /**
  * Start class for all objects

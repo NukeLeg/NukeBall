@@ -1,4 +1,4 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character.Shader;
 
 import com.badlogic.gdx.Files;
 import com.badlogic.gdx.Gdx;
@@ -31,7 +31,7 @@ public class ShaderRull {
     protected Files files; // Файли загрузки
     //endregion
 
-    //region construct/archive/default
+    //region construct/refreshExternalDependencies/default
 
     // Статичний конструктор для задання не строгої передачі даних шейдеру
     static { ShaderProgram.pedantic = false; }

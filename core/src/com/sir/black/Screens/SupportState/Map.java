@@ -1,8 +1,8 @@
 package com.sir.black.Screens.SupportState;
 
 import com.sir.black.Data.Fin;
-import com.sir.black.Tools.GO.Character;
-import com.sir.black.Tools.GO.GameObject;
+import com.sir.black.Tools.Character.Character;
+import com.sir.black.Tools.Character.GameObject.GameObject;
 
 /**
  * Created by NoOne on 21.06.2018.

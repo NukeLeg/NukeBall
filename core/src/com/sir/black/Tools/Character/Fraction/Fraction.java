@@ -1,4 +1,4 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character.Fraction;
 
 /**
  * Змінює частину картинку яку треба промалювати

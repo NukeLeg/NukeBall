@@ -1,9 +1,10 @@
-package com.sir.black.Tools.GO;
+package com.sir.black.Tools.Character;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.sir.black.Data.Fin;
+import com.sir.black.Tools.Character.GameObject.GameObject;
 
 /**
  * Керувач промальокою, сортує слої промальовки
@@ -147,7 +148,7 @@ public class LayerRuler {
     protected void sort() {
         for (int i = 0; i < counter; i++) {
             for (int j = i+1; j <= counter; j++) {
-                if (field[i].layer > field[j].layer) {
+                if (field[i].getLayer() > field[j].getLayer()) {
                     field0 = field[i];
                     field[i] = field[j];
                     field[j] = field0;
@@ -170,7 +171,7 @@ public class LayerRuler {
                 // знаходимо індекс батьківського запису
                 int parentIndex = (index - 1) / 2;
                 //рівняємо доченьку із батенькою
-                if(field[index].layer <= field[parentIndex].layer)
+                if(field[index].getLayer() <= field[parentIndex].getLayer())
                     break;
 
                 //скидаємо отца свого із трону і займаємо його місце
@@ -200,13 +201,13 @@ public class LayerRuler {
             if (childIndex2 > counter) childIndex2 = index;
 
             // властивість бінарного дерева або кучі виконана виходимо
-            if(field[childIndex1].layer <= field[index].layer &&
-                    field[childIndex2].layer <= field[index].layer)
+            if(field[childIndex1].getLayer() <= field[index].getLayer() &&
+                    field[childIndex2].getLayer() <= field[index].getLayer())
                 break;
 
             // індекс більшого дочірнього запису
             int largerChild;
-            if(field[childIndex1].layer > field[childIndex2].layer)
+            if(field[childIndex1].getLayer() > field[childIndex2].getLayer())
                 largerChild = childIndex1;
             else
                 largerChild = childIndex2;
