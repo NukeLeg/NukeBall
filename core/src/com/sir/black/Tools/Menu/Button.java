@@ -2,7 +2,7 @@ package com.sir.black.Tools.Menu;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
-import com.sir.black.Tools.Character.GameObject.GameObject;
+import com.sir.black.Tools.Character.InitialObject.GameObject;
 
 /**
  * Created by NoOne on 04.02.2018.
@@ -14,24 +14,6 @@ public class Button {
      * Активний образ елемента меню
      */
     public GameObject elementMenu; // Активний образ елемента меню
-    /**
-     * Пасивний вигляд конопки
-     */
-    //public GameObject elementMenuPasive; // Пасивний вигляд конопки
-    /**
-     * При наведенні на цю кнопку
-     */
-    //public GameObject elementMenuActive; // При наведенні на цю кнопку
-    /**
-     * При натисканні на цю кнопку
-     */
-    //public GameObject elementMenuPush; // При натисканні на цю кнопку
-
-
-    /**
-     * Чи знаходится мишка на даній кнопці?
-     */
-    //public boolean mouseInButton; // Чи знаходится мишка на даній кнопці?
     /**
      * Мишка нажала кнопку
      */

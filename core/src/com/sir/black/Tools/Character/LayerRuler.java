@@ -4,7 +4,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.sir.black.Data.Fin;
-import com.sir.black.Tools.Character.GameObject.GameObject;
+import com.sir.black.Tools.Character.InitialObject.GameObject;
 
 /**
  * Керувач промальокою, сортує слої промальовки

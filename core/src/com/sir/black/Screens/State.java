@@ -1,6 +1,7 @@
 package com.sir.black.Screens;
 
 import com.sir.black.Common.GameStateManager;
+import com.sir.black.Screens.Mediator.Mediator;
 import com.sir.black.Screens.SupportState.Camera2D;
 import com.sir.black.Screens.SupportState.DrawTools;
 import com.sir.black.Screens.SupportState.InputControl;
@@ -17,6 +18,7 @@ import com.sir.black.Tools.Menu.Menu;
 public class State {
     //region field
     protected GameStateManager gameStateManager; // посилання на менеджер станів гри для керування вікнами
+    protected Mediator mediator; // is ruler others classes
 
     protected ScreenParams screenParams; // Параметри екрана
     protected LocalCounter localCounter; // Лічильник
@@ -128,7 +130,7 @@ public class State {
     /**
      * Лічильник цього стану
      */
-    protected void localCounterUpdate() { if (localCounter!=null) localCounter.update(); } /**Лічильник для цього конкретного стану */
+    protected void localCounterUpdate() { if (localCounter != null) localCounter.update(); } /**Лічильник для цього конкретного стану */
     /**
      * Обновлення камери гри
      */

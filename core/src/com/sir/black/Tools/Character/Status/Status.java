@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Fin;
 import com.sir.black.Data.Textures;
-import com.sir.black.Tools.Character.GameObject.GameObject;
+import com.sir.black.Tools.Character.InitialObject.GameObject;
 
 /**
  * Відображає стан полоски даного обєкта

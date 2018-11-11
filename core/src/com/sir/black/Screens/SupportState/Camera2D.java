@@ -3,13 +3,16 @@ package com.sir.black.Screens.SupportState;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
+import com.sir.black.Screens.Mediator.IHaveMediator;
+import com.sir.black.Screens.Mediator.Mediator;
 
 /**
  * Created by NoOne on 21.06.2018.
  */
 
-public class Camera2D {
+public class Camera2D implements IHaveMediator {
     //region fields
+    protected Mediator mediator;
     /**
      * Камера
      */
@@ -20,10 +23,21 @@ public class Camera2D {
     protected Vector3 touchPos; // Позиція дотику
     //endregion
 
+    //region construct
+    public Camera2D(int WIDTH, int HEIGHT){
+        this.camera = new OrthographicCamera(); /**Ортографічна камера для смогї гри*/
+        this.camera.setToOrtho(false, WIDTH, HEIGHT); /** встановлюємо видове вікно та вирівнюємо по центру*/
+        this.touchPos = new Vector3(); /**Зануляємо координати дотику */
+    }
+    //endregion
+
     //region get/set
     public OrthographicCamera getCamera() { return camera; }
     public Vector3 getTouchPos() { return touchPos; }
     public Vector2 getTouchPosV2() { return new Vector2(touchPos.x, touchPos.y); }
+    public Mediator getMediator() { return mediator; }
+
+    public void setMediator(Mediator mediator) { this.mediator = mediator; }
 
     /**
      * Для будь якого меню - розтянути(стиснути) і змістити камеру так,
@@ -45,17 +59,17 @@ public class Camera2D {
     }
     //endregion
 
-    //region construct
-    public Camera2D(int WIDTH, int HEIGHT){
-        this.camera = new OrthographicCamera(); /**Ортографічна камера для смогї гри*/
-        this.camera.setToOrtho(false, WIDTH, HEIGHT); /** встановлюємо видове вікно та вирівнюємо по центру*/
-        this.touchPos = new Vector3(); /**Зануляємо координати дотику */
-    }
-    //endregion
-
     //region external
     public void update(){
         camera.update();
+        mediatorUpdate();
+    }
+    //endregion
+
+    //region internal
+    protected void mediatorUpdate(){
+        if (mediator != null)
+            mediator.notify(this);
     }
     //endregion
 }

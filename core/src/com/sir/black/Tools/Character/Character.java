@@ -7,15 +7,18 @@ import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Tools.Character.Behaviour.Behaviour;
 import com.sir.black.Tools.Character.Condition.Condition;
 import com.sir.black.Tools.Character.Fraction.Fraction;
-import com.sir.black.Tools.Character.GameObject.GameObject;
+import com.sir.black.Tools.Character.InitialObject.CircleObject;
+import com.sir.black.Tools.Character.InitialObject.GameObject;
 import com.sir.black.Tools.Character.Shader.ShaderRull;
 import com.sir.black.Tools.Character.Status.Status;
+
+import java.util.Arrays;
 
 /**
  * Created by NoOne on 10.09.2018.
  */
 
-public class Character implements IBaseObject {
+public class Character implements IBaseObject, Rotatable {
     //region static
     protected static boolean isExist(GameObject gameObject){
         if (gameObject != null) return true;
@@ -89,6 +92,8 @@ public class Character implements IBaseObject {
         this.condition = condition;
         this.status = status;
         this.shaderRull = shaderRull;
+
+        Runnable sleepingRunner = () -> { System.out.println("…"); };
     }
     protected void create(GameObject gameObject, Fraction fraction) {
         this.gameObject = gameObject;
@@ -189,9 +194,25 @@ public class Character implements IBaseObject {
 
     @Override
     public void dispose() { gameObject.dispose(); }
+
+    @Override
+    public void rotatePlanetObject(float angle) { }
     //endregion
 
     //region get/set
+    public Vector2 getCenter(){
+        if (gameObject instanceof CircleObject){
+            return ((CircleObject)gameObject).getCenter();
+        }
+        else return null;
+    }
+    public float getRadius(){
+        if (gameObject instanceof CircleObject){
+            return ((CircleObject)gameObject).getCircleRadius();
+        }
+        else return 0;
+    }
+
     public GameObject getGameObject() { return gameObject; }
     public Behaviour getBehaviour() { return behaviour; }
     public Fraction getFraction() { return fraction; }

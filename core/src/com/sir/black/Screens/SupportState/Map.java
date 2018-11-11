@@ -1,14 +1,17 @@
 package com.sir.black.Screens.SupportState;
 
-import com.sir.black.Data.Fin;
+import com.sir.black.Screens.Mediator.IHaveMediator;
+import com.sir.black.Screens.Mediator.Mediator;
 import com.sir.black.Tools.Character.Character;
-import com.sir.black.Tools.Character.GameObject.GameObject;
+import com.sir.black.Tools.Character.InitialObject.GameObject;
+
+import java.util.LinkedList;
 
 /**
  * Created by NoOne on 21.06.2018.
  */
 
-public class Map {
+public class Map implements IHaveMediator {
     //region static
     public static boolean isExist(Character character){
         return (character != null);
@@ -28,23 +31,33 @@ public class Map {
     //endregion
 
     //region fields
-    protected Character[] character; // Всі персонажі
-    protected int numberOfCharacters; // Кількість персонажів
+    protected Mediator mediator;
+    protected LinkedList<Character> characters;
+    //endregion
+
+    //region get/set/mod
+    @Override
+    public Mediator getMediator() { return mediator; }
+    @Override
+    public void setMediator(Mediator mediator) { this.mediator = mediator; }
     //endregion
 
     //region construct
     public Map() {
-        archive();
-        defaultValue();
+        refreshExternalDependencies();
+        initialize();
+        initializeLocation();
     }
+    protected void initialize(){
+        characters = new java.util.LinkedList<Character>();
+    }
+    protected void addNewCharacter(Character character){
+        characters.add(character);
+    }
+    protected void initializeLocation(){
 
-    private void defaultValue(){
-        character = new Character[numberOfCharacters];
     }
-
-    private void archive() {
-        this.numberOfCharacters = Fin.numberOfCharacters;
-    }
+    private void refreshExternalDependencies() {    }
     //endregion
 
     //region external
@@ -55,6 +68,8 @@ public class Map {
         updateCharacter();
         deleteCharacter();
         collisionCharacter();
+
+        updateMediator();
     }
 
     /**
@@ -68,10 +83,8 @@ public class Map {
     //region internal
     protected void updateCharacter() {
         try {
-            for (int i = 0; i < character.length; i++) {
-                try {
-                    character[i].update();
-                }
+            for (int i = 0; i < characters.size(); i++) {
+                try { characters.get(i).update(); }
                 catch (Exception e) { }
             }
         }
@@ -79,22 +92,21 @@ public class Map {
     }
     protected void deleteCharacter() {
         try {
-            for (int i = 0; i < character.length; i++) {
-                if (isReadyToDelete(character[i]))
-                    character[i] = null;
+            for (int i = 0; i < characters.size(); i++) {
+                if (isReadyToDelete(characters.get(i)))
+                    characters.remove(i);
             }
         } catch (Exception e) { }
     }
 
     protected void collisionCharacter(){
         try {
-            for (int i = 0; i < character.length; i++) {
-                if (isExist(character[i])){
-                    for (int j = i + 1; j < character.length; j++) {
-                        if (isExist(character[j]))
-                            interaction(i, j);
-                    }
+            for (int i = 0; i < characters.size(); i++) {
+                for (int j = i + 1; j < characters.size(); j++) {
+                    if (isExist(characters.get(i)))
+                        interaction(i, j);
                 }
+
             }
         }
         catch (Exception e) { }
@@ -106,12 +118,16 @@ public class Map {
 
     protected void drawCharacter() {
         try {
-            for (int i = 0; i < character.length; i++) {
-                try { character[i].draw(); }
+            for (int i = 0; i < characters.size(); i++) {
+                try { characters.get(i).draw(); }
                 catch (Exception e) { }
             }
         }
         catch (Exception e) { }
+    }
+
+    public void updateMediator(){
+        if (mediator != null) mediator.notify(this);
     }
     //endregion
 }

@@ -158,6 +158,28 @@ public  class Fin {
 
     //region character
     public static int numberOfCharacters = 50;
+
+    /**
+     * Сліди
+     */
+    public static float defaultCircleRadius = 25.0f;
+    /**
+     * radiuses of the central circles
+     */
+    public static float CentralCircleRadius = 40.0f;
+    /**
+     * The planet have to be drawn with specified angle
+     */
+    public static float planetAngle = 0.01f;
+    /**
+     * where centra circle should be drawn
+     */
+    public static Vector2 planetCenter = new Vector2(WIDTH / 2, -100);
+    /**
+     * number of planet layers
+     */
+    public static float acceleration = -0.1f;
+    public static int numberOfLayers = 6;
     //endregion
 
     //region construct

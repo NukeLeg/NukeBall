@@ -53,7 +53,7 @@ public class Checker {
         checkFloatString = new String[count];
 
         spriteBatch = Fin.spriteBatch;
-        bitmapFont = Fin.bitmapFont60;
+        bitmapFont = Fin.bitmapFont32;
     }
     //endregion
 

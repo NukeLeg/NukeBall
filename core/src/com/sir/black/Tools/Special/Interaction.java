@@ -58,10 +58,8 @@ public class Interaction {
      */
     public static boolean BallByBall(Vector2 ballPosition1, float radius1,
                                      Vector2 ballPosition2, float radius2) {
-        if (Math.sqrt(Math.pow(ballPosition1.x - ballPosition2.x, 2) + Math.pow(ballPosition1.y - ballPosition2.y, 2))
-                < radius1 + radius2)
-            return true;
-        else return false;
+        return  (Math.sqrt(Math.pow(ballPosition1.x - ballPosition2.x, 2) + Math.pow(ballPosition1.y - ballPosition2.y, 2))
+                < radius1 + radius2);
     }
 
     /**

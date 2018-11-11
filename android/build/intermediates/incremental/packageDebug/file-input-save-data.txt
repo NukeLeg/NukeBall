@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Oct 14 16:48:07 EEST 2018
+#Sat Nov 03 17:04:31 EET 2018
 25.file=D\:\\I\\do\\III\\SaveCode\\Runner\\android\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar\\com\\badlogic\\gdx\\graphics\\g3d\\shaders\\default.fragment.glsl
 41.base=D\:\\I\\do\\III\\SaveCode\\Runner\\android\\build\\intermediates\\assets\\debug
 25.base=D\:\\I\\do\\III\\SaveCode\\Runner\\android\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar

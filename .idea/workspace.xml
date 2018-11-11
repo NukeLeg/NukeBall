@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
@@ -7,60 +10,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31569ffa-edcc-4739-9c74-4897ac233013" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/android/assets/Texture/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/Texture/optionsButton.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/Texture/startButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuStateMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Gravity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Rotatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/SpecialMath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_85bc1a0acf1a5e2f707b2a40ed181a4a3fabaee7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_85bc1a0acf1a5e2f707b2a40ed181a4a3fabaee7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/debug_c1ea1d2d075ce94aaed6488df4e7247fd7fce565.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/debug_c1ea1d2d075ce94aaed6488df4e7247fd7fce565.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Common/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Common/Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Data/Fin.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Data/Fin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Data/Textures.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Data/Textures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Screens/Maps/UsualMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Screens/Maps/UsualMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Screens/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Screens/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Screens/SupportState/DrawTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Screens/SupportState/DrawTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Screens/SupportState/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Screens/SupportState/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/CameraControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/CircleObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/Condition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/Conduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/Fraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/GameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/IBaseObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/LayerRuler$OutOfMaxNumberException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/LayerRuler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/ShaderRull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/GO/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Checkbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Checkbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Slider.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Slider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Switch.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Tools/Menu/Switch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/GameStateManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/GameStateManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/MainGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/MainGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Fin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Fin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/Maps/UsualMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/Maps/UsualMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Textures.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Textures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/Maps/UsualMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/PlayState.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/Camera2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/Camera2D.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/DrawTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/DrawTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/InputControl$Inp.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/InputControl$Inp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/InputControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/InputControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/LocalCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/LocalCounter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/Behaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/CameraControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/Character.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/CircleObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/Condition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/Fraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/GameObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/IBaseObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/LayerRuler$OutOfMaxNumberException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/LayerRuler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/ShaderRull.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/GO/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/ScreenParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/ScreenParams.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Button.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Checkbox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Checkbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Checkbox.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Slider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Switch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Checker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Dimension2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Interaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Transition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Vector4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/ZeroFun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Slider.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Slider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Switch.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Switch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Checker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Dimension2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Dimension2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Interaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Interaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/KeyJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/KeyJump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Transition.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Transition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Vector4.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/Vector4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/ZeroFun.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Special/ZeroFun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/UsualMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/UsualMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/UsualMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/PlayState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/DrawTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/DrawTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Behaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/CameraControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/CircleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/CircleObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/IBaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/IBaseObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/LayerRuler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/ShaderRull.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/ShaderRull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/CircleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Slider.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Slider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Interaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Interaction.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,362 +156,275 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UsualMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/UsualMap.java">
+      <file leaf-file-name="PlanetLocation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="1424">
+              <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#initializeCirclesOfPlanet#0;class#PlanetLocation#0" />
+                <element signature="docComment;method#update#0;class#PlanetLocation#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/GameObject.java">
+      <file leaf-file-name="Interaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Interaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="176">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#GameObject#0" />
-                <element signature="e#376#391#0" />
-                <element signature="e#396#483#0" />
-                <element signature="e#396#607#0" />
-                <element signature="e#629#644#0" />
-                <element signature="e#649#724#0" />
-                <element signature="e#827#854#0" />
-                <element signature="e#902#928#0" />
-                <element signature="e#976#1014#0" />
-                <element signature="e#1078#1118#0" />
-                <element signature="e#1178#1210#0" />
-                <element signature="e#1258#1294#0" />
-                <element signature="e#1349#1380#0" />
-                <element signature="e#1433#1488#0" />
-                <element signature="e#1557#1612#0" />
-                <element signature="e#1681#1726#0" />
-                <element signature="e#1785#1830#0" />
-                <element signature="e#1889#1929#0" />
-                <element signature="e#1988#2026#0" />
-                <element signature="e#2084#2108#0" />
-                <element signature="e#2150#2186#0" />
-                <element signature="e#2240#2297#0" />
-                <element signature="e#2457#3205#0" />
-                <element signature="e#2457#3709#0" />
-                <element signature="e#3715#4020#0" />
-                <element signature="e#3715#4508#0" />
-                <element signature="e#4514#4663#0" />
-                <element signature="e#4514#5080#0" />
-                <element signature="e#5086#5284#0" />
-                <element signature="e#5086#5787#0" />
-                <element signature="e#5793#5889#0" />
-                <element signature="e#5793#6303#0" />
-                <element signature="e#6309#6362#0" />
-                <element signature="e#6309#6502#0" />
-                <element signature="e#6508#6597#0" />
-                <element signature="e#6508#8069#0" />
-                <element signature="e#8077#8121#0" />
-                <element signature="e#8077#8805#0" />
-                <element signature="e#8811#8844#0" />
-                <element signature="e#8948#9696#0" />
-                <element signature="e#8948#10635#0" />
-                <element signature="e#10657#10681#0" />
-                <element signature="e#10686#10763#0" />
-                <element signature="e#10686#12337#0" />
-                <element signature="e#12343#12437#0" />
-                <element signature="e#12343#13640#0" />
-                <element signature="e#14690#14931#0" />
-                <element signature="e#14936#15041#0" />
-                <element signature="e#15046#15187#0" />
-                <element signature="e#15192#15297#0" />
-                <element signature="e#15302#15371#0" />
-                <element signature="e#15376#15463#0" />
-                <element signature="e#15980#16125#0" />
-                <element signature="e#16740#16812#0" />
-                <element signature="e#16817#16999#0" />
-                <element signature="e#17427#17507#0" />
-                <element signature="e#17638#17654#0" />
-                <element signature="e#17659#17720#0" />
-                <element signature="e#17800#17903#0" />
-                <element signature="e#17800#17970#0" />
-                <element signature="e#17975#18085#0" />
-                <element signature="e#17975#18218#0" />
-                <element signature="e#18223#18328#0" />
-                <element signature="e#18445#18546#0" />
-                <element signature="e#18445#18660#0" />
-                <element signature="e#18666#18944#0" />
-                <element signature="e#18666#19130#0" />
-                <element signature="e#19135#19324#0" />
-                <element signature="e#19135#19636#0" />
-                <element signature="e#19642#19683#0" />
-                <element signature="e#19642#19712#0" />
-                <element signature="e#19718#19765#0" />
-                <element signature="e#19718#19983#0" />
-                <element signature="e#19989#20082#0" />
-                <element signature="e#19989#20460#0" />
-                <element signature="e#20465#20592#0" />
-                <element signature="e#20465#20714#0" />
-                <element signature="e#20737#20792#0" />
+                <element signature="docComment;class#Interaction#0" />
+                <element signature="e#150#166#0" />
+                <element signature="docComment;field#ballnewSpeed1#0;class#Interaction#0" />
+                <element signature="docComment;field#phi#0;class#Interaction#0" />
+                <element signature="docComment;field#ro#0;class#Interaction#0" />
+                <element signature="docComment;field#ballPosition2Final#0;class#Interaction#0" />
+                <element signature="docComment;field#attachementPoint#0;class#Interaction#0" />
+                <element signature="docComment;field#ballHitPos1#0;class#Interaction#0" />
+                <element signature="docComment;field#ballHitPos2#0;class#Interaction#0" />
+                <element signature="docComment;field#angle1#0;class#Interaction#0" />
+                <element signature="docComment;field#angle2#0;class#Interaction#0" />
+                <element signature="docComment;method#BallByBall#0;class#Interaction#0" />
+                <element signature="method#BallByBall#0;class#Interaction#0" />
+                <element signature="docComment;method#BallByBallElastic#0;class#Interaction#0" />
+                <element signature="method#BallByBallElastic#0;class#Interaction#0" />
+                <element signature="e#3574#3666#0" />
+                <element signature="docComment;method#SolveProblemWithCrossSection#0;class#Interaction#0" />
+                <element signature="method#SolveProblemWithCrossSection#0;class#Interaction#0" />
+                <element signature="e#16976#17058#0" />
+                <element signature="e#17371#17430#0" />
+                <element signature="e#18991#19007#0" />
+                <element signature="docComment;method#BallByBallElastic0#0;class#Interaction#0" />
+                <element signature="method#BallByBallElastic0#0;class#Interaction#0" />
+                <element signature="e#20046#20138#0" />
+                <element signature="e#23234#23316#0" />
+                <element signature="e#23629#23688#0" />
+                <element signature="e#24864#24926#0" />
+                <element signature="docComment;method#BallByBallElastic0#1;class#Interaction#0" />
+                <element signature="method#BallByBallElastic0#1;class#Interaction#0" />
+                <element signature="e#30714#30806#0" />
+                <element signature="e#50942#51027#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Status.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status.java">
+      <file leaf-file-name="InputControl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="461" column="24" selection-start-line="461" selection-start-column="24" selection-end-line="461" selection-end-column="24" />
+            <state relative-caret-position="2608">
+              <caret line="339" column="25" selection-start-line="339" selection-start-column="25" selection-end-line="339" selection-end-column="25" />
               <folding>
-                <element signature="docComment;class#Status#0" />
+                <element signature="docComment;class#InputControl#0" />
+                <element signature="e#500#539#0" />
+                <element signature="e#596#655#0" />
+                <element signature="e#718#795#0" />
+                <element signature="e#869#946#0" />
+                <element signature="e#1021#1050#0" />
+                <element signature="e#1091#1120#0" />
+                <element signature="e#1162#1192#0" />
+                <element signature="e#1245#1276#0" />
+                <element signature="e#1331#1364#0" />
+                <element signature="e#1423#1454#0" />
+                <element signature="e#1506#1530#0" />
+                <element signature="e#1571#1594#0" />
+                <element signature="e#1636#1661#0" />
+                <element signature="e#1772#1829#0" />
+                <element signature="e#1903#1956#0" />
+                <element signature="e#2027#2077#0" />
+                <element signature="e#2144#2168#0" />
+                <element signature="e#2210#2235#0" />
+                <element signature="e#2279#2303#0" />
+                <element signature="e#2343#2366#0" />
+                <element signature="e#2408#2435#0" />
+                <element signature="e#2476#2503#0" />
+                <element signature="e#2544#2571#0" />
+                <element signature="e#2612#2639#0" />
+                <element signature="e#2681#2712#0" />
+                <element signature="e#2762#2845#0" />
+                <element signature="e#2952#3003#0" />
+                <element signature="e#3070#3116#0" />
+                <element signature="e#3198#3281#0" />
+                <element signature="e#3385#3416#0" />
+                <element signature="e#3421#3452#0" />
+                <element signature="e#3457#3490#0" />
+                <element signature="e#3495#3528#0" />
+                <element signature="e#3533#3602#0" />
+                <element signature="e#3608#3658#0" />
+                <element signature="e#3663#3715#0" />
+                <element signature="e#3720#3774#0" />
+                <element signature="e#3779#3829#0" />
+                <element signature="e#3835#3873#0" />
+                <element signature="e#3878#3920#0" />
+                <element signature="e#3925#3967#0" />
+                <element signature="e#3972#4022#0" />
+                <element signature="e#4027#4071#0" />
+                <element signature="e#4077#4117#0" />
+                <element signature="e#4122#4164#0" />
+                <element signature="e#4169#4207#0" />
+                <element signature="e#4213#4254#0" />
+                <element signature="e#4260#4300#0" />
+                <element signature="e#4305#4347#0" />
+                <element signature="e#4352#4388#0" />
+                <element signature="e#4393#4433#0" />
+                <element signature="e#4439#4473#0" />
+                <element signature="e#4478#4512#0" />
+                <element signature="e#4517#4551#0" />
+                <element signature="e#4556#4590#0" />
+                <element signature="e#4596#4710#0" />
+                <element signature="e#4596#5158#0" />
+                <element signature="e#5163#5305#0" />
+                <element signature="e#5163#5550#0" />
+                <element signature="e#5556#5608#0" />
+                <element signature="e#5613#5664#0" />
+                <element signature="e#5670#5720#0" />
+                <element signature="e#5725#5797#0" />
+                <element signature="e#5803#5878#0" />
+                <element signature="e#5900#5918#0" />
+                <element signature="e#5900#5993#0" />
+                <element signature="e#5998#6251#0" />
+                <element signature="e#6273#6538#0" />
+                <element signature="e#6582#6621#0" />
+                <element signature="e#6582#6973#0" />
+                <element signature="e#6979#7026#0" />
+                <element signature="e#6979#7159#0" />
+                <element signature="e#7165#7223#0" />
+                <element signature="e#7165#7470#0" />
+                <element signature="e#7476#7514#0" />
+                <element signature="e#7520#7583#0" />
+                <element signature="e#7520#8065#0" />
+                <element signature="e#8071#8131#0" />
+                <element signature="e#8071#8356#0" />
+                <element signature="e#8362#8413#0" />
+                <element signature="e#8362#8652#0" />
+                <element signature="e#8658#8696#0" />
+                <element signature="e#8658#8908#0" />
+                <element signature="e#9037#9143#0" />
+                <element signature="e#9037#10246#0" />
+                <element signature="e#9522#9653#0" />
+                <element signature="e#10051#10176#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraControl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java">
+      <file leaf-file-name="Mediator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/Mediator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="99" column="104" selection-start-line="99" selection-start-column="104" selection-end-line="99" selection-end-column="104" />
+            <state relative-caret-position="32">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
               <folding>
-                <element signature="docComment;class#CameraControl#0" />
-                <element signature="docComment;field#positionLooking#0;class#CameraControl#0" />
-                <element signature="docComment;field#camera#0;class#CameraControl#0" />
-                <element signature="docComment;field#gameObject#0;class#CameraControl#0" />
-                <element signature="docComment;field#HEIGHT#0;class#CameraControl#0" />
-                <element signature="docComment;method#CameraControl#0;class#CameraControl#0" />
-                <element signature="method#CameraControl#0;class#CameraControl#0" />
-                <element signature="docComment;method#archive#0;class#CameraControl#0" />
-                <element signature="docComment;method#defaultValue#0;class#CameraControl#0" />
-                <element signature="method#defaultValue#0;class#CameraControl#0" />
-                <element signature="docComment;method#update#0;class#CameraControl#0" />
-                <element signature="method#update#0;class#CameraControl#0" />
-                <element signature="docComment;method#changeBall#0;class#CameraControl#0" />
-                <element signature="docComment;method#changeCamera#0;class#CameraControl#0" />
-                <element signature="docComment;method#lookingPosition#0;class#CameraControl#0" />
-                <element signature="docComment;method#setCameraPosition#0;class#CameraControl#0" />
-                <element signature="method#setCameraPosition#0;class#CameraControl#0" />
-                <element signature="docComment;method#zoom#0;class#CameraControl#0" />
-                <element signature="method#zoom#0;class#CameraControl#0" />
-                <element signature="docComment;method#cameraUpdate#0;class#CameraControl#0" />
-                <element signature="docComment;method#moveToNumber#0;class#CameraControl#0" />
-                <element signature="method#moveToNumber#0;class#CameraControl#0" />
+                <element signature="docComment;class#Map#0" />
+                <element signature="method#isReadyToDelete#0;class#Map#0" />
+                <element signature="method#isReadyToDelete#1;class#Map#0" />
+                <element signature="method#getMediator#0;class#Map#0" />
+                <element signature="method#setMediator#0;class#Map#0" />
+                <element signature="method#Map#0;class#Map#0" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
+                <element signature="method#initializeLocation#0;class#Map#0" />
+                <element signature="method#refreshExternalDependencies#0;class#Map#0" />
+                <element signature="docComment;method#update#0;class#Map#0" />
+                <element signature="method#update#0;class#Map#0" />
+                <element signature="docComment;method#draw#0;class#Map#0" />
+                <element signature="method#updateCharacter#0;class#Map#0" />
+                <element signature="method#collisionCharacter#0;class#Map#0" />
+                <element signature="method#interaction#0;class#Map#0" />
+                <element signature="method#drawCharacter#0;class#Map#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LayerRuler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java">
+      <file leaf-file-name="PlanetDestroyer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="249" selection-start-line="249" selection-end-line="249" />
+            <state relative-caret-position="117">
+              <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#update#0;class#PlanetDestroyer#0" />
+                <element signature="method#updatePosition#0;class#PlanetDestroyer#0" />
+                <element signature="e#1986#1987#0" expanded="true" />
+                <element signature="e#2027#2028#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/PlayState.java">
+      <file leaf-file-name="GameState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="368">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
-                <element signature="docComment;class#Character#0" />
-                <element signature="e#300#454#0" />
-                <element signature="e#496#529#0" />
-                <element signature="e#589#626#0" />
-                <element signature="e#688#743#0" />
-                <element signature="e#821#851#0" />
-                <element signature="e#906#948#0" />
-                <element signature="e#1009#1051#0" />
-                <element signature="e#1137#1155#0" />
-                <element signature="e#1137#1465#0" />
-                <element signature="e#1471#1654#0" />
-                <element signature="e#1660#1814#0" />
-                <element signature="e#1820#2113#0" />
-                <element signature="e#2118#2166#0" />
-                <element signature="e#2171#2560#0" />
-                <element signature="e#2565#2708#0" />
-                <element signature="e#2825#2842#0" />
-                <element signature="e#2825#2924#0" />
-                <element signature="e#2929#2994#0" />
-                <element signature="e#2999#3072#0" />
-                <element signature="e#3077#3138#0" />
-                <element signature="e#3143#3196#0" />
-                <element signature="e#3201#3260#0" />
-                <element signature="e#3265#3342#0" />
-                <element signature="e#3347#3410#0" />
-                <element signature="e#3415#3468#0" />
-                <element signature="e#3473#3526#0" />
-                <element signature="e#3531#3584#0" />
-                <element signature="e#3589#3642#0" />
-                <element signature="e#3647#3704#0" />
-                <element signature="e#3709#3766#0" />
-                <element signature="e#3771#3828#0" />
-                <element signature="e#3833#3890#0" />
-                <element signature="e#3895#3968#0" />
-                <element signature="e#3974#4063#0" />
-                <element signature="e#4068#4147#0" />
-                <element signature="e#4152#4247#0" />
-                <element signature="e#4252#4323#0" />
-                <element signature="e#4328#4383#0" />
-                <element signature="e#4388#4455#0" />
-                <element signature="e#4460#4537#0" />
-                <element signature="e#4542#4601#0" />
-                <element signature="e#4606#4665#0" />
-                <element signature="e#4670#4729#0" />
-                <element signature="e#4734#4793#0" />
-                <element signature="e#4798#4865#0" />
-                <element signature="e#4870#4937#0" />
-                <element signature="e#4942#5007#0" />
-                <element signature="e#5012#5077#0" />
-                <element signature="e#5082#5181#0" />
-                <element signature="e#5187#5280#0" />
-                <element signature="e#5285#5380#0" />
-                <element signature="e#5385#5456#0" />
-                <element signature="e#5461#5516#0" />
-                <element signature="e#5521#5588#0" />
-                <element signature="e#5593#5670#0" />
-                <element signature="e#5675#5740#0" />
-                <element signature="e#5745#5804#0" />
-                <element signature="e#5809#5868#0" />
-                <element signature="e#5873#5932#0" />
-                <element signature="e#5937#5996#0" />
-                <element signature="e#6002#6100#0" />
-                <element signature="e#6106#6185#0" />
-                <element signature="e#6190#6255#0" />
-                <element signature="e#6260#6323#0" />
-                <element signature="e#6328#6395#0" />
-                <element signature="e#6401#6514#0" />
-                <element signature="e#6520#6605#0" />
-                <element signature="e#6611#6988#0" />
-                <element signature="e#6994#7049#0" />
-                <element signature="e#7055#7331#0" />
-                <element signature="e#7125#7209#0" />
-                <element signature="e#7337#7398#0" />
-                <element signature="e#7420#7497#0" />
-                <element signature="e#7502#7555#0" />
-                <element signature="e#7560#7610#0" />
-                <element signature="e#7615#7668#0" />
-                <element signature="e#7673#7717#0" />
-                <element signature="e#7722#7778#0" />
-                <element signature="e#7784#7866#0" />
-                <element signature="e#7871#7948#0" />
-                <element signature="e#7953#8025#0" />
-                <element signature="e#8030#8107#0" />
-                <element signature="e#8112#8174#0" />
-                <element signature="e#8179#8261#0" />
-                <element signature="e#8378#8424#0" />
-                <element signature="e#8378#8496#0" />
-                <element signature="e#8501#8540#0" />
-                <element signature="e#8501#8581#0" />
-                <element signature="e#8586#8689#0" />
-                <element signature="e#8586#8801#0" />
-                <element signature="e#8806#8844#0" />
-                <element signature="e#8806#9264#0" />
-                <element signature="e#9269#9306#0" />
-                <element signature="e#9379#9411#0" />
-                <element signature="e#9509#9544#0" />
+                <element signature="docComment;method#update#0;class#GameState#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Behaviour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java">
+      <file leaf-file-name="Gravity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Gravity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="80">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java">
+      <file leaf-file-name="Fin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="96">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
-                <element signature="docComment;class#Fraction#0" />
-                <element signature="e#151#186#0" />
-                <element signature="e#236#270#0" />
-                <element signature="e#320#357#0" />
-                <element signature="e#418#469#0" />
-                <element signature="e#546#609#0" />
-                <element signature="e#677#734#0" />
-                <element signature="e#806#858#0" />
-                <element signature="e#936#969#0" />
-                <element signature="e#1048#1064#0" />
-                <element signature="e#1048#1108#0" />
-                <element signature="e#1113#1154#0" />
-                <element signature="e#1159#1216#0" />
-                <element signature="e#1221#1280#0" />
-                <element signature="e#1285#1322#0" />
-                <element signature="e#1327#1366#0" />
-                <element signature="e#1371#1432#0" />
-                <element signature="e#1437#1601#0" />
-                <element signature="e#1437#1666#0" />
-                <element signature="e#1672#1727#0" />
-                <element signature="e#1732#1791#0" />
-                <element signature="e#1796#1950#0" />
-                <element signature="e#1955#2048#0" />
-                <element signature="e#2053#2282#0" />
-                <element signature="e#2287#2515#0" />
-                <element signature="e#2520#2697#0" />
-                <element signature="e#2520#2790#0" />
-                <element signature="e#2843#3229#0" />
-                <element signature="e#2843#3680#0" />
-                <element signature="e#3686#3887#0" />
-                <element signature="e#3686#4021#0" />
-                <element signature="e#4027#4121#0" />
-                <element signature="e#4027#4769#0" />
-                <element signature="e#4775#4880#0" />
-                <element signature="e#4994#5038#0" />
-                <element signature="e#5121#5213#0" />
-                <element signature="e#5121#5868#0" />
-                <element signature="e#5874#5965#0" />
-                <element signature="e#5874#6692#0" />
-                <element signature="e#6736#6774#0" />
-                <element signature="e#6736#6854#0" />
-                <element signature="e#6860#6959#0" />
-                <element signature="e#7019#7121#0" />
-                <element signature="e#7219#7259#0" />
-                <element signature="e#7341#7415#0" />
-                <element signature="e#7341#7530#0" />
-                <element signature="e#7536#7605#0" />
-                <element signature="e#7798#7858#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CircleObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/CircleObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#inSide#0;class#CircleObject#0" />
-                <element signature="method#inSide#0;class#CircleObject#0" />
-                <element signature="docComment;method#pointInCircle#0;class#CircleObject#0" />
-                <element signature="method#pointInCircle#0;class#CircleObject#0" />
-                <element signature="docComment;method#drawPositionUpdate#0;class#CircleObject#0" />
-                <element signature="method#drawPositionUpdate#0;class#CircleObject#0" />
+                <element signature="docComment;class#Fin#0" />
+                <element signature="e#379#395#0" />
+                <element signature="e#400#448#0" />
+                <element signature="e#529#580#0" />
+                <element signature="e#662#730#0" />
+                <element signature="e#831#899#0" />
+                <element signature="e#1000#1046#0" />
+                <element signature="e#1129#1158#0" />
+                <element signature="e#1213#1252#0" />
+                <element signature="e#1323#1364#0" />
+                <element signature="e#1449#1492#0" />
+                <element signature="e#1579#1621#0" />
+                <element signature="e#1664#1705#0" />
+                <element signature="e#1750#1780#0" />
+                <element signature="e#1840#1871#0" />
+                <element signature="e#1934#1989#0" />
+                <element signature="e#2069#2104#0" />
+                <element signature="e#2186#2221#0" />
+                <element signature="e#2283#2297#0" />
+                <element signature="e#2302#2331#0" />
+                <element signature="e#2395#2419#0" />
+                <element signature="e#2480#2531#0" />
+                <element signature="e#2616#2644#0" />
+                <element signature="e#2707#2746#0" />
+                <element signature="e#2817#2857#0" />
+                <element signature="e#2968#3065#0" />
+                <element signature="e#3144#3159#0" />
+                <element signature="e#3164#3240#0" />
+                <element signature="e#3358#3412#0" />
+                <element signature="e#3512#3574#0" />
+                <element signature="e#3680#3734#0" />
+                <element signature="e#3805#3847#0" />
+                <element signature="e#3925#3974#0" />
+                <element signature="e#4053#4114#0" />
+                <element signature="e#4192#4248#0" />
+                <element signature="e#4317#4352#0" />
               </folding>
             </state>
           </provider>
@@ -462,14 +435,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>charac</find>
+      <find>defaultConfig</find>
+      <find>cen</find>
+      <find>-=</find>
+      <find>Tou</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -527,6 +504,10 @@
                 <option name="description" value="Displays the sub-projects of root project 'Runner'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformJackWithJackForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -598,6 +579,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformJackWithJackForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -647,6 +632,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithPreJackRuntimeLibrariesForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -678,11 +667,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithPreJackRuntimeLibrariesForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
+                <option name="name" value="transformClassesWithPreJackPackagedLibrariesForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by root project 'Runner'. [incubating]" />
@@ -717,10 +710,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preDebugAndroidTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -742,10 +731,6 @@
                 <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javaPreCompileDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="uninstallRelease" />
@@ -765,10 +750,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -914,6 +895,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithPreJackPackagedLibrariesForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dist" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -976,10 +961,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -993,10 +974,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jarReleaseClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1058,11 +1035,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jarDebugClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForRelease" />
+                <option name="name" value="transformClassesWithPreJackPackagedLibrariesForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
@@ -1072,6 +1045,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformJackWithJackForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1154,6 +1131,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithPreJackRuntimeLibrariesForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1179,11 +1160,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on just the fatal issues in the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="lintVitalRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1278,6 +1254,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="transformJackWithJackForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="validateSigningDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1336,6 +1316,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="transformJackWithJackForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1380,6 +1364,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="transformClassesWithPreJackRuntimeLibrariesForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="compileDebugJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1411,11 +1399,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="transformClassesWithPreJackRuntimeLibrariesForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="mergeDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
-                <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
+                <option name="name" value="transformClassesWithPreJackPackagedLibrariesForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by project ':android'. [incubating]" />
@@ -1450,10 +1442,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
-                <option name="name" value="transformClassesWithDexForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="preDebugAndroidTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1463,10 +1451,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="processReleaseUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
-                <option name="name" value="javaPreCompileDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Release build." />
@@ -1488,10 +1472,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
-                <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
@@ -1637,6 +1617,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="transformClassesWithPreJackPackagedLibrariesForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="preDebugUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1690,10 +1674,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
-                <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="assembleDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1707,10 +1687,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
-                <option name="name" value="jarReleaseClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
@@ -1772,11 +1748,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
-                <option name="name" value="jarDebugClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
-                <option name="name" value="transformClassesWithDexForRelease" />
+                <option name="name" value="transformClassesWithPreJackPackagedLibrariesForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
@@ -1786,6 +1758,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="preBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="transformJackWithJackForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
@@ -1868,6 +1844,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="transformClassesWithPreJackRuntimeLibrariesForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1893,11 +1873,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="generateReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on just the fatal issues in the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
-                <option name="name" value="lintVitalRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Debug build." />
@@ -3020,48 +2995,71 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/GO.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/IBaseObject.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/CircleObject.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/CameraControl.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/RealObject/Character.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Status.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Condition.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Conduct.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/ShaderRull.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/DrawTools.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/GameObject.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/UsualMap.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Fraction.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/PlayState.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Character.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/CircleObject.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/GameObject.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/CircleObject.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/PlayState.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControlPlayState.java" />
+        <option value="$PROJECT_DIR$/android/build.gradle" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameStateFolder/GameStateMediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainStateFolder/MainStateMediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainStateFolder/GeneralState.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GeneralStateFolder/GeneralState.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GeneralState/GeneralState.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Rotatable.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/Mediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/IHaveMediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/Mediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/IHaveMediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuStateMediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Checker.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Interaction.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Gravity.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -3099,6 +3097,46 @@
               <item name="core" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="black" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+              <item name="GameState" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Runner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="black" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Runner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="black" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Mediator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Runner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="black" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuState" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Runner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="black" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+              <item name="SupportState" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Runner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="black" type="462c0819:PsiDirectoryNode" />
               <item name="Tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -3108,15 +3146,6 @@
               <item name="black" type="462c0819:PsiDirectoryNode" />
               <item name="Tools" type="462c0819:PsiDirectoryNode" />
               <item name="Character" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Runner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="black" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-              <item name="Character" type="462c0819:PsiDirectoryNode" />
-              <item name="GameObject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Runner" type="1abcf292:AndroidViewProjectNode" />
@@ -3126,30 +3155,44 @@
               <item name="Tools" type="462c0819:PsiDirectoryNode" />
               <item name="Menu" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Runner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="black" type="462c0819:PsiDirectoryNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="Special" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="android" />
+    <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Work/Freazer/compCode/proto (StartPack)/build.gradle" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="D:/Chalange/NukeBall/build.gradle" />
+    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1538926315742" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\I\do\III\SaveCode\Runner\core\src\com\sir\black\Tools\GO" />
-      <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture\SinglePicture" />
-      <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture\Animation" />
       <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sir.black.Tools.Special" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\I\do\III\SaveCode\Runner\core\src\com\sir\black\Tools\Character" />
+      <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture" />
+      <recent name="D:\I\do\III\SaveCode\Runner\core\src\com\sir\black\Tools\GO" />
+      <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture\SinglePicture" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3164,7 +3207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Android App.android">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -3274,7 +3317,7 @@
     </list>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\NoOne\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -3291,52 +3334,95 @@
       <option name="project" value="LOCAL" />
       <updated>1539531602557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed Folders and dependence">
+      <created>1539535289854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539535289854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0656" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.1184" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.504" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3616" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Logcat" order="7" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.3296" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22617246" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.328" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
+      <window_info anchor="right" id="Assistant" order="3" weight="0.3290469" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3184" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Assistant" order="3" visible="true" weight="0.32970452" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32980332" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added fly picture and hit picture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added fly picture and hit picture" />
+    <MESSAGE value="Changed Folders and dependence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Folders and dependence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3356,277 +3442,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/UsualMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/IBaseObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#270#290#0" />
-            <element signature="e#1956#1974#0" />
-            <element signature="e#1979#2040#0" />
-            <element signature="e#2253#2531#0" />
-            <element signature="e#2596#2676#0" />
-            <element signature="e#2719#2750#0" />
-            <element signature="e#2782#2829#0" />
-            <element signature="e#2859#2952#0" />
-            <element signature="e#3026#3079#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1312">
-          <caret line="91" column="43" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
-          <folding>
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="187" column="7" lean-forward="true" selection-start-line="187" selection-start-column="7" selection-end-line="187" selection-end-column="7" />
-          <folding>
-            <element signature="docComment;class#GameObject#0" />
-            <element signature="e#376#391#0" />
-            <element signature="e#396#483#0" />
-            <element signature="e#396#607#0" />
-            <element signature="e#649#724#0" />
-            <element signature="e#827#854#0" />
-            <element signature="e#902#928#0" />
-            <element signature="e#976#1014#0" />
-            <element signature="e#1078#1118#0" />
-            <element signature="e#1178#1210#0" />
-            <element signature="e#1258#1294#0" />
-            <element signature="e#1349#1380#0" />
-            <element signature="e#1433#1488#0" />
-            <element signature="e#1557#1612#0" />
-            <element signature="e#1681#1726#0" />
-            <element signature="e#1785#1830#0" />
-            <element signature="e#1889#1929#0" />
-            <element signature="e#1988#2026#0" />
-            <element signature="e#2084#2108#0" />
-            <element signature="e#2150#2186#0" />
-            <element signature="e#2240#2297#0" />
-            <element signature="e#2457#3205#0" />
-            <element signature="e#3715#4020#0" />
-            <element signature="e#3715#4508#0" />
-            <element signature="e#4514#4663#0" />
-            <element signature="e#4514#5080#0" />
-            <element signature="e#5086#5284#0" />
-            <element signature="e#5793#5889#0" />
-            <element signature="e#6309#6362#0" />
-            <element signature="e#6309#6502#0" />
-            <element signature="e#6508#6597#0" />
-            <element signature="e#6508#8069#0" />
-            <element signature="e#8077#8121#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/UsualMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1312">
-          <caret line="91" column="43" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/UsualMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1312">
-          <caret line="91" column="43" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/ApplicationAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/graphics/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/IBaseObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#270#290#0" />
-            <element signature="e#1956#1974#0" />
-            <element signature="e#1979#2040#0" />
-            <element signature="e#2253#2531#0" />
-            <element signature="e#2596#2676#0" />
-            <element signature="e#2719#2750#0" />
-            <element signature="e#2782#2829#0" />
-            <element signature="e#2859#2952#0" />
-            <element signature="e#3026#3079#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/RedX.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="docComment;class#Condition#0" />
-            <element signature="e#97#112#0" />
-            <element signature="docComment;field#DEAD#0;class#Condition#0" />
-            <element signature="docComment;field#LIVE#0;class#Condition#0" />
-            <element signature="docComment;method#startCondition#0;class#Condition#0" />
-            <element signature="method#startCondition#0;class#Condition#0" />
-            <element signature="e#324#383#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/ShaderRull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/math/Vector2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.8/680fd8ed8d823a1510d4bea1ab59248934d1deca/gdx-backend-lwjgl-1.9.8-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -3641,32 +3456,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding>
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/assets/Texture/Animation/ExplosionFinalWithTransparency.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/Animation/BallHit.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/assets/Texture/Animation/BallFlyAnimation.png">
@@ -3674,53 +3466,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/UsualMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/PlayState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-          <folding>
-            <element signature="docComment;class#GameStateManager#0" />
-            <element signature="docComment;field#states#0;class#GameStateManager#0" />
-            <element signature="docComment;method#GameStateManager#0;class#GameStateManager#0" />
-            <element signature="docComment;method#update#0;class#GameStateManager#0" />
-            <element signature="docComment;method#push#0;class#GameStateManager#0" />
-            <element signature="docComment;method#set#0;class#GameStateManager#0" />
-            <element signature="docComment;method#pop#0;class#GameStateManager#0" />
-            <element signature="docComment;method#draw#0;class#GameStateManager#0" />
-            <element signature="docComment;method#drawState#0;class#GameStateManager#0" />
-            <element signature="docComment;method#updateState#0;class#GameStateManager#0" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Shader/ShaderRull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControlPlayState.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="471">
+          <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
           <folding>
             <element signature="docComment;class#MainGame#0" />
             <element signature="docComment;field#fin#0;class#MainGame#0" />
@@ -3733,24 +3511,240 @@
             <element signature="method#create#0;class#MainGame#0" />
             <element signature="docComment;method#render#0;class#MainGame#0" />
             <element signature="method#render#0;class#MainGame#0" />
-            <element signature="method#dispose#0;class#MainGame#0" />
-            <element signature="method#update#0;class#MainGame#0" />
-            <element signature="method#draw#0;class#MainGame#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/Animation/BallHit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Switch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1717">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Slider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1335">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="81" column="56" lean-forward="true" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+          <folding>
+            <element signature="docComment;class#Checkbox#0" />
+            <element signature="docComment;field#checkSymbol#0;class#Checkbox#0" />
+            <element signature="docComment;field#isCheck#0;class#Checkbox#0" />
+            <element signature="docComment;method#Checkbox#1;class#Checkbox#0" />
+            <element signature="method#getCheckSymbol#0;class#Checkbox#0" />
+            <element signature="method#isCheck#0;class#Checkbox#0" />
+            <element signature="method#setCheckSymbol#0;class#Checkbox#0" />
+            <element signature="method#setCheck#0;class#Checkbox#0" />
+            <element signature="method#setStatus#0;class#Checkbox#0" />
+            <element signature="method#switchCheck#0;class#Checkbox#0" />
+            <element signature="method#update#0;class#Checkbox#0" />
+            <element signature="method#trueDraw#0;class#Checkbox#0" />
+            <element signature="docComment;method#checker#0;class#Checkbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="e#257#272#0" />
+            <element signature="docComment;field#elementMenu#0;class#Button#0" />
+            <element signature="docComment;field#mousePushButton#0;class#Button#0" />
+            <element signature="docComment;field#status#0;class#Button#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Condition/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6277">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="64" column="4" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#CameraControl#0" />
+            <element signature="e#304#319#0" />
+            <element signature="docComment;field#positionLooking#0;class#CameraControl#0" />
+            <element signature="docComment;field#camera#0;class#CameraControl#0" />
+            <element signature="docComment;field#gameObject#0;class#CameraControl#0" />
+            <element signature="docComment;field#HEIGHT#0;class#CameraControl#0" />
+            <element signature="e#863#917#0" />
+            <element signature="docComment;method#CameraControl#0;class#CameraControl#0" />
+            <element signature="method#CameraControl#0;class#CameraControl#0" />
+            <element signature="docComment;method#archive#0;class#CameraControl#0" />
+            <element signature="docComment;method#defaultValue#0;class#CameraControl#0" />
+            <element signature="method#defaultValue#0;class#CameraControl#0" />
+            <element signature="docComment;method#update#0;class#CameraControl#0" />
+            <element signature="method#update#0;class#CameraControl#0" />
+            <element signature="docComment;method#changeBall#0;class#CameraControl#0" />
+            <element signature="docComment;method#changeCamera#0;class#CameraControl#0" />
+            <element signature="e#2379#2396#0" />
+            <element signature="docComment;method#lookingPosition#0;class#CameraControl#0" />
+            <element signature="method#lookingPosition#0;class#CameraControl#0" />
+            <element signature="docComment;method#setCameraPosition#0;class#CameraControl#0" />
+            <element signature="method#setCameraPosition#0;class#CameraControl#0" />
+            <element signature="docComment;method#zoom#0;class#CameraControl#0" />
+            <element signature="method#zoom#0;class#CameraControl#0" />
+            <element signature="docComment;method#cameraUpdate#0;class#CameraControl#0" />
+            <element signature="docComment;method#moveToNumber#0;class#CameraControl#0" />
+            <element signature="method#moveToNumber#0;class#CameraControl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/IBaseObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3397">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Rotatable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/ScreenParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/IHaveMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="docComment;class#Camera2D#0" />
+            <element signature="docComment;field#camera#0;class#Camera2D#0" />
+            <element signature="docComment;field#touchPos#0;class#Camera2D#0" />
+            <element signature="method#Camera2D#0;class#Camera2D#0" />
+            <element signature="method#getCamera#0;class#Camera2D#0" />
+            <element signature="method#getTouchPos#0;class#Camera2D#0" />
+            <element signature="method#getTouchPosV2#0;class#Camera2D#0" />
+            <element signature="method#getMediator#0;class#Camera2D#0" />
+            <element signature="method#setMediator#0;class#Camera2D#0" />
+            <element signature="docComment;method#setCameraMenu#0;class#Camera2D#0" />
+            <element signature="method#setCameraMenu#0;class#Camera2D#0" />
+            <element signature="method#setTouchPos#0;class#Camera2D#0" />
+            <element signature="method#update#0;class#Camera2D#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuStateMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="582" column="5" lean-forward="true" selection-start-line="582" selection-start-column="5" selection-end-line="582" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="154" column="4" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="146" column="54" selection-start-line="146" selection-start-column="54" selection-end-line="146" selection-end-column="54" />
           <folding>
-            <element signature="e#539#553#0" />
             <element signature="docComment;method#State#0;class#State#0" />
-            <element signature="method#State#0;class#State#0" />
-            <element signature="docComment;method#defaultValue#0;class#State#0" />
             <element signature="method#initialize#0;class#State#0" />
-            <element signature="docComment;method#archive#0;class#State#0" />
             <element signature="method#create#0;class#State#0" />
             <element signature="method#firstAction#0;class#State#0" />
             <element signature="docComment;method#update#0;class#State#0" />
@@ -3769,340 +3763,454 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/math/MathUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="175">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="66" column="82" selection-start-line="66" selection-start-column="82" selection-end-line="66" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding>
-            <element signature="docComment;method#common#0;class#Activity#0" />
-            <element signature="docComment;method#counter#0;class#Activity#0" />
-            <element signature="docComment;method#FPS#0;class#Activity#0" />
-            <element signature="docComment;method#clearColor#0;class#Activity#0" />
-            <element signature="method#clearColor#0;class#Activity#0" />
+            <element signature="docComment;class#Menu#0" />
+            <element signature="docComment;field#keyJumpStatic#0;class#Menu#0" />
+            <element signature="docComment;field#justTouch#0;class#Menu#0" />
+            <element signature="initializer##0;class#Menu#0" />
+            <element signature="method#checkGlobalTouch#0;class#Menu#0" />
+            <element signature="docComment;field#pictures#0;class#Menu#0" />
+            <element signature="docComment;field#button#0;class#Menu#0" />
+            <element signature="docComment;field#activeFirstElement#0;class#Menu#0" />
+            <element signature="method#Menu#0;class#Menu#0" />
+            <element signature="method#archive#0;class#Menu#0" />
+            <element signature="method#defaultValue#0;class#Menu#0" />
+            <element signature="method#getPictures#0;class#Menu#0" />
+            <element signature="method#getButton#0;class#Menu#0" />
+            <element signature="method#setPictures#0;class#Menu#0" />
+            <element signature="method#setButton#0;class#Menu#0" />
+            <element signature="method#setPictures#1;class#Menu#0" />
+            <element signature="method#setButton#1;class#Menu#0" />
+            <element signature="docComment;method#update#0;class#Menu#0" />
+            <element signature="docComment;method#getStatus#0;class#Menu#0" />
+            <element signature="method#getStatus#0;class#Menu#0" />
+            <element signature="docComment;method#draw#0;class#Menu#0" />
+            <element signature="method#draw#0;class#Menu#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Gravity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="173">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
           <folding>
             <element signature="docComment;class#Character#0" />
-            <element signature="e#300#454#0" />
-            <element signature="e#496#529#0" />
-            <element signature="e#589#626#0" />
-            <element signature="e#688#743#0" />
-            <element signature="e#821#851#0" />
-            <element signature="e#906#948#0" />
-            <element signature="e#1009#1051#0" />
-            <element signature="e#1137#1155#0" />
-            <element signature="e#1137#1465#0" />
-            <element signature="e#1471#1654#0" />
-            <element signature="e#1660#1814#0" />
-            <element signature="e#1820#2113#0" />
-            <element signature="e#2118#2166#0" />
-            <element signature="e#2171#2560#0" />
-            <element signature="e#2565#2708#0" />
-            <element signature="e#2825#2842#0" />
-            <element signature="e#2825#2924#0" />
-            <element signature="e#2929#2994#0" />
-            <element signature="e#2999#3072#0" />
-            <element signature="e#3077#3138#0" />
-            <element signature="e#3143#3196#0" />
-            <element signature="e#3201#3260#0" />
-            <element signature="e#3265#3342#0" />
-            <element signature="e#3347#3410#0" />
-            <element signature="e#3415#3468#0" />
-            <element signature="e#3473#3526#0" />
-            <element signature="e#3531#3584#0" />
-            <element signature="e#3589#3642#0" />
-            <element signature="e#3647#3704#0" />
-            <element signature="e#3709#3766#0" />
-            <element signature="e#3771#3828#0" />
-            <element signature="e#3833#3890#0" />
-            <element signature="e#3895#3968#0" />
-            <element signature="e#3974#4063#0" />
-            <element signature="e#4068#4147#0" />
-            <element signature="e#4152#4247#0" />
-            <element signature="e#4252#4323#0" />
-            <element signature="e#4328#4383#0" />
-            <element signature="e#4388#4455#0" />
-            <element signature="e#4460#4537#0" />
-            <element signature="e#4542#4601#0" />
-            <element signature="e#4606#4665#0" />
-            <element signature="e#4670#4729#0" />
-            <element signature="e#4734#4793#0" />
-            <element signature="e#4798#4865#0" />
-            <element signature="e#4870#4937#0" />
-            <element signature="e#4942#5007#0" />
-            <element signature="e#5012#5077#0" />
-            <element signature="e#5082#5181#0" />
-            <element signature="e#5187#5280#0" />
-            <element signature="e#5285#5380#0" />
-            <element signature="e#5385#5456#0" />
-            <element signature="e#5461#5516#0" />
-            <element signature="e#5521#5588#0" />
-            <element signature="e#5593#5670#0" />
-            <element signature="e#5675#5740#0" />
-            <element signature="e#5745#5804#0" />
-            <element signature="e#5809#5868#0" />
-            <element signature="e#5873#5932#0" />
-            <element signature="e#5937#5996#0" />
-            <element signature="e#6002#6100#0" />
-            <element signature="e#6106#6185#0" />
-            <element signature="e#6190#6255#0" />
-            <element signature="e#6260#6323#0" />
-            <element signature="e#6328#6395#0" />
-            <element signature="e#6401#6514#0" />
-            <element signature="e#6520#6605#0" />
-            <element signature="e#6611#6988#0" />
-            <element signature="e#6994#7049#0" />
-            <element signature="e#7055#7331#0" />
-            <element signature="e#7125#7209#0" />
-            <element signature="e#7337#7398#0" />
-            <element signature="e#7420#7497#0" />
-            <element signature="e#7502#7555#0" />
-            <element signature="e#7560#7610#0" />
-            <element signature="e#7615#7668#0" />
-            <element signature="e#7673#7717#0" />
-            <element signature="e#7722#7778#0" />
-            <element signature="e#7784#7866#0" />
-            <element signature="e#7871#7948#0" />
-            <element signature="e#7953#8025#0" />
-            <element signature="e#8030#8107#0" />
-            <element signature="e#8112#8174#0" />
-            <element signature="e#8179#8261#0" />
-            <element signature="e#8378#8424#0" />
-            <element signature="e#8378#8496#0" />
-            <element signature="e#8501#8540#0" />
-            <element signature="e#8501#8581#0" />
-            <element signature="e#8586#8689#0" />
-            <element signature="e#8586#8801#0" />
-            <element signature="e#8806#8844#0" />
-            <element signature="e#8806#9264#0" />
-            <element signature="e#9269#9306#0" />
-            <element signature="e#9379#9411#0" />
-            <element signature="e#9509#9544#0" />
+            <element signature="e#687#702#0" />
+            <element signature="e#687#841#0" />
+            <element signature="e#863#878#0" />
+            <element signature="e#883#916#0" />
+            <element signature="e#976#1013#0" />
+            <element signature="e#1075#1130#0" />
+            <element signature="e#1208#1238#0" />
+            <element signature="e#1293#1335#0" />
+            <element signature="e#1396#1438#0" />
+            <element signature="e#1524#1852#0" />
+            <element signature="e#1858#2041#0" />
+            <element signature="e#2047#2201#0" />
+            <element signature="e#2207#2500#0" />
+            <element signature="e#2558#3018#0" />
+            <element signature="e#2977#3011#0" />
+            <element signature="e#3023#3166#0" />
+            <element signature="e#3283#3300#0" />
+            <element signature="e#3283#3382#0" />
+            <element signature="e#3387#3452#0" />
+            <element signature="e#3457#3530#0" />
+            <element signature="e#3535#3596#0" />
+            <element signature="e#3601#3654#0" />
+            <element signature="e#3659#3718#0" />
+            <element signature="e#3723#3800#0" />
+            <element signature="e#3805#3868#0" />
+            <element signature="e#3873#3926#0" />
+            <element signature="e#3931#3984#0" />
+            <element signature="e#3989#4042#0" />
+            <element signature="e#4047#4100#0" />
+            <element signature="e#4105#4162#0" />
+            <element signature="e#4167#4224#0" />
+            <element signature="e#4229#4286#0" />
+            <element signature="e#4291#4348#0" />
+            <element signature="e#4353#4426#0" />
+            <element signature="e#4432#4521#0" />
+            <element signature="e#4526#4605#0" />
+            <element signature="e#4610#4705#0" />
+            <element signature="e#4710#4781#0" />
+            <element signature="e#4786#4841#0" />
+            <element signature="e#4846#4913#0" />
+            <element signature="e#4918#4995#0" />
+            <element signature="e#5000#5059#0" />
+            <element signature="e#5064#5123#0" />
+            <element signature="e#5128#5187#0" />
+            <element signature="e#5192#5251#0" />
+            <element signature="e#5256#5323#0" />
+            <element signature="e#5328#5395#0" />
+            <element signature="e#5400#5465#0" />
+            <element signature="e#5470#5535#0" />
+            <element signature="e#5540#5639#0" />
+            <element signature="e#5645#5738#0" />
+            <element signature="e#5743#5838#0" />
+            <element signature="e#5843#5914#0" />
+            <element signature="e#5919#5974#0" />
+            <element signature="e#5979#6046#0" />
+            <element signature="e#6051#6128#0" />
+            <element signature="e#6133#6198#0" />
+            <element signature="e#6203#6262#0" />
+            <element signature="e#6267#6326#0" />
+            <element signature="e#6331#6390#0" />
+            <element signature="e#6395#6454#0" />
+            <element signature="e#6460#6558#0" />
+            <element signature="e#6564#6643#0" />
+            <element signature="e#6648#6713#0" />
+            <element signature="e#6718#6781#0" />
+            <element signature="e#6786#6853#0" />
+            <element signature="e#6859#6972#0" />
+            <element signature="e#6978#7063#0" />
+            <element signature="e#7069#7446#0" />
+            <element signature="e#7452#7507#0" />
+            <element signature="e#7513#7789#0" />
+            <element signature="e#7583#7667#0" />
+            <element signature="e#7795#7856#0" />
+            <element signature="e#7862#7923#0" />
+            <element signature="e#8010#8208#0" />
+            <element signature="e#7945#8022#0" />
+            <element signature="e#8027#8080#0" />
+            <element signature="e#8085#8135#0" />
+            <element signature="e#8140#8193#0" />
+            <element signature="e#8198#8242#0" />
+            <element signature="e#8247#8303#0" />
+            <element signature="e#8309#8391#0" />
+            <element signature="e#8396#8473#0" />
+            <element signature="e#8478#8550#0" />
+            <element signature="e#8555#8632#0" />
+            <element signature="e#8637#8699#0" />
+            <element signature="e#8704#8786#0" />
+            <element signature="e#8808#8823#0" />
+            <element signature="e#8903#8949#0" />
+            <element signature="e#8903#9021#0" />
+            <element signature="e#9026#9065#0" />
+            <element signature="e#9026#9106#0" />
+            <element signature="e#9111#9214#0" />
+            <element signature="e#9111#9326#0" />
+            <element signature="e#9331#9369#0" />
+            <element signature="e#9331#9789#0" />
+            <element signature="e#9794#9831#0" />
+            <element signature="e#9794#9898#0" />
+            <element signature="e#9904#9936#0" />
+            <element signature="e#9904#10028#0" />
+            <element signature="e#10034#10069#0" />
+            <element signature="e#10034#10156#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="96">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
-            <element signature="docComment;class#Fraction#0" />
-            <element signature="e#151#186#0" />
-            <element signature="e#236#270#0" />
-            <element signature="e#320#357#0" />
-            <element signature="e#418#469#0" />
-            <element signature="e#546#609#0" />
-            <element signature="e#677#734#0" />
-            <element signature="e#806#858#0" />
-            <element signature="e#936#969#0" />
-            <element signature="e#1048#1064#0" />
-            <element signature="e#1048#1108#0" />
-            <element signature="e#1113#1154#0" />
-            <element signature="e#1159#1216#0" />
-            <element signature="e#1221#1280#0" />
-            <element signature="e#1285#1322#0" />
-            <element signature="e#1327#1366#0" />
-            <element signature="e#1371#1432#0" />
-            <element signature="e#1437#1601#0" />
-            <element signature="e#1437#1666#0" />
-            <element signature="e#1672#1727#0" />
-            <element signature="e#1732#1791#0" />
-            <element signature="e#1796#1950#0" />
-            <element signature="e#1955#2048#0" />
-            <element signature="e#2053#2282#0" />
-            <element signature="e#2287#2515#0" />
-            <element signature="e#2520#2697#0" />
-            <element signature="e#2520#2790#0" />
-            <element signature="e#2843#3229#0" />
-            <element signature="e#2843#3680#0" />
-            <element signature="e#3686#3887#0" />
-            <element signature="e#3686#4021#0" />
-            <element signature="e#4027#4121#0" />
-            <element signature="e#4027#4769#0" />
-            <element signature="e#4775#4880#0" />
-            <element signature="e#4994#5038#0" />
-            <element signature="e#5121#5213#0" />
-            <element signature="e#5121#5868#0" />
-            <element signature="e#5874#5965#0" />
-            <element signature="e#5874#6692#0" />
-            <element signature="e#6736#6774#0" />
-            <element signature="e#6736#6854#0" />
-            <element signature="e#6860#6959#0" />
-            <element signature="e#7019#7121#0" />
-            <element signature="e#7219#7259#0" />
-            <element signature="e#7341#7415#0" />
-            <element signature="e#7341#7530#0" />
-            <element signature="e#7536#7605#0" />
-            <element signature="e#7798#7858#0" />
+            <element signature="docComment;class#Fin#0" />
+            <element signature="e#379#395#0" />
+            <element signature="e#400#448#0" />
+            <element signature="e#529#580#0" />
+            <element signature="e#662#730#0" />
+            <element signature="e#831#899#0" />
+            <element signature="e#1000#1046#0" />
+            <element signature="e#1129#1158#0" />
+            <element signature="e#1213#1252#0" />
+            <element signature="e#1323#1364#0" />
+            <element signature="e#1449#1492#0" />
+            <element signature="e#1579#1621#0" />
+            <element signature="e#1664#1705#0" />
+            <element signature="e#1750#1780#0" />
+            <element signature="e#1840#1871#0" />
+            <element signature="e#1934#1989#0" />
+            <element signature="e#2069#2104#0" />
+            <element signature="e#2186#2221#0" />
+            <element signature="e#2283#2297#0" />
+            <element signature="e#2302#2331#0" />
+            <element signature="e#2395#2419#0" />
+            <element signature="e#2480#2531#0" />
+            <element signature="e#2616#2644#0" />
+            <element signature="e#2707#2746#0" />
+            <element signature="e#2817#2857#0" />
+            <element signature="e#2968#3065#0" />
+            <element signature="e#3144#3159#0" />
+            <element signature="e#3164#3240#0" />
+            <element signature="e#3358#3412#0" />
+            <element signature="e#3512#3574#0" />
+            <element signature="e#3680#3734#0" />
+            <element signature="e#3805#3847#0" />
+            <element signature="e#3925#3974#0" />
+            <element signature="e#4053#4114#0" />
+            <element signature="e#4192#4248#0" />
+            <element signature="e#4317#4352#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/CircleObject.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/math/Vector2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#inSide#0;class#CircleObject#0" />
-            <element signature="method#inSide#0;class#CircleObject#0" />
-            <element signature="docComment;method#pointInCircle#0;class#CircleObject#0" />
-            <element signature="method#pointInCircle#0;class#CircleObject#0" />
-            <element signature="docComment;method#drawPositionUpdate#0;class#CircleObject#0" />
-            <element signature="method#drawPositionUpdate#0;class#CircleObject#0" />
-          </folding>
+        <state relative-caret-position="163">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/GameObject.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/SpecialMath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#GameObject#0" />
-            <element signature="e#376#391#0" />
-            <element signature="e#396#483#0" />
-            <element signature="e#396#607#0" />
-            <element signature="e#629#644#0" />
-            <element signature="e#649#724#0" />
-            <element signature="e#827#854#0" />
-            <element signature="e#902#928#0" />
-            <element signature="e#976#1014#0" />
-            <element signature="e#1078#1118#0" />
-            <element signature="e#1178#1210#0" />
-            <element signature="e#1258#1294#0" />
-            <element signature="e#1349#1380#0" />
-            <element signature="e#1433#1488#0" />
-            <element signature="e#1557#1612#0" />
-            <element signature="e#1681#1726#0" />
-            <element signature="e#1785#1830#0" />
-            <element signature="e#1889#1929#0" />
-            <element signature="e#1988#2026#0" />
-            <element signature="e#2084#2108#0" />
-            <element signature="e#2150#2186#0" />
-            <element signature="e#2240#2297#0" />
-            <element signature="e#2457#3205#0" />
-            <element signature="e#2457#3709#0" />
-            <element signature="e#3715#4020#0" />
-            <element signature="e#3715#4508#0" />
-            <element signature="e#4514#4663#0" />
-            <element signature="e#4514#5080#0" />
-            <element signature="e#5086#5284#0" />
-            <element signature="e#5086#5787#0" />
-            <element signature="e#5793#5889#0" />
-            <element signature="e#5793#6303#0" />
-            <element signature="e#6309#6362#0" />
-            <element signature="e#6309#6502#0" />
-            <element signature="e#6508#6597#0" />
-            <element signature="e#6508#8069#0" />
-            <element signature="e#8077#8121#0" />
-            <element signature="e#8077#8805#0" />
-            <element signature="e#8811#8844#0" />
-            <element signature="e#8948#9696#0" />
-            <element signature="e#8948#10635#0" />
-            <element signature="e#10657#10681#0" />
-            <element signature="e#10686#10763#0" />
-            <element signature="e#10686#12337#0" />
-            <element signature="e#12343#12437#0" />
-            <element signature="e#12343#13640#0" />
-            <element signature="e#14690#14931#0" />
-            <element signature="e#14936#15041#0" />
-            <element signature="e#15046#15187#0" />
-            <element signature="e#15192#15297#0" />
-            <element signature="e#15302#15371#0" />
-            <element signature="e#15376#15463#0" />
-            <element signature="e#15980#16125#0" />
-            <element signature="e#16740#16812#0" />
-            <element signature="e#16817#16999#0" />
-            <element signature="e#17427#17507#0" />
-            <element signature="e#17638#17654#0" />
-            <element signature="e#17659#17720#0" />
-            <element signature="e#17800#17903#0" />
-            <element signature="e#17800#17970#0" />
-            <element signature="e#17975#18085#0" />
-            <element signature="e#17975#18218#0" />
-            <element signature="e#18223#18328#0" />
-            <element signature="e#18445#18546#0" />
-            <element signature="e#18445#18660#0" />
-            <element signature="e#18666#18944#0" />
-            <element signature="e#18666#19130#0" />
-            <element signature="e#19135#19324#0" />
-            <element signature="e#19135#19636#0" />
-            <element signature="e#19642#19683#0" />
-            <element signature="e#19642#19712#0" />
-            <element signature="e#19718#19765#0" />
-            <element signature="e#19718#19983#0" />
-            <element signature="e#19989#20082#0" />
-            <element signature="e#19989#20460#0" />
-            <element signature="e#20465#20592#0" />
-            <element signature="e#20465#20714#0" />
-            <element signature="e#20737#20792#0" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="249" selection-start-line="249" selection-end-line="249" />
+        <state relative-caret-position="525">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/Mediator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="461" column="24" selection-start-line="461" selection-start-column="24" selection-end-line="461" selection-end-column="24" />
+        <state relative-caret-position="32">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2608">
+          <caret line="339" column="25" selection-start-line="339" selection-start-column="25" selection-end-line="339" selection-end-column="25" />
           <folding>
-            <element signature="docComment;class#Status#0" />
+            <element signature="docComment;class#InputControl#0" />
+            <element signature="e#500#539#0" />
+            <element signature="e#596#655#0" />
+            <element signature="e#718#795#0" />
+            <element signature="e#869#946#0" />
+            <element signature="e#1021#1050#0" />
+            <element signature="e#1091#1120#0" />
+            <element signature="e#1162#1192#0" />
+            <element signature="e#1245#1276#0" />
+            <element signature="e#1331#1364#0" />
+            <element signature="e#1423#1454#0" />
+            <element signature="e#1506#1530#0" />
+            <element signature="e#1571#1594#0" />
+            <element signature="e#1636#1661#0" />
+            <element signature="e#1772#1829#0" />
+            <element signature="e#1903#1956#0" />
+            <element signature="e#2027#2077#0" />
+            <element signature="e#2144#2168#0" />
+            <element signature="e#2210#2235#0" />
+            <element signature="e#2279#2303#0" />
+            <element signature="e#2343#2366#0" />
+            <element signature="e#2408#2435#0" />
+            <element signature="e#2476#2503#0" />
+            <element signature="e#2544#2571#0" />
+            <element signature="e#2612#2639#0" />
+            <element signature="e#2681#2712#0" />
+            <element signature="e#2762#2845#0" />
+            <element signature="e#2952#3003#0" />
+            <element signature="e#3070#3116#0" />
+            <element signature="e#3198#3281#0" />
+            <element signature="e#3385#3416#0" />
+            <element signature="e#3421#3452#0" />
+            <element signature="e#3457#3490#0" />
+            <element signature="e#3495#3528#0" />
+            <element signature="e#3533#3602#0" />
+            <element signature="e#3608#3658#0" />
+            <element signature="e#3663#3715#0" />
+            <element signature="e#3720#3774#0" />
+            <element signature="e#3779#3829#0" />
+            <element signature="e#3835#3873#0" />
+            <element signature="e#3878#3920#0" />
+            <element signature="e#3925#3967#0" />
+            <element signature="e#3972#4022#0" />
+            <element signature="e#4027#4071#0" />
+            <element signature="e#4077#4117#0" />
+            <element signature="e#4122#4164#0" />
+            <element signature="e#4169#4207#0" />
+            <element signature="e#4213#4254#0" />
+            <element signature="e#4260#4300#0" />
+            <element signature="e#4305#4347#0" />
+            <element signature="e#4352#4388#0" />
+            <element signature="e#4393#4433#0" />
+            <element signature="e#4439#4473#0" />
+            <element signature="e#4478#4512#0" />
+            <element signature="e#4517#4551#0" />
+            <element signature="e#4556#4590#0" />
+            <element signature="e#4596#4710#0" />
+            <element signature="e#4596#5158#0" />
+            <element signature="e#5163#5305#0" />
+            <element signature="e#5163#5550#0" />
+            <element signature="e#5556#5608#0" />
+            <element signature="e#5613#5664#0" />
+            <element signature="e#5670#5720#0" />
+            <element signature="e#5725#5797#0" />
+            <element signature="e#5803#5878#0" />
+            <element signature="e#5900#5918#0" />
+            <element signature="e#5900#5993#0" />
+            <element signature="e#5998#6251#0" />
+            <element signature="e#6273#6538#0" />
+            <element signature="e#6582#6621#0" />
+            <element signature="e#6582#6973#0" />
+            <element signature="e#6979#7026#0" />
+            <element signature="e#6979#7159#0" />
+            <element signature="e#7165#7223#0" />
+            <element signature="e#7165#7470#0" />
+            <element signature="e#7476#7514#0" />
+            <element signature="e#7520#7583#0" />
+            <element signature="e#7520#8065#0" />
+            <element signature="e#8071#8131#0" />
+            <element signature="e#8071#8356#0" />
+            <element signature="e#8362#8413#0" />
+            <element signature="e#8362#8652#0" />
+            <element signature="e#8658#8696#0" />
+            <element signature="e#8658#8908#0" />
+            <element signature="e#9037#9143#0" />
+            <element signature="e#9037#10246#0" />
+            <element signature="e#9522#9653#0" />
+            <element signature="e#10051#10176#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Interaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="99" column="104" selection-start-line="99" selection-start-column="104" selection-end-line="99" selection-end-column="104" />
+        <state relative-caret-position="176">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
           <folding>
-            <element signature="docComment;class#CameraControl#0" />
-            <element signature="docComment;field#positionLooking#0;class#CameraControl#0" />
-            <element signature="docComment;field#camera#0;class#CameraControl#0" />
-            <element signature="docComment;field#gameObject#0;class#CameraControl#0" />
-            <element signature="docComment;field#HEIGHT#0;class#CameraControl#0" />
-            <element signature="docComment;method#CameraControl#0;class#CameraControl#0" />
-            <element signature="method#CameraControl#0;class#CameraControl#0" />
-            <element signature="docComment;method#archive#0;class#CameraControl#0" />
-            <element signature="docComment;method#defaultValue#0;class#CameraControl#0" />
-            <element signature="method#defaultValue#0;class#CameraControl#0" />
-            <element signature="docComment;method#update#0;class#CameraControl#0" />
-            <element signature="method#update#0;class#CameraControl#0" />
-            <element signature="docComment;method#changeBall#0;class#CameraControl#0" />
-            <element signature="docComment;method#changeCamera#0;class#CameraControl#0" />
-            <element signature="docComment;method#lookingPosition#0;class#CameraControl#0" />
-            <element signature="docComment;method#setCameraPosition#0;class#CameraControl#0" />
-            <element signature="method#setCameraPosition#0;class#CameraControl#0" />
-            <element signature="docComment;method#zoom#0;class#CameraControl#0" />
-            <element signature="method#zoom#0;class#CameraControl#0" />
-            <element signature="docComment;method#cameraUpdate#0;class#CameraControl#0" />
-            <element signature="docComment;method#moveToNumber#0;class#CameraControl#0" />
-            <element signature="method#moveToNumber#0;class#CameraControl#0" />
+            <element signature="docComment;class#Interaction#0" />
+            <element signature="e#150#166#0" />
+            <element signature="docComment;field#ballnewSpeed1#0;class#Interaction#0" />
+            <element signature="docComment;field#phi#0;class#Interaction#0" />
+            <element signature="docComment;field#ro#0;class#Interaction#0" />
+            <element signature="docComment;field#ballPosition2Final#0;class#Interaction#0" />
+            <element signature="docComment;field#attachementPoint#0;class#Interaction#0" />
+            <element signature="docComment;field#ballHitPos1#0;class#Interaction#0" />
+            <element signature="docComment;field#ballHitPos2#0;class#Interaction#0" />
+            <element signature="docComment;field#angle1#0;class#Interaction#0" />
+            <element signature="docComment;field#angle2#0;class#Interaction#0" />
+            <element signature="docComment;method#BallByBall#0;class#Interaction#0" />
+            <element signature="method#BallByBall#0;class#Interaction#0" />
+            <element signature="docComment;method#BallByBallElastic#0;class#Interaction#0" />
+            <element signature="method#BallByBallElastic#0;class#Interaction#0" />
+            <element signature="e#3574#3666#0" />
+            <element signature="docComment;method#SolveProblemWithCrossSection#0;class#Interaction#0" />
+            <element signature="method#SolveProblemWithCrossSection#0;class#Interaction#0" />
+            <element signature="e#16976#17058#0" />
+            <element signature="e#17371#17430#0" />
+            <element signature="e#18991#19007#0" />
+            <element signature="docComment;method#BallByBallElastic0#0;class#Interaction#0" />
+            <element signature="method#BallByBallElastic0#0;class#Interaction#0" />
+            <element signature="e#20046#20138#0" />
+            <element signature="e#23234#23316#0" />
+            <element signature="e#23629#23688#0" />
+            <element signature="e#24864#24926#0" />
+            <element signature="docComment;method#BallByBallElastic0#1;class#Interaction#0" />
+            <element signature="method#BallByBallElastic0#1;class#Interaction#0" />
+            <element signature="e#30714#30806#0" />
+            <element signature="e#50942#51027#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1424">
+          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+          <folding>
+            <element signature="docComment;method#initializeCirclesOfPlanet#0;class#PlanetLocation#0" />
+            <element signature="docComment;method#update#0;class#PlanetLocation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;method#update#0;class#GameState#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#Map#0" />
+            <element signature="method#isReadyToDelete#0;class#Map#0" />
+            <element signature="method#isReadyToDelete#1;class#Map#0" />
+            <element signature="method#getMediator#0;class#Map#0" />
+            <element signature="method#setMediator#0;class#Map#0" />
+            <element signature="method#Map#0;class#Map#0" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="method#initializeLocation#0;class#Map#0" />
+            <element signature="method#refreshExternalDependencies#0;class#Map#0" />
+            <element signature="docComment;method#update#0;class#Map#0" />
+            <element signature="method#update#0;class#Map#0" />
+            <element signature="docComment;method#draw#0;class#Map#0" />
+            <element signature="method#updateCharacter#0;class#Map#0" />
+            <element signature="method#collisionCharacter#0;class#Map#0" />
+            <element signature="method#interaction#0;class#Map#0" />
+            <element signature="method#drawCharacter#0;class#Map#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_d43pgvvkdwcdcdaj7zctc7xb9/com/sir/black/Common/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding>
+            <element signature="method#update#0;class#PlanetDestroyer#0" />
+            <element signature="method#updatePosition#0;class#PlanetDestroyer#0" />
+            <element signature="e#1986#1987#0" expanded="true" />
+            <element signature="e#2027#2028#0" expanded="true" />
           </folding>
         </state>
       </provider>

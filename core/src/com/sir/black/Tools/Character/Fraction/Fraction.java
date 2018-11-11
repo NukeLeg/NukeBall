@@ -19,6 +19,8 @@ public class Fraction {
      * Швидкість анімації
      */
     protected int speedAnimation; // Швидкість анімації
+    protected int[] firstPictureInLine; // from 0 to max number
+    protected int[] lastPictureInLine; // from 0 to max number
     /**
      * Кількості картинок в одній лінії
      */

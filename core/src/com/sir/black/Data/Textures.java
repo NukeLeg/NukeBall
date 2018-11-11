@@ -12,9 +12,12 @@ import com.badlogic.gdx.graphics.Texture;
 
 public class Textures {
     //region standart
+    public static Texture startButton = new Texture("Texture/startButton.png");
     public static Texture pixel = new Texture("Texture/pixel.png");
     public static Texture badlogic = new Texture("Texture/badlogic.jpg");
     public static Texture redX = new Texture("Texture/RedX.png");
+    public static Texture optionsButton = new Texture("Texture/optionsButton.jpg");
+    public static Texture circle = new Texture("Texture/circle.png");
     public static Texture fox = new Texture("Texture/fox.jpg");
     public static Texture mem = new Texture("Texture/someMem.jpg");
 
@@ -33,8 +36,8 @@ public class Textures {
     public static Texture red = new Texture("Texture/SinglePicture/Red.png");
     //endregion
 
-    //region singlePicture
-    public static Texture hitAnimation = new Texture("Texture/Animation/BallHit.png");
+    //region multiPicture
+    public static Texture hitAnimation = new Texture("Texture/Animation/BallHit2.png");
     public static Texture ballFlyAnimation = new Texture("Texture/Animation/BallFlyAnimation.png");
     //endregion
 
