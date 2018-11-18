@@ -46,7 +46,7 @@ public class PlanetLocation extends Map {
             float layerRadius = this.layerRadius(Fin.CentralCircleRadius, i, Fin.defaultCircleRadius);
             int numberOfCirclesPerLayer = (int)( Math.PI * layerRadius / Fin.defaultCircleRadius);
             float deltaAngle = (float) (2 * Math.PI / numberOfCirclesPerLayer);
-            float angle = 0.0f;
+            float angle = 0.0f; 
             for(int j = 0; j < numberOfCirclesPerLayer; j++){
                 this.addNewCharacter(
                         new PlanetObject(Textures.circle,
