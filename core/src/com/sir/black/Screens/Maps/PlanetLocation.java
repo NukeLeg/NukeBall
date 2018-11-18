@@ -8,7 +8,6 @@ import com.sir.black.Screens.SupportState.Map;
 import com.sir.black.Tools.Character.Character;
 import com.sir.black.Tools.Character.PlanetDestroyer;
 import com.sir.black.Tools.Character.PlanetObject;
-import com.sir.black.Tools.Special.Checker;
 import com.sir.black.Tools.Special.Interaction;
 import com.sir.black.Tools.Special.SpecialMath;
 
@@ -17,14 +16,19 @@ import com.sir.black.Tools.Special.SpecialMath;
  */
 
 public class PlanetLocation extends Map {
-
     //region fields
-    PlanetDestroyer planetDestroyer;
+    private int numberOfLayers;
+    protected PlanetDestroyer planetDestroyer;
     //endregion
 
     //region construct
     public PlanetLocation() {
-
+        initializePlanetLocation();
+        refreshExternalDependenciesPlanetLocation();
+    }
+    protected void initializePlanetLocation(){ }
+    protected void refreshExternalDependenciesPlanetLocation() {
+        this.numberOfLayers = Fin.numberOfLayers;
     }
     @Override
     protected void initializeLocation() {
@@ -32,19 +36,18 @@ public class PlanetLocation extends Map {
         initializeCirclesOfPlanet();
         initializePlanetDestroyer();
     }
-
     /**
      * creates circles which the planet consists of
      * defines its positions
      */
-    protected void initializeCirclesOfPlanet(){
+    protected void initializeCirclesOfPlanet(){ // FIXME: 18.11.2018 put normal data references
         this.addNewCharacter(new PlanetObject(Textures.circle, Fin.planetCenter, Fin.CentralCircleRadius));
         for(int i = 1; i <= Fin.numberOfLayers; i++){
             float layerRadius = this.layerRadius(Fin.CentralCircleRadius, i, Fin.defaultCircleRadius);
             int numberOfCirclesPerLayer = (int)( Math.PI * layerRadius / Fin.defaultCircleRadius);
             float deltaAngle = (float) (2 * Math.PI / numberOfCirclesPerLayer);
             float angle = 0.0f;
-            for(int  j = 0; j < numberOfCirclesPerLayer; j++){
+            for(int j = 0; j < numberOfCirclesPerLayer; j++){
                 this.addNewCharacter(
                         new PlanetObject(Textures.circle,
                                 Fin.planetCenter,
@@ -64,16 +67,17 @@ public class PlanetLocation extends Map {
         characters.get(101).setColor(new Color(1,0.5f,1,1));
         characters.get(45).setColor(new Color(1,0,1,1));
     }
-    protected void initializePlanetDestroyer(){
-        planetDestroyer = new PlanetDestroyer(Textures.circle, Fin.defaultCircleRadius);
-        addNewCharacter(planetDestroyer);
-    }
     private float layerRadius(float centralRadius, int numberOfLayer, float defaultRadius){
         switch (numberOfLayer){
             case 1 : return centralRadius + defaultRadius ;
             default: return centralRadius + (numberOfLayer * 2 - 1) * defaultRadius * 1;
         }
     }
+    protected void initializePlanetDestroyer(){
+        planetDestroyer = PlanetDestroyer.createDestroyer(Textures.circle, Fin.defaultCircleRadius);
+        addNewCharacter(planetDestroyer);
+    }
+    //endregion
 
     public void rotatePlanet(Vector2 mousePositionRevert, Vector2 coordinateDeltaVector){
             float angle;
@@ -88,7 +92,15 @@ public class PlanetLocation extends Map {
         }
     }
 
-    protected void collideDestroyer(){
+    /**
+     * оновлення стану мапи
+     */
+    public void update() {
+        super.update();
+        updatePlanetDestroyer();
+        updateAllBalls();
+    }
+    protected void updatePlanetDestroyer(){
         for(int i = 0; i < characters.size() - 1; i++){
             if (Interaction.BallByBall(planetDestroyer.getPosition(), planetDestroyer.getRadius(),
                     characters.get(i).getPosition(), characters.get(i).getRadius())){
@@ -102,26 +114,8 @@ public class PlanetLocation extends Map {
                 else
                     characters.get(i).setColor(new Color(1,1,0,1));
                 planetDestroyer.interaction();
-                Checker.update(new Vector2(i, 0), 4, "Yes: ");
             }
         }
     }
-    //endregion
-
-    //region external
-    /**
-     * оновлення стану мапи
-     */
-    public void update() {
-        super.update();
-        collideDestroyer();
-    }
-
-    @Override
-    protected void drawCharacter() {
-        super.drawCharacter();
-        Checker.drawVector2(new Vector2(0,500));
-    }
-
-    //endregion
+    protected void updateAllBalls(){ }
 }

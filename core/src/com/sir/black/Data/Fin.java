@@ -156,9 +156,8 @@ public  class Fin {
     public static float status_standartLife = 100; // Жизнь по дефолту
     //endregion
 
-    //region character
+    //region thisGame
     public static int numberOfCharacters = 50;
-
     /**
      * Сліди
      */
@@ -178,8 +177,13 @@ public  class Fin {
     /**
      * number of planet layers
      */
-    public static float acceleration = -0.1f;
+    public static Vector2 acceleration = new Vector2(0, -0.2f);
+
+    public static float angleOfHit = 180; // change direction of speed after a hit
+
     public static int numberOfLayers = 6;
+
+    public static float defaultMass = 1;
     //endregion
 
     //region construct

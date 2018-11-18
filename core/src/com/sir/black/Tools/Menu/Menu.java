@@ -106,7 +106,7 @@ public class Menu implements IHaveMediator {
     }
 
     protected void updateMediator(){
-        mediator.notify(this);
+        if (mediator!= null)mediator.notify(this);
     }
 
     /**

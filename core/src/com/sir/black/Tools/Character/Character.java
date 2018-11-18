@@ -9,16 +9,16 @@ import com.sir.black.Tools.Character.Condition.Condition;
 import com.sir.black.Tools.Character.Fraction.Fraction;
 import com.sir.black.Tools.Character.InitialObject.CircleObject;
 import com.sir.black.Tools.Character.InitialObject.GameObject;
-import com.sir.black.Tools.Character.Shader.ShaderRull;
+import com.sir.black.Tools.Character.Physics.PhysicalParameters;
+import com.sir.black.Tools.Character.Shader.ShaderRule;
 import com.sir.black.Tools.Character.Status.Status;
-
-import java.util.Arrays;
+import com.sir.black.Tools.Special.Checker;
 
 /**
  * Created by NoOne on 10.09.2018.
  */
 
-public class Character implements IBaseObject, Rotatable {
+public class Character implements IBaseObject {
     //region static
     protected static boolean isExist(GameObject gameObject){
         if (gameObject != null) return true;
@@ -50,14 +50,18 @@ public class Character implements IBaseObject, Rotatable {
     /**
      * Шейдер і його керування
      */
-    protected ShaderRull shaderRull; // Шейдер і його керування
+    protected ShaderRule shaderRule; // Шейдер і його керування
+    /**
+     * speed, mass,...
+     */
+    protected PhysicalParameters physicalParameters; // speed, mass,...
     //endregion
 
     //region construct
-    public Character(GameObject gameObject, Behaviour behaviour, Fraction fraction, Condition condition, Status status, ShaderRull shaderRull) {
+    public Character(GameObject gameObject, Behaviour behaviour, Fraction fraction, Condition condition, Status status, ShaderRule shaderRule) {
         initialize();
         refreshExternalDependencies();
-        create(gameObject, behaviour, fraction, condition, status, shaderRull);
+        create(gameObject, behaviour, fraction, condition, status, shaderRule);
         update();
     }
 
@@ -81,26 +85,28 @@ public class Character implements IBaseObject, Rotatable {
         //this.fraction = new Fraction(gameObject);
         this.condition = Condition.LIVE;
         this.status = new Status();
-        this.shaderRull = new ShaderRull();
+        this.shaderRule = new ShaderRule();
+        this.physicalParameters = new PhysicalParameters(gameObject);
     }
     protected void refreshExternalDependencies() { }
     protected void create(GameObject gameObject, Behaviour behaviour, Fraction fraction,
-                          Condition condition, Status status, ShaderRull shaderRull) {
+                          Condition condition, Status status, ShaderRule shaderRule) {
         this.gameObject = gameObject;
         this.behaviour = behaviour;
         this.fraction = fraction;
         this.condition = condition;
         this.status = status;
-        this.shaderRull = shaderRull;
-
-        Runnable sleepingRunner = () -> { System.out.println("…"); };
+        this.shaderRule = shaderRule;
+        physicalParameters.setGameObject(gameObject);
     }
     protected void create(GameObject gameObject, Fraction fraction) {
         this.gameObject = gameObject;
         this.fraction = fraction;
+        physicalParameters.setGameObject(gameObject);
     }
     protected void create(GameObject gameObject) {
         this.gameObject = gameObject;
+        physicalParameters.setGameObject(gameObject);
     }
     //endregion
 
@@ -172,13 +178,16 @@ public class Character implements IBaseObject, Rotatable {
 
     @Override
     public void update() {
+        updatePhysicalParameters();
+
         updateGameObject();
         updateStatus(); // Для визначення жизняк
         updateCondition(); // Для перевизначення стану обєкта
 
         updateConduct(); // Обновлення стану обєкта(ПОЗИЦІЯ,ZiЧАС,КРУЧЕННЯ,РОЗШИРЕННЯ,КОЛІР)
         updateFraction(); // Обновлення анімації
-        updateShaderRull(); // Обновити стан шейдера
+        updateShaderRule(); // Обновити стан шейдера
+
     }
 
     @Override
@@ -187,16 +196,13 @@ public class Character implements IBaseObject, Rotatable {
     @Override
     public void trueDraw(SpriteBatch spriteBatch) {
         //drawPartOfPictureUpdate(); // Обновлення частини обєкта який буде промальовуватися
-        //shaderRullBegion(); // Почати шейдер
+        //shaderRuleBegin(); // Почати шейдер
         gameObject.trueDraw(spriteBatch);
-        //shaderRullEnd();
+        //shaderRuleEnd();
     }
 
     @Override
     public void dispose() { gameObject.dispose(); }
-
-    @Override
-    public void rotatePlanetObject(float angle) { }
     //endregion
 
     //region get/set
@@ -213,23 +219,49 @@ public class Character implements IBaseObject, Rotatable {
         else return 0;
     }
 
+    public float getMass() { return physicalParameters.getMass(); }
+    public Vector2 getSpeed() { return physicalParameters.getSpeed(); }
+    public Vector2 getAcceleration() { return physicalParameters.getAcceleration(); }
+    public float getRotationSpeed() { return physicalParameters.getRotationSpeed(); }
+    public float getRotationAcceleration() { return physicalParameters.getRotationAcceleration(); }
+
+    public void modMass(float mass) { physicalParameters.modMass(mass); }
+    public void rotateSpeed(float angle) { physicalParameters.rotateSpeed(angle); }
+    public void modSpeed(Vector2 speed) { physicalParameters.modSpeed(speed); }
+    public void modAcceleration(Vector2 acceleration) { if (physicalParameters != null) physicalParameters.modAcceleration(acceleration); }
+    public void modRotationSpeed(float rotationSpeed) { physicalParameters.modRotationSpeed(rotationSpeed); }
+    public void modRotationAcceleration(float rotationAcceleration) { physicalParameters.modRotationAcceleration(rotationAcceleration); }
+    public void setMass(float mass) { physicalParameters.setMass(mass); }
+    public void setSpeed(Vector2 speed) { physicalParameters.setSpeed(speed); }
+    public void setAcceleration(Vector2 acceleration) { physicalParameters.setAcceleration(acceleration); }
+    public void setRotationSpeed(float rotationSpeed) { physicalParameters.setRotationSpeed(rotationSpeed); }
+    public void setRotationAcceleration(float rotationAcceleration) { physicalParameters.setRotationAcceleration(rotationAcceleration); }
+
+
+
+    public PhysicalParameters getPhysicalParameters() {return physicalParameters;}
     public GameObject getGameObject() { return gameObject; }
     public Behaviour getBehaviour() { return behaviour; }
     public Fraction getFraction() { return fraction; }
     public Condition getCondition() { return condition; }
     public Status getStatus() { return status; }
-    public ShaderRull getShaderRull() { return shaderRull; }
+    public ShaderRule getShaderRule() { return shaderRule; }
 
+    public void setPhysicalParameters(PhysicalParameters physicalParameters) {this.physicalParameters = physicalParameters;}
     public void setGameObject(GameObject gameObject) { this.gameObject = gameObject; }
     public void setBehaviour(Behaviour behaviour) { this.behaviour = behaviour; }
     public void setFraction(Fraction fraction) { this.fraction = fraction; }
     public void setCondition(Condition condition) { this.condition = condition; }
     public void setStatus(Status status) { this.status = status; }
-    public void setShaderRull(ShaderRull shaderRull) { this.shaderRull = shaderRull; }
+    public void setShaderRule(ShaderRule shaderRule) { this.shaderRule = shaderRule; }
     //endregion
 
     //region method
+    public void rotatePlanetObject(float angle) { }
 
+    protected void updatePhysicalParameters(){
+        if (physicalParameters != null) physicalParameters.update();
+    }
     protected void updateGameObject(){
         gameObject.update();
     }
@@ -261,16 +293,16 @@ public class Character implements IBaseObject, Rotatable {
     /**
      * Обновлення шейдера
      */
-    protected void updateShaderRull() { /*shaderRull.update();*/ }
+    protected void updateShaderRule() { /*shaderRule.update();*/ }
 
     /**
      * Почати шейдер
      */
-    protected void shaderRullBegion() { if (shaderRull != null) shaderRull.shaderBegin(); }
+    protected void shaderRuleBegin() { if (shaderRule != null) shaderRule.shaderBegin(); }
 
     /**
      * Завершити шейдер
      */
-    protected void shaderRullEnd() { if (shaderRull != null) shaderRull.shaderEnd(); }
+    protected void shaderRuleEnd() { if (shaderRule != null) shaderRule.shaderEnd(); }
     //endregion
 }

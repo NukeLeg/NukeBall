@@ -2,9 +2,11 @@ package com.sir.black.Screens.SupportState;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g3d.ModelBatch;
+import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Fin;
 import com.sir.black.Tools.Character.LayerRuler;
 import com.sir.black.Tools.Menu.Menu;
+import com.sir.black.Tools.Special.Checker;
 
 /**
  * Created by NoOne on 21.06.2018.
@@ -34,7 +36,7 @@ public class DrawTools {
     protected void archive(){
         this.layerRuler = Fin.layerRuler;
         this.spriteBatch = Fin.spriteBatch;
-        modelBatch = new ModelBatch();
+        this.modelBatch = new ModelBatch();
     }
     //endregion
 
@@ -75,6 +77,10 @@ public class DrawTools {
                 spriteBatch.begin();
                 map.draw(); // Вставляє в стек все що треба промалювати
                 layerRuler.drawBatch(); // Промальовує стек промальовки layerRuler
+
+                Checker.drawVector2(new Vector2()); // FIXME: 18.11.2018  delete
+                Checker.update(new Vector2(), 2, "2"); // FIXME: 18.11.2018 delete
+
                 spriteBatch.end();
             }
         }

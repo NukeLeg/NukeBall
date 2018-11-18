@@ -1,7 +1,5 @@
 package com.sir.black.Screens.GameState;
 
-import com.badlogic.gdx.math.Vector2;
-import com.sir.black.Data.Fin;
 import com.sir.black.Screens.Mediator.IHaveMediator;
 import com.sir.black.Screens.Mediator.Mediator;
 import com.sir.black.Screens.Maps.PlanetLocation;
@@ -9,7 +7,6 @@ import com.sir.black.Screens.SupportState.Camera2D;
 import com.sir.black.Screens.SupportState.InputControl;
 import com.sir.black.Screens.SupportState.Map;
 import com.sir.black.Tools.Menu.Menu;
-import com.sir.black.Tools.Special.SpecialMath;
 
 public class GameStateMediator implements Mediator {
     //region field
@@ -50,7 +47,7 @@ public class GameStateMediator implements Mediator {
         if (sender instanceof PlanetLocation) reactMap((PlanetLocation) sender);
     }
 
-    public void reactInputControl(InputControl inputControl) {
+    public void reactInputControl(InputControl inputControl) { // FIXME: 18.11.2018 spin ball and camera, not the Earth
         if (map instanceof PlanetLocation && inputControl.isTouched())
             ((PlanetLocation)map).rotatePlanet(
                     inputControl.getMousePositionRevert(),

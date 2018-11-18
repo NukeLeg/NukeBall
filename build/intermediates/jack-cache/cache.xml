@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\NoOne\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.8\84024cd60ad6f26370891fbcd17de9f0167e662\gdx-backend-android-1.9.8.jar"
+        revision="25.0.0"
+        sha1="084024cd60ad6f26370891fbcd17de9f0167e662">
+        <dex dex="D:\I\do\III\SaveCode\Runner\android\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gdx-backend-android-1.9.8-1e486133cbc02cf05d912b0abcf424522a198b4f.jar" />
+    </item>
+    <item
+        jar="C:\Users\NoOne\AppData\Local\Android\Sdk\platforms\android-23\android.jar"
+        revision="25.0.0"
+        sha1="eee3e49de0e3c71c5f278ba7e4fe847483f9084c">
+        <dex dex="D:\I\do\III\SaveCode\Runner\android\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-682c2fdae4e2ec2700e1d79ff2e9761451be0a0d.jar" />
+    </item>
+    <item
+        jar="D:\I\do\III\SaveCode\Runner\core\build\libs\core-1.0.jar"
+        revision="25.0.0"
+        sha1="d712717cfedc5e30f42bb4a2ff3fffbd5a1abd43">
+        <dex dex="D:\I\do\III\SaveCode\Runner\android\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\core-1.0-85bc1a0acf1a5e2f707b2a40ed181a4a3fabaee7.jar" />
+    </item>
+    <item
+        jar="C:\Users\NoOne\AppData\Local\Android\Sdk\platforms\android-23\optional\org.apache.http.legacy.jar"
+        revision="25.0.0"
+        sha1="017030d11901291abf8f83a812984276b643ea0f">
+        <dex dex="D:\I\do\III\SaveCode\Runner\android\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-e8b12e4f63a371e04cbe834ac2792866ef901ffd.jar" />
+    </item>
+    <item
+        jar="C:\Users\NoOne\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.8\a35a0076fbce873f9c2d5a1a1c8066244231bb3c\gdx-1.9.8.jar"
+        revision="25.0.0"
+        sha1="a35a0076fbce873f9c2d5a1a1c8066244231bb3c">
+        <dex dex="D:\I\do\III\SaveCode\Runner\android\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gdx-1.9.8-6a26c3817f8f5ff92dda6895ffbf3f302126b5b3.jar" />
+    </item>
+
+</items>

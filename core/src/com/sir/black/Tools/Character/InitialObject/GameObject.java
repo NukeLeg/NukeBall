@@ -8,6 +8,7 @@ import com.sir.black.Data.Fin;
 import com.sir.black.Data.Textures;
 import com.sir.black.Tools.Character.IBaseObject;
 import com.sir.black.Tools.Character.LayerRuler;
+import com.sir.black.Tools.Special.SpecialMath;
 
 /**
  * Start class for all objects

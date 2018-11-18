@@ -16,15 +16,12 @@ public class Map implements IHaveMediator {
     public static boolean isExist(Character character){
         return (character != null);
     }
-
     public static boolean isReadyToDelete(Character character) {
         return isExist(character) && character.isReadyToDelete();
     }
-
     public static boolean isExist(GameObject character){
         return (character != null);
     }
-
     public static boolean isReadyToDelete(GameObject character) {
         return isExist(character) && character.isReadyToDelete();
     }
