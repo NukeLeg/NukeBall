@@ -1,12 +1,10 @@
 package com.sir.black.Common;
 
 import com.badlogic.gdx.ApplicationAdapter;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
 import com.sir.black.Data.Fin;
 import com.sir.black.Data.Song;
 import com.sir.black.Data.Textures;
-import com.sir.black.Screens.PlayState;
+import com.sir.black.Screens.GameState.GameState;
 import com.sir.black.Screens.State;
 
 /**
@@ -56,7 +54,7 @@ public class MainGame extends ApplicationAdapter {
 		activity = new Activity();
 		gameStateManager = new GameStateManager();
 
-		state = new PlayState(gameStateManager); // Задати початковий скрін гри
+		state = new GameState(gameStateManager); // Задати початковий скрін гри
 		gameStateManager.push(state); // встановлюємо перший екран
 	}
 

@@ -2,7 +2,7 @@ package com.sir.black.Tools.Menu;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
-import com.sir.black.Tools.GO.GameObject;
+import com.sir.black.Tools.Character.InitialObject.GameObject;
 
 /**
  * Created by NoOne on 04.02.2018.

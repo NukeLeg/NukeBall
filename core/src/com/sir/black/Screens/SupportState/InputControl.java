@@ -4,13 +4,18 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.math.Vector2;
+import com.sir.black.Data.Fin;
+import com.sir.black.Screens.Mediator.IHaveMediator;
+import com.sir.black.Screens.Mediator.Mediator;
 
 /**
  * Created by NoOne on 21.06.2018.
  */
 
-public class InputControl {
+public class InputControl implements IHaveMediator {
     //region field
+    protected Mediator mediator; // ruler for all dependencies
+
     /**
      * Зовнішній ввод даних
      */
@@ -139,11 +144,15 @@ public class InputControl {
 
     //region get/set
     public Vector2 getMousePosition() { return new Vector2(x,y); }
+    public Vector2 getMousePositionRevert() {
+        return new Vector2(x,Fin.HEIGHT - y);
+    }
 
     public int getX() { return x; }
     public int getY() { return y; }
     public int getDx() { return dx; }
     public int getDy() { return dy; }
+    public Vector2 getCoordinateDeltaVector(){return new Vector2(dx,dy);}
 
     public boolean isLeftMouse() { return leftMouse; }
     public boolean isRightMouse() { return rightMouse; }
@@ -202,6 +211,8 @@ public class InputControl {
     public boolean isFastClick() { return isFastClick; }
     public boolean isTouched(){ return isLeftMouse(); }
 
+    public Mediator getMediator() { return mediator; }
+    public void setMediator(Mediator mediator) { this.mediator = mediator; }
 
     public void setCounterMax(int counterMax) { this.counterMax = counterMax; }
     //endregion
@@ -223,8 +234,22 @@ public class InputControl {
     }
     //endregion
 
-    //region internal
+    //region external
+    public void update() {
+        updateMouse();
+        updateWheel();
+        updateArrow();
+        updateCommand();
+        updateSymbol();
+        updateLetter();
+        updateNum();
+        updateClicker();
 
+        updateMediator();
+    }
+    //endregion
+
+    //region internal
     /**
      * оновлення стану миші
      */
@@ -258,7 +283,7 @@ public class InputControl {
         down = input.isKeyPressed(Input.Keys.DOWN);
     }
 
-    protected void updateComand(){
+    protected void updateCommand(){
 
     }
 
@@ -309,20 +334,11 @@ public class InputControl {
             counter = 0;
         }
     }
-    //endregion
 
-    //region external
-    public void update() {
-        updateMouse();
-        updateWheel();
-        updateArrow();
-        updateComand();
-        updateSymbol();
-        updateLetter();
-        updateNum();
-        updateClicker();
+    protected void updateMediator(){
+        if (mediator!=null)
+            mediator.notify(this);
     }
-
     //endregion
 
     /**

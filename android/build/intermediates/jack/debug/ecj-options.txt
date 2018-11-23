@@ -1,0 +1,3 @@
+"D:/I/do/III/SaveCode/Runner/android/src/com/sir/black/AndroidLauncher.java"
+"D:/I/do/III/SaveCode/Runner/android/build/generated/source/r/debug/com/sir/black/R.java"
+"D:/I/do/III/SaveCode/Runner/android/build/generated/source/buildConfig/debug/com/sir/black/BuildConfig.java"

@@ -2,14 +2,16 @@ package com.sir.black.Tools.Menu;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
-import com.sir.black.Tools.GO.GameObject;
+import com.sir.black.Screens.Mediator.IHaveMediator;
+import com.sir.black.Screens.Mediator.Mediator;
+import com.sir.black.Tools.Character.InitialObject.GameObject;
 import com.sir.black.Tools.Special.KeyJump;
 
 /**
  * Created by NoOne on 04.02.2018.
  */
 
-public class Menu {
+public class Menu implements IHaveMediator {
     //region static
     /**
      * Для визначення загального натискання
@@ -31,6 +33,7 @@ public class Menu {
     //endregion
 
     //region fields
+    public Mediator mediator;
     /**
      * Зображення в меню
      */
@@ -64,6 +67,10 @@ public class Menu {
     public GameObject[] getPictures() { return pictures; }
     public Button[] getButton() { return button; }
 
+    public Mediator getMediator() { return mediator; }
+
+    public void setMediator(Mediator mediator) { this.mediator = mediator; }
+
     public void setPictures(GameObject[] pictures) { this.pictures = pictures; }
     public void setButton(Button[] button) { this.button = button; }
 
@@ -94,7 +101,12 @@ public class Menu {
                 }
             }
         }
+        updateMediator();
         return toReturn;
+    }
+
+    protected void updateMediator(){
+        if (mediator!= null)mediator.notify(this);
     }
 
     /**

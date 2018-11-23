@@ -5,7 +5,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Vector2;
-import com.sir.black.Tools.GO.LayerRuler;
+import com.sir.black.Tools.Character.LayerRuler;
 
 /**
  * Клас всіх констант
@@ -156,8 +156,34 @@ public  class Fin {
     public static float status_standartLife = 100; // Жизнь по дефолту
     //endregion
 
-    //region character
+    //region thisGame
     public static int numberOfCharacters = 50;
+    /**
+     * Сліди
+     */
+    public static float defaultCircleRadius = 25.0f;
+    /**
+     * radiuses of the central circles
+     */
+    public static float CentralCircleRadius = 40.0f;
+    /**
+     * The planet have to be drawn with specified angle
+     */
+    public static float planetAngle = 0.01f;
+    /**
+     * where centra circle should be drawn
+     */
+    public static Vector2 planetCenter = new Vector2(WIDTH / 2, -100);
+    /**
+     * number of planet layers
+     */
+    public static Vector2 acceleration = new Vector2(0, -0.2f);
+
+    public static float angleOfHit = 180; // change direction of speed after a hit
+
+    public static int numberOfLayers = 6;
+
+    public static float defaultMass = 1;
     //endregion
 
     //region construct

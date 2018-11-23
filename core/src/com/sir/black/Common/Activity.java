@@ -12,7 +12,6 @@ public class Activity {
     //region external
     public void update(){
         common();
-
         counter();
         FPS();
     }
@@ -20,13 +19,14 @@ public class Activity {
     public void draw(){
         clearColor();
     }
-    //region internal
-
     //endregion
+
+    //region internal
     /**
      * Певні загальні дії
      */
     private static void common() { }
+
 
     /**
      * Звичайний лічильник
@@ -39,7 +39,7 @@ public class Activity {
      * Визначити ФПС
      */
     private void FPS() {
-        Fin.FPS = Gdx.graphics.getFramesPerSecond(); // Фіпіес
+        Fin.FPS = Gdx.graphics.getFramesPerSecond();
     }
 
     /**
