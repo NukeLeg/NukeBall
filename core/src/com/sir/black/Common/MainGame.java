@@ -6,6 +6,7 @@ import com.sir.black.Data.Song;
 import com.sir.black.Data.Textures;
 import com.sir.black.Screens.GameState.GameState;
 import com.sir.black.Screens.State;
+import com.sir.black.Screens.FlashState.FlashState;
 
 /**
  * Головний клас гри
@@ -54,7 +55,7 @@ public class MainGame extends ApplicationAdapter {
 		activity = new Activity();
 		gameStateManager = new GameStateManager();
 
-		state = new GameState(gameStateManager); // Задати початковий скрін гри
+		state = new FlashState(gameStateManager); // Задати початковий скрін гри
 		gameStateManager.push(state); // встановлюємо перший екран
 	}
 

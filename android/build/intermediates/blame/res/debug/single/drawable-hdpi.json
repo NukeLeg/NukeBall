@@ -2,5 +2,9 @@
     {
         "merged": "D:\\I\\do\\III\\SaveCode\\Runner\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "D:\\I\\do\\III\\SaveCode\\Runner\\android\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lutsifer\\AndroidStudioProjects\\NukeBall\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Lutsifer\\AndroidStudioProjects\\NukeBall\\android\\res\\drawable-hdpi\\ic_launcher.png"
     }
 ]

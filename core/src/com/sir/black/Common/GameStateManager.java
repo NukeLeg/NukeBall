@@ -39,6 +39,7 @@ public class GameStateManager {
      */
     public void push(State state){
         this.states.push(state);
+        states.peek().pauseOff();
     }
 
     /**

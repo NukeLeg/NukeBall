@@ -36,7 +36,7 @@ public class GameObject implements IBaseObject {
     /**
      * Текстура
      */
-    protected Texture texture; // Текстура
+    private Texture texture; // Текстура
     /**
      * Позиція
      */
@@ -132,7 +132,7 @@ public class GameObject implements IBaseObject {
     /**
      * Створити простий обєкт
      * @param texture текстура
-     * @param position позиція
+     * @param position position from left lower corner
      * @param origin зміщення центра кручення
      * @param scale маштаб
      * @param rotation кручення
@@ -145,6 +145,14 @@ public class GameObject implements IBaseObject {
         refreshExternalDependencies(); // Взято з архіва
         create(texture, position, origin, new Vector2(texture.getWidth(), texture.getHeight()),
                 scale, rotation, 0, 0, texture.getWidth(), texture.getHeight(),
+                false,false, color, layer);
+    }
+    public GameObject(Texture texture, Vector2 position, float scale,
+                       Color color, float layer) {
+        initialize(); // Значення за замовчуванням
+        refreshExternalDependencies(); // Взято з архіва
+        create(texture, position, new Vector2(), new Vector2(texture.getWidth(), texture.getHeight()),
+                new Vector2(scale, scale), 0, 0, 0, texture.getWidth(), texture.getHeight(),
                 false,false, color, layer);
     }
 

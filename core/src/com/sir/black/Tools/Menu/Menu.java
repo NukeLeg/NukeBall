@@ -54,7 +54,9 @@ public class Menu implements IHaveMediator {
         archive();
         defaultValue();
     }
-
+    public Menu(Button[] buttons){
+        this.button = buttons;
+    }
     protected void archive() { }
 
     protected void defaultValue() {

@@ -54,11 +54,11 @@ public  class Fin {
     /**
      * Ідеальна довжина ФулШДі
      */
-    public static int HDWidth = 1920;
+    public static int HDWidth = 1080;
     /**
      * Ідеальна ширина ФулШДі
      */
-    public static int HDHeight = 1080;
+    public static int HDHeight = 1920;
 
     /**
      * звуки в грі
@@ -209,8 +209,7 @@ public  class Fin {
     protected void defaultValue() {
         spriteBatch = new SpriteBatch(); /**Засіб для промальовки обєктів*/
         shapeRenderer = new ShapeRenderer(); /**Засіб для промальовки примітив*/
-        backGround = new Color(256/256f,256/256f,256/256f,1); /**Колір заднього фону*/
-        backGround = new Color(0/256f,190/256f,220/256f,1); /**Колір заднього фону*/
+        backGround = new Color(158/256f,142/256f,142/256f,1); /**Колір заднього фону*/
         bitmapFont = new BitmapFont(); /** Екземпляр тексту для промальовки */
         counter = 0; /**Головний лічильник*/
         speedTime = new Vector2(1, 0); // ігрова швидкість

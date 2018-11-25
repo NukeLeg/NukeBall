@@ -40,7 +40,18 @@ public class Textures {
     public static Texture hitAnimation = new Texture("Texture/Animation/BallHit2.png");
     public static Texture ballFlyAnimation = new Texture("Texture/Animation/BallFlyAnimation.png");
     //endregion
-
+    ///region MenuElements
+    public static Texture startButtonTexture = new Texture("Texture/MenuElements/arrow4.png");
+    public static Texture continueButtonTexture = new Texture("Texture/MenuElements/arrow2.png");
+    public static Texture hexahonal = new Texture("Texture/MenuElements/hexahonal.png");
+    public static Texture soundSign = new Texture("Texture/MenuElements/soundSign.png");
+    public static Texture pauseSign = new Texture("Texture/MenuElements/pauseSign.png");
+    public static Texture octagonal = new Texture("Texture/MenuElements/octagonal.png");
+    public static Texture musicSign = new Texture("Texture/MenuElements/musicSign.png");
+    public static Texture musicIndicationSign = new Texture("Texture/MenuElements/musicIndicationSign.png");
+    public static Texture menuSign = new Texture("Texture/MenuElements/menuSign.png");
+    public static Texture restartArrow = new Texture("Texture/MenuElements/arrow2.png");
+    // /endregion
     //region multiPicture
     static{
         green.setFilter(Texture.TextureFilter.Nearest, Texture.TextureFilter.Nearest);

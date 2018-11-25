@@ -1,6 +1,7 @@
 package com.sir.black.Screens;
 
 import com.sir.black.Common.GameStateManager;
+import com.sir.black.Screens.GameState.GameState;
 import com.sir.black.Screens.Mediator.Mediator;
 import com.sir.black.Screens.SupportState.Camera2D;
 import com.sir.black.Screens.SupportState.DrawTools;
@@ -19,6 +20,8 @@ public class State {
     //region field
     protected GameStateManager gameStateManager; // посилання на менеджер станів гри для керування вікнами
     protected Mediator mediator; // is ruler others classes
+
+    protected boolean pause;
 
     protected ScreenParams screenParams; // Параметри екрана
     protected LocalCounter localCounter; // Лічильник
@@ -52,12 +55,13 @@ public class State {
         screenParams = new ScreenParams();
         localCounter = new LocalCounter();
         map = new Map();
+        pause = false;
         drawTools = new DrawTools();
         inputControl = new InputControl();
         camera2D = new Camera2D(screenParams.getWIDTH(), screenParams.getHEIGHT());
         camera2DMenu = new Camera2D(screenParams.getWIDTH(), screenParams.getHEIGHT());
         camera2DMenu.setCameraMenu(screenParams.getHDWidth(), screenParams.getHDHeight(), screenParams.getWIDTH(), screenParams.getHEIGHT());
-        gameStateManager = null;//new GameStateManager();
+        gameStateManager = null;
     }
 
     /**
@@ -79,35 +83,20 @@ public class State {
     /**
      * оновлення стану через певні проміжки часу
      * */
+    ///reagion update
     public void update() {
-        inputControlUpdate(); /** Обновлення введених даних*/
-        screenParamsUpdate(); /** Обновлення парметрів екрана*/
-        localCounterUpdate(); /** Плюсування лічильника*/
-        handleInput2D(); /** Зробити камері залежно від вводу даних*/
-        menuUpdate(); /** Відредагувати на те що відбувається в меню*/
-        drawToolsUpdate(); // Обновлення засобів для промальовки
-        cameraUpdate(); /**Обновлення камери гри*/
-        cameraMenuUpdate(); /**Обновлення камери меню*/
-        mapUpdate(); /**Обновлення обєктів 2D*/
+        if (!pause) {
+            mapUpdate(); /**Обновлення обєктів 2D*/
+            handleInput2D(); /** Зробити камері залежно від вводу даних*/
+            inputControlUpdate(); /** Обновлення введених даних*/
+            screenParamsUpdate(); /** Обновлення парметрів екрана*/
+            localCounterUpdate(); /** Плюсування лічильника*/
+            menuUpdate(); /** Відредагувати на те що відбувається в меню*/
+            drawToolsUpdate(); // Обновлення засобів для промальовки
+            cameraUpdate(); /**Обновлення камери гри*/
+            cameraMenuUpdate(); /**Обновлення камери меню*/
+        }
     }
-
-    /**
-     * промальвка стану
-     * */
-    public void render() {
-        drawToolsDraw();
-    }
-    //endregion
-
-    //region internal
-    /**
-     * обробник користувацького вводу
-     * */
-    protected void handleInput2D() {
-        if (camera2D != null) camera2D.setTouchPos(inputControl.getX(), inputControl.getY());
-        if (camera2DMenu != null) camera2DMenu.setTouchPos(inputControl.getX(), inputControl.getY());
-    }
-
     /**
      * Відредагувати на те що відбувається в меню
      * На яку кнопку було натиснуто
@@ -146,12 +135,36 @@ public class State {
 
     protected void mapUpdate() { if (map != null) map.update(); }
 
+    public void pauseOn(){ pause = true;}
+    public void pauseOff(){pause = false;}
+    /// endregion
+
+    /**
+     * промальвка стану
+     * */
+    public void render() {
+        drawToolsDraw();
+    }
+    //endregion
+
+    //region internal
+    /**
+     * обробник користувацького вводу
+     * */
+    protected void handleInput2D() {
+        if (camera2D != null) camera2D.setTouchPos(inputControl.getX(), inputControl.getY());
+        if (camera2DMenu != null) camera2DMenu.setTouchPos(inputControl.getX(), inputControl.getY());
+    }
+
 
     /**
      * Події що відбуваються в меню
      * @param i Номер нажатої кнопки
+     * 0 - start button
      */
-    protected void eventListener(int i) { }
+    protected void eventListener(int i) {
+
+    }
 
 
     /**
