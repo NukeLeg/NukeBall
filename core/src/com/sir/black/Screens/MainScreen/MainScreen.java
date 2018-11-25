@@ -5,8 +5,10 @@ import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Common.GameStateManager;
 import com.sir.black.Data.Fin;
 import com.sir.black.Data.Textures;
+import com.sir.black.Screens.GameOver.GameOver;
 import com.sir.black.Screens.GameState.GameState;
 import com.sir.black.Screens.State;
+import com.sir.black.Tools.Character.InitialObject.CircleObject;
 import com.sir.black.Tools.Character.InitialObject.GameObject;
 import com.sir.black.Tools.Menu.Menu;
 import com.sir.black.Tools.Menu.Button;
@@ -31,11 +33,11 @@ public class MainScreen extends State {
         Texture[] textures = new Texture[]{Textures.hexahonal, Textures.startButtonTexture};
         Vector2[] positions = initializeStartButtonPosition(textures, 2);
         buttons[0] = new Button(
-                new GameObject[]{
-                        new GameObject(textures[0], positions[0], 2,
-                                new Color(0.0f, 0.0f, 0.0f,1),0.0f),
-                        new GameObject(textures[1], positions[1], 2,
-                                new Color(1f, 1f, 1f,1), 1)
+                new CircleObject[]{
+                        new CircleObject(new GameObject(textures[0], positions[0], 2,
+                                Fin.backGroundButtonColor,0.0f)),
+                        new CircleObject(new GameObject(textures[1], positions[1], 2,
+                                Fin.foreGroundButtonColor, 1))
                 }
         );
 
@@ -44,11 +46,11 @@ public class MainScreen extends State {
         buttons[1] = new Button(
                 new GameObject[]{
                         new GameObject(textures[0], positions[0], 1,
-                                new Color(0.0f, 0.0f, 0.0f,1),0.0f),
+                                Fin.backGroundButtonColor,0.0f),
                         new GameObject(textures[1], positions[1], 1,
-                                new Color(1f, 1f, 1f,1), 1),
+                                Fin.foreGroundButtonColor, 1),
                         new GameObject(textures[2], positions[2], 1,
-                                new Color(1f, 1f, 1f,1), 1),
+                                Fin.foreGroundButtonColor, 1),
 
                 }
         );
@@ -58,19 +60,19 @@ public class MainScreen extends State {
         buttons[2] = new Button(
                 new GameObject[]{
                         new GameObject(textures[0], positions[0], 1,
-                                new Color(0.0f, 0.0f, 0.0f,1),0.0f),
+                                Fin.backGroundButtonColor,1.0f),
                         new GameObject(textures[1], positions[1], 1,
-                                new Color(1f, 1f, 1f,1), 1)
+                                Fin.foreGroundButtonColor, 1)
                 }
         );
         textures = new Texture[]{Textures.hexahonal, Textures.restartArrow};
         positions = initializeRestartButtonPosition(textures, 2);
         buttons[3] = new Button(
-                new GameObject[]{
-                        new GameObject(textures[0], positions[0], 2,
-                                new Color(0.0f, 0.0f, 0.0f,1),0.0f),
-                        new GameObject(textures[1], positions[1], 2,
-                                new Color(1f, 1f, 1f,1), 1)
+                new CircleObject[]{
+                        new CircleObject(new GameObject(textures[0], positions[0], 2,
+                                Fin.backGroundButtonColor,0.0f)),
+                        new CircleObject(new GameObject(textures[1], positions[1], 2,
+                                Fin.foreGroundButtonColor, 1))
                 }
         );
 
@@ -81,10 +83,9 @@ public class MainScreen extends State {
     protected Vector2 [] initializeStartButtonPosition(Texture [] textures, float scale){
         Vector2[] positions = new Vector2[textures.length];
         for (int i = 0; i < positions.length; i++){
-            positions[i] = new Vector2((Fin.HDWidth - textures[i].getWidth() * scale) / 2,
-                    Fin.HDHeight / 2 - textures[i].getHeight() * scale / 2);
+            positions[i] = new Vector2(Fin.HDWidth  / 2,
+                    Fin.HDHeight / 2);
         }
-        positions[1].x += 10;
         return positions;
     }
     protected Vector2 [] initializeMusicButtonPosition(Texture [] textures, float scale){
@@ -108,12 +109,10 @@ public class MainScreen extends State {
     protected Vector2 [] initializeRestartButtonPosition(Texture [] textures, float scale){
         Vector2[] positions = new Vector2[textures.length];
 
-        positions[0] = new Vector2(Fin.HDWidth / 2 + textures[0].getWidth() * scale / 4,
-                    Fin.HDHeight / 2 );
-        positions[1] = new Vector2(positions[0].x + textures[1].getWidth() / 2 + 5,
-                positions[0].y + textures[1].getHeight() / 2 + 30);
-
-        positions[1].x += 10;
+        positions[0] = new Vector2(Fin.HDWidth / 2 + 320,
+                    Fin.HDHeight / 2 + 190);
+        positions[1] = new Vector2(Fin.HDWidth / 2 + 320,
+                Fin.HDHeight / 2 + 190);
         return positions;
     }
     ///endregion
@@ -142,7 +141,8 @@ public class MainScreen extends State {
     protected void eventListener(int i) {
         super.eventListener(i);
         switch (i){
-            case 0 : gameStateManager.push(getGameState()); break;
+            //case 0 : gameStateManager.push(getGameState()); break;
+            case 0 : gameStateManager.push(new GameOver(gameStateManager)); break;
             case 3 : gameStateManager.push(new GameState(gameStateManager)); break;
         }
     }

@@ -15,7 +15,7 @@ public class CircleObject extends GameObject {
     /**
      * Повний конструктор для простого обєкта
      * @param texture текстура
-     * @param position позиція
+     * @param position position from the center of circle
      * @param origin зміщення центра кручення
      * @param WH розміри текстури яка буде промальовуватися
      * @param scale маштаб
@@ -72,6 +72,7 @@ public class CircleObject extends GameObject {
      * @param gameObject
      */
     public CircleObject(GameObject gameObject){
+        set(gameObject);
         circleRadius = Math.min(getCenterOrigin().x, getCenterOrigin().y);
     }
 
@@ -149,7 +150,7 @@ public class CircleObject extends GameObject {
         float radius = getCenter().x;
         if (Math.pow((position.x - touch.x), 2) +
                 Math.pow((position.y - touch.y), 2)
-                < Math.pow(radius * scale.x, 2))
+                < Math.pow(radius, 2))
             return true;
         else
             return false;
@@ -174,10 +175,9 @@ public class CircleObject extends GameObject {
      * @return так, якщо точка попала всередину текстури
      */
     protected boolean pointInCircle(Vector2 touch, float circleRadius) {
-        float radius = getCenter().x;
         if (Math.pow((position.x - touch.x), 2) +
                 Math.pow((position.y - touch.y), 2)
-                < Math.pow(circleRadius * scale.x, 2))
+                < Math.pow(circleRadius, 2))
             return true;
         else
             return false;
@@ -187,6 +187,7 @@ public class CircleObject extends GameObject {
      * Ставить текстуру на правильне місце
      * Для круглих обєктів - постановка центра картинки на точку позиції
      */
+    @Override
     protected void drawPositionUpdate() {
         positionDraw.x = position.x - getCenterOrigin().x;
         positionDraw.y = position.y - getCenterOrigin().y;

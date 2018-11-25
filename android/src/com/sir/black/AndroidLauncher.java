@@ -12,6 +12,7 @@ public class AndroidLauncher extends AndroidApplication {
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
 		config.useAccelerometer = false;
 		config.useCompass = false;
+		config.numSamples = 2;  //CSAA filtering
 		initialize(new com.sir.black.Common.MainGame(), config);
 	}
 }

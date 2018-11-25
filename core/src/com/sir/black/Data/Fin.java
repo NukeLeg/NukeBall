@@ -1,5 +1,6 @@
 package com.sir.black.Data;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -38,6 +39,9 @@ public  class Fin {
      * Колір фону
      */
     public static Color backGround; // Колір фону
+    public static Color backGroundButtonColor = new Color(63/255.0f, 63/255.0f, 79/255.0f, 1);
+    public static Color foreGroundButtonColor = new Color(236/255f, 232/255.0f, 232/255.0f, 1);
+
     /**
      * Керувач промальовкою
      */
@@ -46,11 +50,11 @@ public  class Fin {
     /**
      * Ширина ігрової області
      */
-    public static int WIDTH = 400;//1600;//Gdx.graphics.getWidth();//960;//540;
+    public static int WIDTH = 400;//Gdx.graphics.getWidth();//960;//540;
     /**
      * висота ігрової області
      * */
-    public static int HEIGHT = 600;//1080;//Gdx.graphics.getHeight();//540;//960;
+    public static int HEIGHT = 600;//Gdx.graphics.getHeight();//540;//960;
     /**
      * Ідеальна довжина ФулШДі
      */

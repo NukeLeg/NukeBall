@@ -47,10 +47,10 @@ public class Activity {
      */
     private void clearColor() {
         Gdx.gl.glClearColor(Fin.backGround.r, Fin.backGround.g, Fin.backGround.b, Fin.backGround.a);
-        //Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT
-                //				|(Gdx.graphics.getBufferFormat()
-                //				.coverageSampling?GL20.GL_COVERAGE_BUFFER_BIT_NV:0)
+                				|(Gdx.graphics.getBufferFormat()
+                				.coverageSampling?GL20.GL_COVERAGE_BUFFER_BIT_NV:0)
         );
     }
     //endregion

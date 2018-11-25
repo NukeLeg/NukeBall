@@ -10,174 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31569ffa-edcc-4739-9c74-4897ac233013" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/Animation/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/Lines/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow2.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow3.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow4.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/hexahonal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/hexahonal.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/menuSign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/menuSign.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/musicIndicationSign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/musicIndicationSign.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/musicSign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/musicSign.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/octagonal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/octagonal.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/pauseSign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/pauseSign.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/soundSign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/MenuElements/soundSign.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/SinglePicture/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Texture/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-16-36-55-161.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-16-48-50-538.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-16-49-04-555.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-17-28-24-618.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-17-35-42-266.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-18-05-30-690.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-19-32-35-890.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-19-33-24-442.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-19-35-02-921.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-19-36-40-110.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-19-47-28-610.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-19-56-12-583.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-19-57-14-178.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-19-59-45-855.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-20-00-09-839.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-20-00-52-654.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-20-03-04-392.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-20-03-20-076.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-23-20-04-40-902.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-13-48-38-417.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-14-05-20-282.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-14-06-00-229.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-14-28-29-825.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-14-31-28-605.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-14-32-35-207.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-14-47-21-651.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-10-11-497.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-10-41-256.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-12-13-241.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-12-53-635.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-13-17-763.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-13-31-732.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-13-44-965.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-14-11-459.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-14-46-233.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-15-42-817.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-21-43-869.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-21-55-088.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-22-19-806.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-23-59-755.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-24-47-133.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-25-32-332.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-26-19-947.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-30-40-377.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-34-10-824.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-34-26-999.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-34-57-447.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-36-48-503.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-53-10-622.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-53-35-109.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-54-01-263.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-55-33-093.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-58-22-276.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-15-59-44-986.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-01-11-314.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-02-16-130.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-04-47-828.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-05-33-261.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-06-09-171.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-06-32-712.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-06-43-383.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-07-02-020.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-07-28-645.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-07-56-844.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-08-17-327.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-08-36-965.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-10-33-112.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-23-26-918.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-24-47-840.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-25-11-568.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-28-03-771.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-28-27-535.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-30-52-726.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-16-31-19-194.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-05-55-844.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-07-09-211.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-07-42-923.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-13-30-880.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-13-42-846.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-15-16-868.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-15-43-141.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-16-40-318.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-17-40-271.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-20-05-963.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-21-42-115.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-32-50-306.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-33-42-392.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-34-08-734.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-35-32-755.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-42-08-365.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-43-57-017.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-46-46-313.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-54-48-979.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-56-19-808.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-17-59-05-754.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-00-58-639.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-01-16-282.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-01-40-425.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-03-53-465.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-21-48-255.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-22-58-348.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-24-13-628.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-24-50-751.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-27-50-763.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-28-15-783.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-29-04-255.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-29-23-408.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-29-42-098.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-32-54-052.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-33-05-632.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-34-42-134.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-36-09-581.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-36-28-182.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-36-45-539.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-37-03-752.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-37-16-974.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-24-18-39-53-604.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-15-38-861.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-17-25-708.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-18-34-212.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-19-03-222.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-21-25-622.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-22-14-217.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-25-56-141.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-27-25-877.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-29-42-722.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-36-09-924.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-36-34-339.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-36-55-567.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-11-25-12-37-45-151.rawproto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/FlashState/FlashState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MainScreen/MainScreen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/FlashState/FlashState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NukeBall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterDir="false" />
@@ -185,32 +24,57 @@
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/FkGa2Li7tuFtsYFFgNmx0PuLbRA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/rR34WpRA_887chWyM88SDaT3WIY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/1B/03802DB341A33BF0F39F21718882262B726672" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/1B/03802DB341A33BF0F39F21718882262B726672" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/23/7AFBF631DA0F4C9F305588E24C486C25E096BA" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/23/7AFBF631DA0F4C9F305588E24C486C25E096BA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/31/6356057C36CEC8C942566213B72D0B7769E5C1" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/31/6356057C36CEC8C942566213B72D0B7769E5C1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/61/9DAFB3CA7728AC1AC216B58722BCEDD7CF7E19" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/61/9DAFB3CA7728AC1AC216B58722BCEDD7CF7E19" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/7F/BD70374EAE3E9688FB3F1580D8AF64247B49E0" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/7F/BD70374EAE3E9688FB3F1580D8AF64247B49E0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/85/15A597595B5E9E68F62EDD2F32E110E133A8FB" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/85/15A597595B5E9E68F62EDD2F32E110E133A8FB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8E/CCDDFDF2C72D1F7326DCC6BE14FD7D49A0A2DA" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8E/CCDDFDF2C72D1F7326DCC6BE14FD7D49A0A2DA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9A/D5CB5EF6C907C4469ED32B6AAB70AAAE41AE42" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9A/D5CB5EF6C907C4469ED32B6AAB70AAAE41AE42" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9E/C20F65B9A4FBE329D03DD19366CBB32885A067" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9E/C20F65B9A4FBE329D03DD19366CBB32885A067" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/D5/00999B17593505C2961215C8A33775429D1DFE" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/D5/00999B17593505C2961215C8A33775429D1DFE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/F2/FF94FED76170ADEEFE37624EC5BEB3F9F01EB6" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/F2/FF94FED76170ADEEFE37624EC5BEB3F9F01EB6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FE/C5A0A364C91FBC125C5F498D2C9AAA255E16D3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FE/C5A0A364C91FBC125C5F498D2C9AAA255E16D3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FF/C9785A8364216305576E3175AB53CE25969732" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FF/C9785A8364216305576E3175AB53CE25969732" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/index" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/jack/debug/ecj-options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/jack/debug/ecj-options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/packaged/debug/classes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/packaged/debug/classes.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/jack/debug/folders/1000/1f/main/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/jack/debug/folders/1000/1f/main/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/core-1.0-85bc1a0acf1a5e2f707b2a40ed181a4a3fabaee7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-1.9.8-6a26c3817f8f5ff92dda6895ffbf3f302126b5b3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-backend-android-1.9.8-1e486133cbc02cf05d912b0abcf424522a198b4f.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-682c2fdae4e2ec2700e1d79ff2e9761451be0a0d.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-e8b12e4f63a371e04cbe834ac2792866ef901ffd.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/GameStateManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/GameStateManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/MainGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/MainGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/com/sir/black/AndroidLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/com/sir/black/AndroidLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/Activity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Fin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Fin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Textures.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Textures.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameState/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameState/GameState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/Maps/PlanetLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/Maps/PlanetLocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MainScreen/MainScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MainScreen/MainScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/GameObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Button.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Checkbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Checkbox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Menu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/classes/main/com/sir/black/desktop/DesktopLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/classes/main/com/sir/black/desktop/DesktopLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/com/sir/black/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/com/sir/black/desktop/DesktopLauncher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -244,109 +108,141 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="NukeBall" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Button.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java">
+      <file leaf-file-name="Textures.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+            <state relative-caret-position="629">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-732">
+              <caret line="526" column="30" lean-forward="true" selection-start-line="526" selection-start-column="30" selection-end-line="526" selection-end-column="30" />
               <folding>
-                <element signature="docComment;field#elementMenu#0;class#Button#0" />
-                <element signature="docComment;field#mousePushButton#0;class#Button#0" />
-                <element signature="docComment;field#status#0;class#Button#0" />
-                <element signature="method#defaultValue#0;class#Button#0" />
+                <element signature="e#544#559#0" />
+                <element signature="e#17719#17720#0" expanded="true" />
+                <element signature="e#17756#17757#0" expanded="true" />
+                <element signature="e#17792#17793#0" expanded="true" />
+                <element signature="e#17829#17830#0" expanded="true" />
+                <element signature="e#17951#17952#0" expanded="true" />
+                <element signature="e#18023#18024#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="143" column="19" lean-forward="true" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+            <state relative-caret-position="297">
+              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
               <folding>
-                <element signature="method#initialize#0;class#MainScreen#0" />
+                <element signature="method#initializeStartButtonPosition#0;class#MainScreen#0" />
+                <element signature="method#initializeMusicButtonPosition#0;class#MainScreen#0" />
+                <element signature="method#initializeSoundButtonPosition#0;class#MainScreen#0" />
                 <element signature="method#getGameState#0;class#MainScreen#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java">
+      <file leaf-file-name="GameOver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-              <folding>
-                <element signature="docComment;class#State#0" />
-                <element signature="docComment;method#State#0;class#State#0" />
-                <element signature="method#State#0;class#State#0" />
-                <element signature="docComment;method#initialize#0;class#State#0" />
-                <element signature="method#initialize#0;class#State#0" />
-                <element signature="docComment;method#refreshExternalDependencies#0;class#State#0" />
-                <element signature="method#refreshExternalDependencies#0;class#State#0" />
-                <element signature="method#create#0;class#State#0" />
-                <element signature="method#firstAction#0;class#State#0" />
-                <element signature="docComment;method#update#0;class#State#0" />
-                <element signature="docComment;method#menuUpdate#0;class#State#0" />
-                <element signature="docComment;method#localCounterUpdate#0;class#State#0" />
-                <element signature="method#localCounterUpdate#0;class#State#0" />
-                <element signature="docComment;method#cameraUpdate#0;class#State#0" />
-                <element signature="method#cameraUpdate#0;class#State#0" />
-                <element signature="docComment;method#cameraMenuUpdate#0;class#State#0" />
-                <element signature="method#cameraMenuUpdate#0;class#State#0" />
-                <element signature="docComment;method#drawToolsUpdate#0;class#State#0" />
-                <element signature="method#mapUpdate#0;class#State#0" />
-                <element signature="docComment;method#render#0;class#State#0" />
-                <element signature="docComment;method#handleInput2D#0;class#State#0" />
-                <element signature="docComment;method#drawToolsDraw#0;class#State#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameStateManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-              <folding>
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="212">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;class#MainGame#0" />
-                <element signature="docComment;field#fin#0;class#MainGame#0" />
-                <element signature="docComment;field#textures#0;class#MainGame#0" />
-                <element signature="docComment;field#song#0;class#MainGame#0" />
-                <element signature="docComment;field#activity#0;class#MainGame#0" />
-                <element signature="docComment;field#state#0;class#MainGame#0" />
-                <element signature="docComment;field#gameStateManager#0;class#MainGame#0" />
-                <element signature="docComment;method#create#0;class#MainGame#0" />
-                <element signature="docComment;method#render#0;class#MainGame#0" />
+                <element signature="method#initializeStartButtonPosition#0;class#GameOver#0" />
+                <element signature="method#initializeMusicButtonPosition#0;class#GameOver#0" />
+                <element signature="method#initializeSoundButtonPosition#0;class#GameOver#0" />
+                <element signature="method#initializeRestartButtonPosition#0;class#GameOver#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LwjglApplication.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.8/680fd8ed8d823a1510d4bea1ab59248934d1deca/gdx-backend-lwjgl-1.9.8-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
+      <file leaf-file-name="CircleObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="110">
+              <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+              <folding>
+                <element signature="docComment;method#CircleObject#0;class#CircleObject#0" />
+                <element signature="method#CircleObject#0;class#CircleObject#0" />
+                <element signature="docComment;method#CircleObject#1;class#CircleObject#0" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+              <folding>
+                <element signature="docComment;class#Fin#0" />
+                <element signature="e#400#448#0" />
+                <element signature="e#529#580#0" />
+                <element signature="e#662#730#0" />
+                <element signature="e#831#899#0" />
+                <element signature="e#1000#1046#0" />
+                <element signature="e#1129#1158#0" />
+                <element signature="e#1213#1252#0" />
+                <element signature="e#1323#1364#0" />
+                <element signature="e#1449#1492#0" />
+                <element signature="e#1579#1621#0" />
+                <element signature="e#1664#1705#0" />
+                <element signature="e#1750#1780#0" />
+                <element signature="e#1840#1871#0" />
+                <element signature="e#1934#1989#0" />
+                <element signature="e#2069#2104#0" />
+                <element signature="e#2186#2221#0" />
+                <element signature="e#2283#2297#0" />
+                <element signature="e#2302#2331#0" />
+                <element signature="e#2395#2419#0" />
+                <element signature="e#2480#2531#0" />
+                <element signature="e#2616#2644#0" />
+                <element signature="e#2707#2746#0" />
+                <element signature="e#2817#2857#0" />
+                <element signature="e#2944#2963#0" />
+                <element signature="e#2968#3065#0" />
+                <element signature="e#3144#3159#0" />
+                <element signature="e#3164#3240#0" />
+                <element signature="e#3358#3412#0" />
+                <element signature="e#3512#3574#0" />
+                <element signature="e#3680#3734#0" />
+                <element signature="e#3805#3847#0" />
+                <element signature="e#3925#3974#0" />
+                <element signature="e#4053#4114#0" />
+                <element signature="e#4192#4248#0" />
+                <element signature="e#4317#4352#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrow1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hexahonal.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/hexahonal.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -374,6 +270,22 @@
       <find>hdW</find>
       <find>pause</find>
       <find>back</find>
+      <find>position</find>
+      <find>cp</find>
+      <find>pos</find>
+      <find>center</find>
+      <find>radius</find>
+      <find>ini</find>
+      <find>circle</find>
+      <find>origin</find>
+      <find>draw</find>
+      <find>in</find>
+      <find>scale</find>
+      <find>touc</find>
+      <find>radi</find>
+      <find>is</find>
+      <find>ins</find>
+      <find>pixel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2922,11 +2834,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/GO/Character.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/GameObject.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/GameObject/CircleObject.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/PlayState.java" />
@@ -2954,7 +2861,6 @@
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Rotatable.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Checker.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/DrawTools.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalParameters.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java" />
@@ -2966,13 +2872,19 @@
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObjectWithMultipleTextures.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" />
+        <option value="$PROJECT_DIR$/desktop/src/com/sir/black/desktop/DesktopLauncher.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" />
+        <option value="$PROJECT_DIR$/android/src/com/sir/black/AndroidLauncher.java" />
+        <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" />
       </list>
     </option>
   </component>
@@ -3009,6 +2921,13 @@
             </path>
             <path>
               <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="Texture" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="SinglePicture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
               <item name="core" type="e9137016:NonAndroidModuleNode" />
             </path>
             <path>
@@ -3021,13 +2940,6 @@
               <item name="core" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="black" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="black" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
@@ -3048,23 +2960,39 @@
               <item name="core" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="black" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+              <item name="GameOver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
               <item name="core" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="black" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+              <item name="Screens" type="462c0819:PsiDirectoryNode" />
+              <item name="MainScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
+              <item name="desktop" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
+              <item name="desktop" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
+              <item name="desktop" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3072,7 +3000,7 @@
     <property name="android.project.structure.last.selected" value="android" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="87c79a0c0104" />
+    <property name="device.picker.selection" value="79a8f2bf7d64" />
     <property name="last_opened_file_path" value="D:/Chalange/NukeBall/build.gradle" />
     <property name="settings.editor.selected.configurable" value="gradle.compiler" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
@@ -3255,37 +3183,37 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Build Variants" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" order="12" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Build Variants" order="3" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.3296" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37458745" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.504" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Logcat" order="7" sideWeight="0.49924356" weight="0.3296" />
-      <window_info id="Captures" order="2" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.37458745" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.37458745" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.504" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49924356" weight="0.32838285" />
+      <window_info id="Captures" order="4" sideWeight="0.49834985" weight="0.24962178" />
+      <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3290469" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49669966" visible="true" weight="0.3290469" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.31683168" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.32980332" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
+      <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Assistant" order="3" weight="0.3290469" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32744783" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -3340,117 +3268,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/SpecialMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setMass#0;class#PhysicalParameters#0" />
-            <element signature="method#update#0;class#PhysicalParameters#0" />
-            <element signature="method#updateGravity#0;class#PhysicalParameters#0" />
-            <element signature="method#updateSpeed#0;class#PhysicalParameters#0" />
-            <element signature="method#updateSpin#0;class#PhysicalParameters#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="e#625#640#0" />
-            <element signature="method#PlanetDestroyer#0;class#PlanetDestroyer#0" />
-            <element signature="method#initializePlanetDestroyer#0;class#PlanetDestroyer#0" />
-            <element signature="method#refreshExternalDependenciesPlanetDestroyer#0;class#PlanetDestroyer#0" />
-            <element signature="method#create#0;class#PlanetDestroyer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;class#Map#0" />
-            <element signature="method#isReadyToDelete#0;class#Map#0" />
-            <element signature="method#isReadyToDelete#1;class#Map#0" />
-            <element signature="method#getMediator#0;class#Map#0" />
-            <element signature="method#setMediator#0;class#Map#0" />
-            <element signature="method#initializeLocation#0;class#Map#0" />
-            <element signature="method#refreshExternalDependencies#0;class#Map#0" />
-            <element signature="docComment;method#update#0;class#Map#0" />
-            <element signature="method#update#0;class#Map#0" />
-            <element signature="docComment;method#draw#0;class#Map#0" />
-            <element signature="method#updateCharacter#0;class#Map#0" />
-            <element signature="method#interaction#0;class#Map#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3621">
-          <caret line="227" column="73" selection-start-line="227" selection-start-column="73" selection-end-line="227" selection-end-column="73" />
-          <folding>
-            <element signature="docComment;class#Character#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalMovementGravity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#createMovementGravity#0;class#PhysicalMovementGravity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="method#GameStateMediator#0;class#GameStateMediator#0" />
-            <element signature="method#create#0;class#GameStateMediator#0" />
-            <element signature="method#notify#0;class#GameStateMediator#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-          <folding>
-            <element signature="docComment;class#PlanetLocation#0" />
-            <element signature="method#PlanetLocation#0;class#PlanetLocation#0" />
-            <element signature="method#refreshExternalDependenciesPlanetLocation#0;class#PlanetLocation#0" />
-            <element signature="method#initializeLocation#0;class#PlanetLocation#0" />
-            <element signature="docComment;method#initializeCirclesOfPlanet#0;class#PlanetLocation#0" />
-            <element signature="method#initializeCirclesOfPlanet#0;class#PlanetLocation#0" />
-            <element signature="method#layerRadius#0;class#PlanetLocation#0" />
-            <element signature="method#initializePlanetDestroyer#0;class#PlanetLocation#0" />
-            <element signature="method#rotatePlanet#0;class#PlanetLocation#0" />
-            <element signature="method#rotatePlanet#1;class#PlanetLocation#0" />
-            <element signature="docComment;method#update#0;class#PlanetLocation#0" />
-            <element signature="method#updatePlanetDestroyer#0;class#PlanetLocation#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/util/Stack.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -3462,23 +3279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="method#update#0;class#FlashState#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/graphics/Texture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding>
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3374#3375#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3505,76 +3305,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#Menu#0" />
-            <element signature="docComment;field#keyJumpStatic#0;class#Menu#0" />
-            <element signature="docComment;field#justTouch#0;class#Menu#0" />
-            <element signature="initializer##0;class#Menu#0" />
-            <element signature="method#checkGlobalTouch#0;class#Menu#0" />
-            <element signature="docComment;field#pictures#0;class#Menu#0" />
-            <element signature="docComment;field#button#0;class#Menu#0" />
-            <element signature="docComment;field#activeFirstElement#0;class#Menu#0" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
-            <element signature="method#archive#0;class#Menu#0" />
-            <element signature="method#defaultValue#0;class#Menu#0" />
-            <element signature="method#setPictures#0;class#Menu#0" />
-            <element signature="method#setButton#0;class#Menu#0" />
-            <element signature="method#setPictures#1;class#Menu#0" />
-            <element signature="docComment;method#update#0;class#Menu#0" />
-            <element signature="docComment;method#getStatus#0;class#Menu#0" />
-            <element signature="method#getStatus#0;class#Menu#0" />
-            <element signature="docComment;method#draw#0;class#Menu#0" />
-            <element signature="method#draw#0;class#Menu#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObjectWithMultipleTextures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObjectWithMultipleTextures.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-          <folding>
-            <element signature="e#274#289#0" />
-          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="189" column="32" selection-start-line="189" selection-start-column="32" selection-end-line="189" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/hexahonal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/octagonal.png">
@@ -3609,32 +3348,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
-          <folding>
-            <element signature="e#544#559#0" />
-            <element signature="e#797#812#0" />
-            <element signature="e#6676#8237#0" />
-            <element signature="e#8245#8973#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/pauseSign.png">
@@ -3660,17 +3378,179 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.8/680fd8ed8d823a1510d4bea1ab59248934d1deca/gdx-backend-lwjgl-1.9.8-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="124" column="49" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/sir/black/AndroidLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/graphics/Texture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#3329#3330#0" expanded="true" />
+            <element signature="e#3374#3375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MainGame#0" />
+            <element signature="docComment;field#fin#0;class#MainGame#0" />
+            <element signature="docComment;field#textures#0;class#MainGame#0" />
+            <element signature="docComment;field#song#0;class#MainGame#0" />
+            <element signature="docComment;field#activity#0;class#MainGame#0" />
+            <element signature="docComment;field#state#0;class#MainGame#0" />
+            <element signature="docComment;field#gameStateManager#0;class#MainGame#0" />
+            <element signature="docComment;method#create#0;class#MainGame#0" />
+            <element signature="docComment;method#render#0;class#MainGame#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/Fox.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/circle.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/sir/black/desktop/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/hexahonal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initializeStartButtonPosition#0;class#GameOver#0" />
+            <element signature="method#initializeMusicButtonPosition#0;class#GameOver#0" />
+            <element signature="method#initializeSoundButtonPosition#0;class#GameOver#0" />
+            <element signature="method#initializeRestartButtonPosition#0;class#GameOver#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding>
+            <element signature="method#initializeStartButtonPosition#0;class#MainScreen#0" />
+            <element signature="method#initializeMusicButtonPosition#0;class#MainScreen#0" />
+            <element signature="method#initializeSoundButtonPosition#0;class#MainScreen#0" />
+            <element signature="method#getGameState#0;class#MainScreen#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="52" column="79" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
+        <state relative-caret-position="629">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="211" column="52" selection-start-line="211" selection-start-column="52" selection-end-line="211" selection-end-column="52" />
+        <state relative-caret-position="170">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
           <folding>
             <element signature="docComment;class#Fin#0" />
             <element signature="e#400#448#0" />
@@ -3712,94 +3592,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        <state relative-caret-position="-732">
+          <caret line="526" column="30" lean-forward="true" selection-start-line="526" selection-start-column="30" selection-end-line="526" selection-end-column="30" />
           <folding>
-            <element signature="docComment;field#elementMenu#0;class#Button#0" />
-            <element signature="docComment;field#mousePushButton#0;class#Button#0" />
-            <element signature="docComment;field#status#0;class#Button#0" />
-            <element signature="method#defaultValue#0;class#Button#0" />
+            <element signature="e#544#559#0" />
+            <element signature="e#17719#17720#0" expanded="true" />
+            <element signature="e#17756#17757#0" expanded="true" />
+            <element signature="e#17792#17793#0" expanded="true" />
+            <element signature="e#17829#17830#0" expanded="true" />
+            <element signature="e#17951#17952#0" expanded="true" />
+            <element signature="e#18023#18024#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="110">
+          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
           <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MainGame#0" />
-            <element signature="docComment;field#fin#0;class#MainGame#0" />
-            <element signature="docComment;field#textures#0;class#MainGame#0" />
-            <element signature="docComment;field#song#0;class#MainGame#0" />
-            <element signature="docComment;field#activity#0;class#MainGame#0" />
-            <element signature="docComment;field#state#0;class#MainGame#0" />
-            <element signature="docComment;field#gameStateManager#0;class#MainGame#0" />
-            <element signature="docComment;method#create#0;class#MainGame#0" />
-            <element signature="docComment;method#render#0;class#MainGame#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.8/680fd8ed8d823a1510d4bea1ab59248934d1deca/gdx-backend-lwjgl-1.9.8-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-          <folding>
-            <element signature="docComment;class#State#0" />
-            <element signature="docComment;method#State#0;class#State#0" />
-            <element signature="method#State#0;class#State#0" />
-            <element signature="docComment;method#initialize#0;class#State#0" />
-            <element signature="method#initialize#0;class#State#0" />
-            <element signature="docComment;method#refreshExternalDependencies#0;class#State#0" />
-            <element signature="method#refreshExternalDependencies#0;class#State#0" />
-            <element signature="method#create#0;class#State#0" />
-            <element signature="method#firstAction#0;class#State#0" />
-            <element signature="docComment;method#update#0;class#State#0" />
-            <element signature="docComment;method#menuUpdate#0;class#State#0" />
-            <element signature="docComment;method#localCounterUpdate#0;class#State#0" />
-            <element signature="method#localCounterUpdate#0;class#State#0" />
-            <element signature="docComment;method#cameraUpdate#0;class#State#0" />
-            <element signature="method#cameraUpdate#0;class#State#0" />
-            <element signature="docComment;method#cameraMenuUpdate#0;class#State#0" />
-            <element signature="method#cameraMenuUpdate#0;class#State#0" />
-            <element signature="docComment;method#drawToolsUpdate#0;class#State#0" />
-            <element signature="method#mapUpdate#0;class#State#0" />
-            <element signature="docComment;method#render#0;class#State#0" />
-            <element signature="docComment;method#handleInput2D#0;class#State#0" />
-            <element signature="docComment;method#drawToolsDraw#0;class#State#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="143" column="19" lean-forward="true" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
-          <folding>
-            <element signature="method#initialize#0;class#MainScreen#0" />
-            <element signature="method#getGameState#0;class#MainScreen#0" />
+            <element signature="docComment;method#CircleObject#0;class#CircleObject#0" />
+            <element signature="method#CircleObject#0;class#CircleObject#0" />
+            <element signature="docComment;method#CircleObject#1;class#CircleObject#0" />
           </folding>
         </state>
       </provider>

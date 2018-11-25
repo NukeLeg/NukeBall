@@ -213,22 +213,16 @@ public class GameObject implements IBaseObject {
      */
     public GameObject(GameObject gameObject) {
         this.readyToDelete = gameObject.readyToDelete;
-        this.texture = gameObject.texture; // ref
+        this.texture = gameObject.texture;
         this.position = new Vector2();
         this.position.x = gameObject.position.x;
         this.position.y = gameObject.position.y;
         this.positionDraw = new Vector2();
         this.positionDraw.x = gameObject.positionDraw.x;
         this.positionDraw.y = gameObject.positionDraw.y;
-        this.origin = new Vector2();
-        this.origin.x = gameObject.origin.x;
-        this.origin.y = gameObject.origin.y;
-        this.WH = new Vector2();
-        this.WH.x = gameObject.WH.x;
-        this.WH.y = gameObject.WH.y;
-        this.scale = new Vector2();
-        this.scale.x = gameObject.scale.x;
-        this.scale.y = gameObject.scale.y;
+        this.origin = gameObject.origin;
+        this.WH = gameObject.WH;
+        this.scale = gameObject.scale;
         this.rotation = new Vector2();
         this.rotation.x = gameObject.rotation.x;
         this.rotation.y = gameObject.rotation.y;
@@ -244,7 +238,7 @@ public class GameObject implements IBaseObject {
         this.color.b = gameObject.color.b;
         this.color.a = gameObject.color.a;
         this.layer = gameObject.layer;
-        this.layerRuler = gameObject.layerRuler; // ref
+        this.layerRuler = gameObject.layerRuler;
     }
 
 

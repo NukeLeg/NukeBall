@@ -1,4 +1,4 @@
-#Sun Nov 11 17:32:22 EET 2018
-base.0=D\:\\I\\do\\III\\SaveCode\\Runner\\android\\build\\intermediates\\transforms\\jack\\debug\\folders\\1000\\1f\\main
+#Sun Nov 25 19:05:35 EET 2018
+base.0=C\:\\Users\\Lutsifer\\AndroidStudioProjects\\NukeBall\\android\\build\\intermediates\\transforms\\jack\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=D\:\\I\\do\\III\\SaveCode\\Runner\\android\\build\\intermediates\\transforms\\jack\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=C\:\\Users\\Lutsifer\\AndroidStudioProjects\\NukeBall\\android\\build\\intermediates\\transforms\\jack\\debug\\folders\\1000\\1f\\main\\classes.dex
