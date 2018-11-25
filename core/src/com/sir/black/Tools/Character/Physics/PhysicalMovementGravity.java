@@ -79,7 +79,7 @@ public class PhysicalMovementGravity extends PhysicalParameters {
         speedToCenter += accelerationOfGravity;
     }
     private void updateSpeedDissipation() {
-        if (isTouched) { speedAzimuth *= Math.pow(angeleSpeedDissipation, 3);}
+        if (isTouched) { speedAzimuth *= Math.pow(angeleSpeedDissipation, 4);}
         else speedAzimuth = speedAzimuth * angeleSpeedDissipation;
     }
     protected void spinRoundThePlanet() {
