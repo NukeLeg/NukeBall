@@ -19,20 +19,19 @@ public class PlanetLocation extends Map {
     //region fields
     private int numberOfLayers;
     protected PlanetDestroyer planetDestroyer;
+    protected Vector2 planetCenter;
     //endregion
 
     //region construct
     public PlanetLocation() {
-        initializePlanetLocation();
         refreshExternalDependenciesPlanetLocation();
+        initializePlanetLocation();
     }
-    protected void initializePlanetLocation(){ }
     protected void refreshExternalDependenciesPlanetLocation() {
+        this.planetCenter = new Vector2(Fin.planetCenter);
         this.numberOfLayers = Fin.numberOfLayers;
     }
-    @Override
-    protected void initializeLocation() {
-        super.initializeLocation();
+    protected void initializePlanetLocation(){
         initializeCirclesOfPlanet();
         initializePlanetDestroyer();
     }
@@ -40,17 +39,17 @@ public class PlanetLocation extends Map {
      * creates circles which the planet consists of
      * defines its positions
      */
-    protected void initializeCirclesOfPlanet(){ // FIXME: 18.11.2018 put normal data references
-        this.addNewCharacter(new PlanetObject(Textures.circle, Fin.planetCenter, Fin.CentralCircleRadius));
-        for(int i = 1; i <= Fin.numberOfLayers; i++){
-            float layerRadius = this.layerRadius(Fin.CentralCircleRadius, i, Fin.defaultCircleRadius);
+    protected void initializeCirclesOfPlanet() { // FIXME: 18.11.2018 put normal data references
+        this.addNewCharacter(new PlanetObject(Textures.circle, planetCenter, Fin.CentralCircleRadius));
+        for(int i = 1; i <= numberOfLayers; i++){
+            float layerRadius = layerRadius(Fin.CentralCircleRadius, i, Fin.defaultCircleRadius);
             int numberOfCirclesPerLayer = (int)( Math.PI * layerRadius / Fin.defaultCircleRadius);
             float deltaAngle = (float) (2 * Math.PI / numberOfCirclesPerLayer);
             float angle = 0.0f; 
             for(int j = 0; j < numberOfCirclesPerLayer; j++){
                 this.addNewCharacter(
                         new PlanetObject(Textures.circle,
-                                Fin.planetCenter,
+                                planetCenter,
                                 angle,
                                 layerRadius,
                                 Fin.defaultCircleRadius
@@ -59,13 +58,13 @@ public class PlanetLocation extends Map {
                 angle += deltaAngle;
             }
         }
-        characters.get(10).setColor(new Color(1,1,0,1));
+        /*characters.get(10).setColor(new Color(1,1,0,1));
         characters.get(112).setColor(new Color(0,1,1,1));
         characters.get(104).setColor(new Color(0,1,1,1));
         characters.get(134).setColor(new Color(0,1,1,1));
         characters.get(112).setColor(new Color(0,1,1,1));
         characters.get(101).setColor(new Color(1,0.5f,1,1));
-        characters.get(45).setColor(new Color(1,0,1,1));
+        characters.get(45).setColor(new Color(1,0,1,1));*/
     }
     private float layerRadius(float centralRadius, int numberOfLayer, float defaultRadius){
         switch (numberOfLayer){
@@ -76,6 +75,13 @@ public class PlanetLocation extends Map {
     protected void initializePlanetDestroyer(){
         planetDestroyer = PlanetDestroyer.createDestroyer(Textures.circle, Fin.defaultCircleRadius);
         addNewCharacter(planetDestroyer);
+    }
+    //endregion
+
+    //region get/set/mod
+    public Vector2 getPlanetCenter() { return planetCenter; }
+    public float getSpinAngle(){
+        return planetDestroyer.getSpinAngle();
     }
     //endregion
 
@@ -92,6 +98,11 @@ public class PlanetLocation extends Map {
         }
     }
 
+    public void rotateBall(float angle, boolean isTouched){
+        planetDestroyer.rotatePlanetObject(angle, isTouched);
+    }
+
+    //region update
     /**
      * оновлення стану мапи
      */
@@ -118,4 +129,5 @@ public class PlanetLocation extends Map {
         }
     }
     protected void updateAllBalls(){ }
+    //endregion
 }

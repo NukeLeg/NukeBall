@@ -146,10 +146,9 @@ public class CircleObject extends GameObject {
      * @return так, якщо точка попала всередину текстури
      */
     protected boolean pointInCircle(Vector2 touch) {
-        float radius = getCenter().x;
         if (Math.pow((position.x - touch.x), 2) +
                 Math.pow((position.y - touch.y), 2)
-                < Math.pow(radius * scale.x, 2))
+                < Math.pow(circleRadius * scale.x, 2))
             return true;
         else
             return false;

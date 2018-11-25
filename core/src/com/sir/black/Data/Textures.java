@@ -18,7 +18,7 @@ public class Textures {
     public static Texture redX = new Texture("Texture/RedX.png");
     public static Texture optionsButton = new Texture("Texture/optionsButton.jpg");
     public static Texture circle = new Texture("Texture/circle.png");
-    public static Texture fox = new Texture("Texture/fox.jpg");
+    public static Texture fox = new Texture("Texture/Fox.jpg");
     public static Texture mem = new Texture("Texture/someMem.jpg");
 
     public static Texture healthHead = new Texture("Texture/Lines/Head.png");

@@ -4,9 +4,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Fin;
 import com.sir.black.Tools.Character.InitialObject.CircleObject;
-import com.sir.black.Tools.Character.InitialObject.GameObject;
 import com.sir.black.Tools.Character.Physics.PhysicalMovementGravity;
-import com.sir.black.Tools.Special.SpecialMath;
 
 public class PlanetDestroyer extends Character {
     //region static
@@ -16,8 +14,7 @@ public class PlanetDestroyer extends Character {
     //endregion
 
     //region fields
-    private float angleOfHit;
-    private Vector2 acceleration;
+    private Vector2 planetCenter;
     //endregion
 
     //region constructor
@@ -30,22 +27,32 @@ public class PlanetDestroyer extends Character {
     protected void initializePlanetDestroyer() {
     }
     protected void refreshExternalDependenciesPlanetDestroyer() {
-        this.acceleration = Fin.acceleration;
-        this.angleOfHit = Fin.angleOfHit;
-        setAcceleration(acceleration);
+        planetCenter = new Vector2(Fin.planetCenter);
     }
     protected void create(float mass){
         setMass(mass);
-        physicalParameters = new PhysicalMovementGravity(gameObject);
+        physicalParameters = new PhysicalMovementGravity(gameObject, planetCenter);
     }
     //endregion
+
+
+    public float getSpinAngle(){
+        if (physicalParameters instanceof PhysicalMovementGravity)
+            return ((PhysicalMovementGravity)(physicalParameters)).getSpinAngle();
+        else
+            return 0;
+    }
+    public void rotatePlanetObject(float angle, boolean isTouched) {
+        if (physicalParameters instanceof PhysicalMovementGravity)
+            ((PhysicalMovementGravity)(physicalParameters)).rotatePlanetObject(angle, isTouched);
+    }
+    public void interaction() {
+        physicalParameters.makeInteraction();
+    }
+
 
     @Override
     public void update() {
         super.update();
-    }
-
-    public void interaction() {
-        rotateSpeed(angleOfHit);
     }
 }

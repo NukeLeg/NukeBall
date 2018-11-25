@@ -58,6 +58,8 @@ public class DrawTools {
             if (menu != null) {
                 spriteBatch.begin();
                 menu.draw(spriteBatch); // Промальовує меню
+                Checker.drawVector2(new Vector2(500, 500)); // FIXME: 18.11.2018  delete
+                Checker.update(new Vector2(), 2, "2"); // FIXME: 18.11.2018 delete
                 spriteBatch.end();
             }
         }
@@ -77,10 +79,6 @@ public class DrawTools {
                 spriteBatch.begin();
                 map.draw(); // Вставляє в стек все що треба промалювати
                 layerRuler.drawBatch(); // Промальовує стек промальовки layerRuler
-
-                Checker.drawVector2(new Vector2()); // FIXME: 18.11.2018  delete
-                Checker.update(new Vector2(), 2, "2"); // FIXME: 18.11.2018 delete
-
                 spriteBatch.end();
             }
         }

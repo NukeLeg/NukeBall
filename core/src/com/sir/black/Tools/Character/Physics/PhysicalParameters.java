@@ -10,6 +10,7 @@ public class PhysicalParameters {
     protected float mass;
     protected Vector2 speed;
     protected Vector2 acceleration;
+    protected float accelerationOfGravity;
     protected float rotationSpeed;
     protected float rotationAcceleration;
 
@@ -39,11 +40,13 @@ public class PhysicalParameters {
         mass = 0;
         speed = new Vector2();
         acceleration = new Vector2();
+        accelerationOfGravity = 0;
         gameObject = null;
     }
 
     protected void refreshExternalDependencies() {
         this.mass = Fin.defaultMass;
+        this.accelerationOfGravity = Fin.accelerationOfGravity;
     }
 
     protected void create(GameObject gameObject, float mass, Vector2 speed, Vector2 acceleration,
@@ -64,31 +67,42 @@ public class PhysicalParameters {
     public float getMass() {return mass;}
     public Vector2 getSpeed() {return speed;}
     public Vector2 getAcceleration() {return acceleration;}
+    public float getAccelerationOfGravity() { return accelerationOfGravity; }
     public float getRotationSpeed() {return rotationSpeed;}
     public float getRotationAcceleration() {return rotationAcceleration;}
     public GameObject getGameObject() {return gameObject;}
+    protected Vector2 getPosition() { return gameObject.getPosition(); }
 
     public void modMass(float mass) {this.mass += mass;}
-    public void modSpeed(Vector2 speed) { if (speed != null) { this.speed.set(speed); } }
-    public void rotateSpeed(float angle){ speed.rotate(angle); }
+    public void modSpeed(Vector2 speed) { if (speed != null) { this.speed.add(speed); } }
     public void modAcceleration(Vector2 acceleration) { if (acceleration != null) this.acceleration.add(acceleration);}
+    public void modAccelerationOfGravity(float accelerationOfGravity) { this.accelerationOfGravity += accelerationOfGravity;}
     public void modRotationSpeed(float rotationSpeed) { this.rotationSpeed = rotationSpeed; }
     public void modRotationAcceleration(float rotationAcceleration) { this.rotationAcceleration = rotationAcceleration; }
-
+    protected void modPosition(Vector2 position) { gameObject.modPosition(position); }
     public void setMass(float mass) {this.mass = mass;}
+
     public void setSpeed(Vector2 speed) {this.speed = speed;}
     public void setAcceleration(Vector2 acceleration) {this.acceleration = acceleration;}
+    public void setAccelerationOfGravity(float accelerationOfGravity) { this.accelerationOfGravity = accelerationOfGravity; }
     public void setRotationSpeed(float rotationSpeed) {this.rotationSpeed = rotationSpeed;}
     public void setRotationAcceleration(float rotationAcceleration) {this.rotationAcceleration = rotationAcceleration;}
     public void setGameObject(GameObject gameObject) {this.gameObject = gameObject;}
-
+    protected void setPosition(Vector2 position) { gameObject.setPosition(position); }
     //endregion
+
+    public void rotateSpeed(float angle){ speed.rotate(angle); }
+
+    public void makeInteraction(){
+
+    }
 
     public void update(){
         updateGravity();
         updateSpeed();
         updateSpin();
     }
+
     protected void updateGravity() {
 
     }

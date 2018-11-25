@@ -54,11 +54,11 @@ public  class Fin {
     /**
      * Ідеальна довжина ФулШДі
      */
-    public static int HDWidth = 1920;
+    public static int HDWidth = 1080;//1920;
     /**
      * Ідеальна ширина ФулШДі
      */
-    public static int HDHeight = 1080;
+    public static int HDHeight = 1920;//1080;
 
     /**
      * звуки в грі
@@ -177,13 +177,15 @@ public  class Fin {
     /**
      * number of planet layers
      */
-    public static Vector2 acceleration = new Vector2(0, -0.2f);
+    public static float accelerationOfGravity = -0.25f; // gravity
+    public static float jumpSpeed = 11; // vertical speed ball after hitting
 
-    public static float angleOfHit = 180; // change direction of speed after a hit
-
-    public static int numberOfLayers = 6;
+    public static int numberOfLayers = 7;
 
     public static float defaultMass = 1;
+
+    public static float angeleSpeedDissipation = 0.965f;
+    public static float speedOfSpinning = 20f;
     //endregion
 
     //region construct

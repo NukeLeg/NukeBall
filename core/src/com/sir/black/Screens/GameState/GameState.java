@@ -23,6 +23,7 @@ public class GameState extends State {
     }
     public void defaultValuePlayState() {
         map = new PlanetLocation();
+        menu = new Menu(1);
         mediator = new GameStateMediator(inputControl, camera2D, menu, map);
         camera2D.getCamera().zoom = 2.5f; // FIXME: 18.11.2018 delete
         camera2D.getCamera().position.y-=300; // FIXME: 18.11.2018 delete
