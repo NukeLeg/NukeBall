@@ -2,7 +2,10 @@ package com.sir.black.Tools.Character.InitialObject;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Vector2;
-
+enum IfCircleInscribedInTexture{
+    INSCRIBED,
+    ESCRIBED
+}
 public class CircleObject extends GameObject {
     //region fields
     /**
@@ -36,6 +39,15 @@ public class CircleObject extends GameObject {
         refreshExternalDependencies(); // Взято з архіва
         create(texture, position, origin, WH, scale, rotation,
                 srcX, srcY, srcW, srcH, flipX, flipY, color, layer, circleRadius);
+    }
+    public CircleObject(Texture texture, Vector2 position,
+                        float scale, Color color, float layer){
+        initialize(); // Значення за замовчуванням
+        refreshExternalDependencies(); // Взято з архіва
+        create(texture, position, new Vector2(texture.getWidth() / 2, texture.getHeight() / 2), new Vector2(texture.getWidth(), texture.getHeight()),
+                new Vector2(scale, scale), 0,
+                0, 0, texture.getWidth(), texture.getHeight(),
+                false, false, color, layer, setCircleRadius(texture, IfCircleInscribedInTexture.ESCRIBED));
     }
 
     /**
@@ -73,7 +85,7 @@ public class CircleObject extends GameObject {
      */
     public CircleObject(GameObject gameObject){
         set(gameObject);
-        circleRadius = Math.min(getCenterOrigin().x, getCenterOrigin().y);
+        circleRadius = Math.max(getCenterOrigin().x, getCenterOrigin().y);
     }
 
     @Override
@@ -81,7 +93,6 @@ public class CircleObject extends GameObject {
         super.initialize();
         this.circleRadius = 0;
     }
-
     protected void create(Texture texture, Vector2 position, Vector2 origin, Vector2 WH,
                           Vector2 scale, float rotation, int srcX, int srcY, int srcW,
                           int srcH, boolean flipX, boolean flipY, Color color,
@@ -124,7 +135,21 @@ public class CircleObject extends GameObject {
     public float getCircleRadius() {
         return circleRadius;
     }
+    //define circleRadius depending on inscribed the circle in texture or not
+    private float setCircleRadius(Texture texture, IfCircleInscribedInTexture condition){
+        switch(condition){
+            case INSCRIBED : {
+                return  Math.min(texture.getWidth(), texture.getHeight()) * scale.x;
+            }
+            case ESCRIBED : {
+                return Math.max(texture.getWidth(), texture.getHeight()) * scale.x;
+            }
+            default : {
+                return 0;
+            }
 
+        }
+    }
     //endregion
 
     //region method
@@ -147,10 +172,9 @@ public class CircleObject extends GameObject {
      * @return так, якщо точка попала всередину текстури
      */
     protected boolean pointInCircle(Vector2 touch) {
-        float radius = getCenter().x;
         if (Math.pow((position.x - touch.x), 2) +
                 Math.pow((position.y - touch.y), 2)
-                < Math.pow(radius, 2))
+                < Math.pow(circleRadius, 2))
             return true;
         else
             return false;

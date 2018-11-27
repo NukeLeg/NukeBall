@@ -34,10 +34,9 @@ public class MainScreen extends State {
         Vector2[] positions = initializeStartButtonPosition(textures, 2);
         buttons[0] = new Button(
                 new CircleObject[]{
-                        new CircleObject(new GameObject(textures[0], positions[0], 2,
-                                Fin.backGroundButtonColor,0.0f)),
-                        new CircleObject(new GameObject(textures[1], positions[1], 2,
-                                Fin.foreGroundButtonColor, 1))
+                        new CircleObject(textures[0], positions[0], 2, Fin.backGroundButtonColor, 0),
+                        new CircleObject(textures[1], positions[1], 2,
+                                Fin.foreGroundButtonColor, 1)
                 }
         );
 
@@ -69,10 +68,10 @@ public class MainScreen extends State {
         positions = initializeRestartButtonPosition(textures, 2);
         buttons[3] = new Button(
                 new CircleObject[]{
-                        new CircleObject(new GameObject(textures[0], positions[0], 2,
-                                Fin.backGroundButtonColor,0.0f)),
-                        new CircleObject(new GameObject(textures[1], positions[1], 2,
-                                Fin.foreGroundButtonColor, 1))
+                        new CircleObject(textures[0], positions[0], 2,
+                                Fin.backGroundButtonColor,0.0f),
+                        new CircleObject(textures[1], positions[1], 2,
+                                Fin.foreGroundButtonColor, 1)
                 }
         );
 
@@ -141,8 +140,8 @@ public class MainScreen extends State {
     protected void eventListener(int i) {
         super.eventListener(i);
         switch (i){
-            //case 0 : gameStateManager.push(getGameState()); break;
-            case 0 : gameStateManager.push(new GameOver(gameStateManager)); break;
+            case 0 : gameStateManager.push(getGameState()); break;
+            case 1 : gameStateManager.push(new GameOver(gameStateManager)); break;
             case 3 : gameStateManager.push(new GameState(gameStateManager)); break;
         }
     }

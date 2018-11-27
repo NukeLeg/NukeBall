@@ -16,65 +16,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/FkGa2Li7tuFtsYFFgNmx0PuLbRA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/rR34WpRA_887chWyM88SDaT3WIY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/1B/03802DB341A33BF0F39F21718882262B726672" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/1B/03802DB341A33BF0F39F21718882262B726672" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/23/7AFBF631DA0F4C9F305588E24C486C25E096BA" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/23/7AFBF631DA0F4C9F305588E24C486C25E096BA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/31/6356057C36CEC8C942566213B72D0B7769E5C1" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/31/6356057C36CEC8C942566213B72D0B7769E5C1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/61/9DAFB3CA7728AC1AC216B58722BCEDD7CF7E19" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/61/9DAFB3CA7728AC1AC216B58722BCEDD7CF7E19" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/7F/BD70374EAE3E9688FB3F1580D8AF64247B49E0" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/7F/BD70374EAE3E9688FB3F1580D8AF64247B49E0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/85/15A597595B5E9E68F62EDD2F32E110E133A8FB" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/85/15A597595B5E9E68F62EDD2F32E110E133A8FB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8E/CCDDFDF2C72D1F7326DCC6BE14FD7D49A0A2DA" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8E/CCDDFDF2C72D1F7326DCC6BE14FD7D49A0A2DA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9A/D5CB5EF6C907C4469ED32B6AAB70AAAE41AE42" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9A/D5CB5EF6C907C4469ED32B6AAB70AAAE41AE42" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9E/C20F65B9A4FBE329D03DD19366CBB32885A067" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9E/C20F65B9A4FBE329D03DD19366CBB32885A067" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/D5/00999B17593505C2961215C8A33775429D1DFE" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/D5/00999B17593505C2961215C8A33775429D1DFE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/F2/FF94FED76170ADEEFE37624EC5BEB3F9F01EB6" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/F2/FF94FED76170ADEEFE37624EC5BEB3F9F01EB6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FE/C5A0A364C91FBC125C5F498D2C9AAA255E16D3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FE/C5A0A364C91FBC125C5F498D2C9AAA255E16D3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FF/C9785A8364216305576E3175AB53CE25969732" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FF/C9785A8364216305576E3175AB53CE25969732" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/index" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/jack/debug/ecj-options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/jack/debug/ecj-options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/packaged/debug/classes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/packaged/debug/classes.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/jack/debug/folders/1000/1f/main/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/jack/debug/folders/1000/1f/main/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/core-1.0-85bc1a0acf1a5e2f707b2a40ed181a4a3fabaee7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-1.9.8-6a26c3817f8f5ff92dda6895ffbf3f302126b5b3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-backend-android-1.9.8-1e486133cbc02cf05d912b0abcf424522a198b4f.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-682c2fdae4e2ec2700e1d79ff2e9761451be0a0d.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-e8b12e4f63a371e04cbe834ac2792866ef901ffd.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/com/sir/black/AndroidLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/com/sir/black/AndroidLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/Activity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Fin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Fin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Textures.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Textures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameOver/GameOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameOver/GameOver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MainScreen/MainScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MainScreen/MainScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/GameObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/classes/main/com/sir/black/desktop/DesktopLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/classes/main/com/sir/black/desktop/DesktopLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/src/com/sir/black/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/com/sir/black/desktop/DesktopLauncher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,7 +66,7 @@
       <file leaf-file-name="Textures.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="1139">
               <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
@@ -125,16 +75,10 @@
       <file leaf-file-name="GameObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-732">
-              <caret line="526" column="30" lean-forward="true" selection-start-line="526" selection-start-column="30" selection-end-line="526" selection-end-column="30" />
+            <state relative-caret-position="297">
+              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
               <folding>
                 <element signature="e#544#559#0" />
-                <element signature="e#17719#17720#0" expanded="true" />
-                <element signature="e#17756#17757#0" expanded="true" />
-                <element signature="e#17792#17793#0" expanded="true" />
-                <element signature="e#17829#17830#0" expanded="true" />
-                <element signature="e#17951#17952#0" expanded="true" />
-                <element signature="e#18023#18024#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,9 +87,10 @@
       <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+            <state relative-caret-position="91">
+              <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="114" selection-end-column="25" />
               <folding>
+                <element signature="method#initializeButtons#0;class#MainScreen#0" />
                 <element signature="method#initializeStartButtonPosition#0;class#MainScreen#0" />
                 <element signature="method#initializeMusicButtonPosition#0;class#MainScreen#0" />
                 <element signature="method#initializeSoundButtonPosition#0;class#MainScreen#0" />
@@ -155,94 +100,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameOver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="57" />
+            <state relative-caret-position="177">
+              <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#initializeButtons#0;class#GameOver#0" />
                 <element signature="method#initializeStartButtonPosition#0;class#GameOver#0" />
                 <element signature="method#initializeMusicButtonPosition#0;class#GameOver#0" />
                 <element signature="method#initializeSoundButtonPosition#0;class#GameOver#0" />
-                <element signature="method#initializeRestartButtonPosition#0;class#GameOver#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CircleObject.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CircleObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+            <state relative-caret-position="156">
+              <caret line="138" column="50" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
               <folding>
                 <element signature="docComment;method#CircleObject#0;class#CircleObject#0" />
-                <element signature="method#CircleObject#0;class#CircleObject#0" />
                 <element signature="docComment;method#CircleObject#1;class#CircleObject#0" />
+                <element signature="method#CircleObject#3;class#CircleObject#0" />
+                <element signature="method#inSide#0;class#CircleObject#0" />
+                <element signature="method#pointInCircle#0;class#CircleObject#0" />
+                <element signature="docComment;method#inSideCollision#0;class#CircleObject#0" />
+                <element signature="method#inSideCollision#0;class#CircleObject#0" />
+                <element signature="docComment;method#pointInCircle#1;class#CircleObject#0" />
+                <element signature="method#pointInCircle#1;class#CircleObject#0" />
+                <element signature="docComment;method#drawPositionUpdate#0;class#CircleObject#0" />
+                <element signature="method#drawPositionUpdate#0;class#CircleObject#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
+      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-              <folding>
-                <element signature="docComment;class#Fin#0" />
-                <element signature="e#400#448#0" />
-                <element signature="e#529#580#0" />
-                <element signature="e#662#730#0" />
-                <element signature="e#831#899#0" />
-                <element signature="e#1000#1046#0" />
-                <element signature="e#1129#1158#0" />
-                <element signature="e#1213#1252#0" />
-                <element signature="e#1323#1364#0" />
-                <element signature="e#1449#1492#0" />
-                <element signature="e#1579#1621#0" />
-                <element signature="e#1664#1705#0" />
-                <element signature="e#1750#1780#0" />
-                <element signature="e#1840#1871#0" />
-                <element signature="e#1934#1989#0" />
-                <element signature="e#2069#2104#0" />
-                <element signature="e#2186#2221#0" />
-                <element signature="e#2283#2297#0" />
-                <element signature="e#2302#2331#0" />
-                <element signature="e#2395#2419#0" />
-                <element signature="e#2480#2531#0" />
-                <element signature="e#2616#2644#0" />
-                <element signature="e#2707#2746#0" />
-                <element signature="e#2817#2857#0" />
-                <element signature="e#2944#2963#0" />
-                <element signature="e#2968#3065#0" />
-                <element signature="e#3144#3159#0" />
-                <element signature="e#3164#3240#0" />
-                <element signature="e#3358#3412#0" />
-                <element signature="e#3512#3574#0" />
-                <element signature="e#3680#3734#0" />
-                <element signature="e#3805#3847#0" />
-                <element signature="e#3925#3974#0" />
-                <element signature="e#4053#4114#0" />
-                <element signature="e#4192#4248#0" />
-                <element signature="e#4317#4352#0" />
-              </folding>
+            <state relative-caret-position="3366">
+              <caret line="210" column="46" selection-start-line="210" selection-start-column="46" selection-end-line="210" selection-end-column="46" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arrow1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hexahonal.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/hexahonal.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -258,8 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>charac</find>
-      <find>defaultConfig</find>
       <find>cen</find>
       <find>-=</find>
       <find>Tou</find>
@@ -280,12 +179,16 @@
       <find>origin</find>
       <find>draw</find>
       <find>in</find>
-      <find>scale</find>
       <find>touc</find>
       <find>radi</find>
       <find>is</find>
       <find>ins</find>
       <find>pixel</find>
+      <find>scale</find>
+      <find>circlerad</find>
+      <find>point</find>
+      <find>set</find>
+      <find>setCircle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2875,16 +2778,16 @@
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" />
         <option value="$PROJECT_DIR$/desktop/src/com/sir/black/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" />
         <option value="$PROJECT_DIR$/android/src/com/sir/black/AndroidLauncher.java" />
         <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" />
       </list>
     </option>
   </component>
@@ -3183,38 +3086,71 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="12" />
+      <window_info anchor="bottom" id="Android Profiler" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="7" />
       <window_info id="Build Variants" order="3" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.37458745" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.37458745" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.504" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.37458745" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49924356" weight="0.32838285" />
       <window_info id="Captures" order="4" sideWeight="0.49834985" weight="0.24962178" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49669966" visible="true" weight="0.3290469" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49669966" weight="0.3290469" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.31683168" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info id="Favorites" order="5" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Assistant" order="6" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32744783" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Build" order="7" weight="0.31683168" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
+      <window_info id="Image Layers" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.37458745" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Android Profiler" order="12" />
+      <window_info id="Favorites" order="5" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
+      <window_info id="Captures" order="4" sideWeight="0.49834985" weight="0.24962178" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.37458745" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.3290469" />
+      <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49924356" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.504" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49669966" visible="true" weight="0.3290469" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32744783" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -3268,13 +3204,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/util/Stack.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/FlashState/FlashState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -3382,10 +3311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3425,13 +3350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="124" column="49" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -3450,10 +3368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3374#3375#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3487,13 +3401,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/src/com/sir/black/desktop/DesktopLauncher.java">
@@ -3513,25 +3427,73 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="57" />
+        <state relative-caret-position="799">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initializeStartButtonPosition#0;class#GameOver#0" />
-            <element signature="method#initializeMusicButtonPosition#0;class#GameOver#0" />
-            <element signature="method#initializeSoundButtonPosition#0;class#GameOver#0" />
-            <element signature="method#initializeRestartButtonPosition#0;class#GameOver#0" />
+            <element signature="docComment;class#Fin#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="210" column="46" selection-start-line="210" selection-start-column="46" selection-end-line="210" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/lang/Override.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding>
+            <element signature="e#544#559#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="138" column="50" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
+          <folding>
+            <element signature="docComment;method#CircleObject#0;class#CircleObject#0" />
+            <element signature="docComment;method#CircleObject#1;class#CircleObject#0" />
+            <element signature="method#CircleObject#3;class#CircleObject#0" />
+            <element signature="method#inSide#0;class#CircleObject#0" />
+            <element signature="method#pointInCircle#0;class#CircleObject#0" />
+            <element signature="docComment;method#inSideCollision#0;class#CircleObject#0" />
+            <element signature="method#inSideCollision#0;class#CircleObject#0" />
+            <element signature="docComment;method#pointInCircle#1;class#CircleObject#0" />
+            <element signature="method#pointInCircle#1;class#CircleObject#0" />
+            <element signature="docComment;method#drawPositionUpdate#0;class#CircleObject#0" />
+            <element signature="method#drawPositionUpdate#0;class#CircleObject#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        <state relative-caret-position="91">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="114" selection-end-column="25" />
           <folding>
+            <element signature="method#initializeButtons#0;class#MainScreen#0" />
             <element signature="method#initializeStartButtonPosition#0;class#MainScreen#0" />
             <element signature="method#initializeMusicButtonPosition#0;class#MainScreen#0" />
             <element signature="method#initializeSoundButtonPosition#0;class#MainScreen#0" />
@@ -3540,82 +3502,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="177">
+          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
           <folding>
-            <element signature="docComment;class#Fin#0" />
-            <element signature="e#400#448#0" />
-            <element signature="e#529#580#0" />
-            <element signature="e#662#730#0" />
-            <element signature="e#831#899#0" />
-            <element signature="e#1000#1046#0" />
-            <element signature="e#1129#1158#0" />
-            <element signature="e#1213#1252#0" />
-            <element signature="e#1323#1364#0" />
-            <element signature="e#1449#1492#0" />
-            <element signature="e#1579#1621#0" />
-            <element signature="e#1664#1705#0" />
-            <element signature="e#1750#1780#0" />
-            <element signature="e#1840#1871#0" />
-            <element signature="e#1934#1989#0" />
-            <element signature="e#2069#2104#0" />
-            <element signature="e#2186#2221#0" />
-            <element signature="e#2283#2297#0" />
-            <element signature="e#2302#2331#0" />
-            <element signature="e#2395#2419#0" />
-            <element signature="e#2480#2531#0" />
-            <element signature="e#2616#2644#0" />
-            <element signature="e#2707#2746#0" />
-            <element signature="e#2817#2857#0" />
-            <element signature="e#2944#2963#0" />
-            <element signature="e#2968#3065#0" />
-            <element signature="e#3144#3159#0" />
-            <element signature="e#3164#3240#0" />
-            <element signature="e#3358#3412#0" />
-            <element signature="e#3512#3574#0" />
-            <element signature="e#3680#3734#0" />
-            <element signature="e#3805#3847#0" />
-            <element signature="e#3925#3974#0" />
-            <element signature="e#4053#4114#0" />
-            <element signature="e#4192#4248#0" />
-            <element signature="e#4317#4352#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732">
-          <caret line="526" column="30" lean-forward="true" selection-start-line="526" selection-start-column="30" selection-end-line="526" selection-end-column="30" />
-          <folding>
-            <element signature="e#544#559#0" />
-            <element signature="e#17719#17720#0" expanded="true" />
-            <element signature="e#17756#17757#0" expanded="true" />
-            <element signature="e#17792#17793#0" expanded="true" />
-            <element signature="e#17829#17830#0" expanded="true" />
-            <element signature="e#17951#17952#0" expanded="true" />
-            <element signature="e#18023#18024#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
-          <folding>
-            <element signature="docComment;method#CircleObject#0;class#CircleObject#0" />
-            <element signature="method#CircleObject#0;class#CircleObject#0" />
-            <element signature="docComment;method#CircleObject#1;class#CircleObject#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#initializeButtons#0;class#GameOver#0" />
+            <element signature="method#initializeStartButtonPosition#0;class#GameOver#0" />
+            <element signature="method#initializeMusicButtonPosition#0;class#GameOver#0" />
+            <element signature="method#initializeSoundButtonPosition#0;class#GameOver#0" />
           </folding>
         </state>
       </provider>

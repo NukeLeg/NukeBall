@@ -147,6 +147,15 @@ public class GameObject implements IBaseObject {
                 scale, rotation, 0, 0, texture.getWidth(), texture.getHeight(),
                 false,false, color, layer);
     }
+
+    /**
+     *
+     * @param texture
+     * @param position position from left lower corner
+     * @param scale
+     * @param color
+     * @param layer
+     */
     public GameObject(Texture texture, Vector2 position, float scale,
                        Color color, float layer) {
         initialize(); // Значення за замовчуванням
