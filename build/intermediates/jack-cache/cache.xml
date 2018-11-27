@@ -4,8 +4,20 @@
     <item
         jar="C:\Users\Lutsifer\AndroidStudioProjects\NukeBall\core\build\libs\core-1.0.jar"
         revision="25.0.0"
-        sha1="b2936dbc16f54c085fb2ec3f12cbc45dabdec769">
+        sha1="0e76881dd005caa2012108b5ca73d812ac2ca51b">
         <dex dex="C:\Users\Lutsifer\AndroidStudioProjects\NukeBall\android\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\core-1.0-bc23a8e1a6b0c0295c27516279e2abd6a402b20e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lutsifer\AppData\Local\Android\Sdk\platforms\android-23\android.jar"
+        revision="25.0.0"
+        sha1="eee3e49de0e3c71c5f278ba7e4fe847483f9084c">
+        <dex dex="C:\Users\Lutsifer\AndroidStudioProjects\NukeBall\android\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-0353d9438b03be2855bccf12c74d5e5b42c2af51.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lutsifer\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.8\84024cd60ad6f26370891fbcd17de9f0167e662\gdx-backend-android-1.9.8.jar"
+        revision="25.0.0"
+        sha1="084024cd60ad6f26370891fbcd17de9f0167e662">
+        <dex dex="C:\Users\Lutsifer\AndroidStudioProjects\NukeBall\android\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gdx-backend-android-1.9.8-cbac3be381f95ff9909ede6233cf94b6e6896a68.jar" />
     </item>
     <item
         jar="C:\Users\Lutsifer\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.8\a35a0076fbce873f9c2d5a1a1c8066244231bb3c\gdx-1.9.8.jar"
@@ -14,10 +26,10 @@
         <dex dex="C:\Users\Lutsifer\AndroidStudioProjects\NukeBall\android\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gdx-1.9.8-9196b08487c65fb56dfe6317a35d8a9b0b43c544.jar" />
     </item>
     <item
-        jar="C:\Users\Lutsifer\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.8\84024cd60ad6f26370891fbcd17de9f0167e662\gdx-backend-android-1.9.8.jar"
+        jar="C:\Users\Lutsifer\AppData\Local\Android\Sdk\platforms\android-23\optional\org.apache.http.legacy.jar"
         revision="25.0.0"
-        sha1="084024cd60ad6f26370891fbcd17de9f0167e662">
-        <dex dex="C:\Users\Lutsifer\AndroidStudioProjects\NukeBall\android\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gdx-backend-android-1.9.8-cbac3be381f95ff9909ede6233cf94b6e6896a68.jar" />
+        sha1="017030d11901291abf8f83a812984276b643ea0f">
+        <dex dex="C:\Users\Lutsifer\AndroidStudioProjects\NukeBall\android\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-97eb136081aada41535d6da336c79c3cf3fbc3ee.jar" />
     </item>
 
 </items>

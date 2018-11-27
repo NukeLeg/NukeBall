@@ -1,20 +1,20 @@
 package com.sir.black.Screens.MainScreen;
 
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Common.GameStateManager;
 import com.sir.black.Data.Fin;
 import com.sir.black.Data.Textures;
+import com.sir.black.Screens.CongratulationsState.CongratulationsState;
 import com.sir.black.Screens.GameOver.GameOver;
 import com.sir.black.Screens.GameState.GameState;
-import com.sir.black.Screens.State;
+import com.sir.black.Screens.MenuStateGeneral.MenuStateGeneral;
 import com.sir.black.Tools.Character.InitialObject.CircleObject;
 import com.sir.black.Tools.Character.InitialObject.GameObject;
 import com.sir.black.Tools.Menu.Menu;
 import com.sir.black.Tools.Menu.Button;
 import com.badlogic.gdx.graphics.Texture;
 
-public class MainScreen extends State {
+public class MainScreen extends MenuStateGeneral {
     /**
      * In out GameScreen state we have to draw 4 buttons
      * 0 start / continue game process
@@ -27,6 +27,7 @@ public class MainScreen extends State {
         super.initialize();
         menu = new Menu(initializeButtons());
     }
+    @Override
     protected Button[] initializeButtons(){
         Button [] buttons = new Button[4];
 
@@ -87,24 +88,6 @@ public class MainScreen extends State {
         }
         return positions;
     }
-    protected Vector2 [] initializeMusicButtonPosition(Texture [] textures, float scale){
-        Vector2[] positions = new Vector2[textures.length];
-        for (int i = 0; i < positions.length; i++){
-            positions[i] = new Vector2(Fin.HDWidth * 0.85f - textures[i].getWidth() * scale / 2,
-                    Fin.HDHeight * 0.15f - textures[i].getHeight() * scale / 2);
-        }
-        positions[1].x = positions[1].x - 20;
-        positions[2].x = positions[2].x + 20;
-        return positions;
-    }
-    protected Vector2 [] initializeSoundButtonPosition(Texture [] textures, float scale){
-        Vector2[] positions = new Vector2[textures.length];
-        for (int i = 0; i < positions.length; i++){
-            positions[i] = new Vector2(Fin.HDWidth * 0.15f - textures[i].getWidth() * scale / 2,
-                    Fin.HDHeight * 0.15f - textures[i].getHeight() * scale / 2);
-        }
-        return positions;
-    }
     protected Vector2 [] initializeRestartButtonPosition(Texture [] textures, float scale){
         Vector2[] positions = new Vector2[textures.length];
 
@@ -138,10 +121,10 @@ public class MainScreen extends State {
      */
     @Override
     protected void eventListener(int i) {
-        super.eventListener(i);
         switch (i){
             case 0 : gameStateManager.push(getGameState()); break;
             case 1 : gameStateManager.push(new GameOver(gameStateManager)); break;
+            case 2 : gameStateManager.push(new CongratulationsState(gameStateManager)); break;
             case 3 : gameStateManager.push(new GameState(gameStateManager)); break;
         }
     }

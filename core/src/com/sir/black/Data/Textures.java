@@ -42,7 +42,7 @@ public class Textures {
     //endregion
     ///region MenuElements
     public static Texture startButtonTexture = new Texture("Texture/MenuElements/arrow4.png");
-    //public static Texture continueButtonTexture = new Texture("Texture/MenuElements/arrow2.png");
+    public static Texture continueButtonTexture = new Texture("Texture/MenuElements/arrow3.png");
     public static Texture hexahonal = new Texture("Texture/MenuElements/hexahonal.png");
     public static Texture soundSign = new Texture("Texture/MenuElements/soundSign.png");
     public static Texture pauseSign = new Texture("Texture/MenuElements/pauseSign.png");
@@ -66,6 +66,7 @@ public class Textures {
         hexahonal.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
         startButtonTexture.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
         circle.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
+        continueButtonTexture.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
     }
     //endregion
 

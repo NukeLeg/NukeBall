@@ -83,7 +83,7 @@ public class State {
     /**
      * оновлення стану через певні проміжки часу
      * */
-    ///reagion update
+    ///region update
     public void update() {
         if (!pause) {
             mapUpdate(); /**Обновлення обєктів 2D*/
