@@ -84,23 +84,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="114" selection-end-column="25" />
+            <state relative-caret-position="244">
+              <caret line="141" column="19" lean-forward="true" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
               <folding>
                 <element signature="method#initializeButtons#0;class#MainScreen#0" />
                 <element signature="method#initializeStartButtonPosition#0;class#MainScreen#0" />
                 <element signature="method#initializeMusicButtonPosition#0;class#MainScreen#0" />
                 <element signature="method#initializeSoundButtonPosition#0;class#MainScreen#0" />
+                <element signature="method#initializeRestartButtonPosition#0;class#MainScreen#0" />
                 <element signature="method#getGameState#0;class#MainScreen#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameOver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
@@ -2785,9 +2786,9 @@
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" />
       </list>
     </option>
   </component>
@@ -3488,20 +3489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="114" selection-end-column="25" />
-          <folding>
-            <element signature="method#initializeButtons#0;class#MainScreen#0" />
-            <element signature="method#initializeStartButtonPosition#0;class#MainScreen#0" />
-            <element signature="method#initializeMusicButtonPosition#0;class#MainScreen#0" />
-            <element signature="method#initializeSoundButtonPosition#0;class#MainScreen#0" />
-            <element signature="method#getGameState#0;class#MainScreen#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -3512,6 +3499,21 @@
             <element signature="method#initializeStartButtonPosition#0;class#GameOver#0" />
             <element signature="method#initializeMusicButtonPosition#0;class#GameOver#0" />
             <element signature="method#initializeSoundButtonPosition#0;class#GameOver#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="141" column="19" lean-forward="true" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
+          <folding>
+            <element signature="method#initializeButtons#0;class#MainScreen#0" />
+            <element signature="method#initializeStartButtonPosition#0;class#MainScreen#0" />
+            <element signature="method#initializeMusicButtonPosition#0;class#MainScreen#0" />
+            <element signature="method#initializeSoundButtonPosition#0;class#MainScreen#0" />
+            <element signature="method#initializeRestartButtonPosition#0;class#MainScreen#0" />
+            <element signature="method#getGameState#0;class#MainScreen#0" />
           </folding>
         </state>
       </provider>
