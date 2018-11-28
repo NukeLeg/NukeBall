@@ -62,6 +62,7 @@ public class PhysicalParameters {
 
     //region get/set
     public float getMass() {return mass;}
+    public Vector2 getPosition() {return gameObject.getPosition();}
     public Vector2 getSpeed() {return speed;}
     public Vector2 getAcceleration() {return acceleration;}
     public float getRotationSpeed() {return rotationSpeed;}
@@ -74,6 +75,7 @@ public class PhysicalParameters {
     public void modAcceleration(Vector2 acceleration) { if (acceleration != null) this.acceleration.add(acceleration);}
     public void modRotationSpeed(float rotationSpeed) { this.rotationSpeed = rotationSpeed; }
     public void modRotationAcceleration(float rotationAcceleration) { this.rotationAcceleration = rotationAcceleration; }
+    public void modPosition(Vector2 position){gameObject.modPosition(position);}
 
     public void setMass(float mass) {this.mass = mass;}
     public void setSpeed(Vector2 speed) {this.speed = speed;}
@@ -81,6 +83,7 @@ public class PhysicalParameters {
     public void setRotationSpeed(float rotationSpeed) {this.rotationSpeed = rotationSpeed;}
     public void setRotationAcceleration(float rotationAcceleration) {this.rotationAcceleration = rotationAcceleration;}
     public void setGameObject(GameObject gameObject) {this.gameObject = gameObject;}
+    public void setPosition(Vector2 position){gameObject.setPosition(position);}
 
     //endregion
 

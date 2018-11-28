@@ -1,5 +1,6 @@
 package com.sir.black.Tools.Character;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Fin;
@@ -26,6 +27,13 @@ public class PlanetDestroyer extends Character {
         initializePlanetDestroyer();
         refreshExternalDependenciesPlanetDestroyer();
         create(mass);
+    }
+    public PlanetDestroyer(Texture texture, Vector2 position, float radius, float mass, Color color) {
+        super(new CircleObject(texture, position, radius));
+        initializePlanetDestroyer();
+        refreshExternalDependenciesPlanetDestroyer();
+        create(mass);
+        this.setColor(color);
     }
     protected void initializePlanetDestroyer() {
     }

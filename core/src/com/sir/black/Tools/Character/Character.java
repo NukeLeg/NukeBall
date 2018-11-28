@@ -71,7 +71,12 @@ public class Character implements IBaseObject {
         create(gameObject, fraction);
         update();
     }
-
+    public  Character(GameObject gameObject, Behaviour behaviour){
+        initialize();
+        refreshExternalDependencies();
+        create(gameObject, behaviour);
+        update();
+    }
     public Character(GameObject gameObject) {
         initialize();
         refreshExternalDependencies();
@@ -102,6 +107,11 @@ public class Character implements IBaseObject {
     protected void create(GameObject gameObject, Fraction fraction) {
         this.gameObject = gameObject;
         this.fraction = fraction;
+        physicalParameters.setGameObject(gameObject);
+    }
+    protected void create(GameObject gameObject, Behaviour behaviour) {
+        this.gameObject = gameObject;
+        this.behaviour = behaviour;
         physicalParameters.setGameObject(gameObject);
     }
     protected void create(GameObject gameObject) {
@@ -175,7 +185,7 @@ public class Character implements IBaseObject {
 
     @Override
     public Vector2 getCurrentSize() { return gameObject.getCurrentSize(); }
-
+    ///region update
     @Override
     public void update() {
         updatePhysicalParameters();
@@ -187,9 +197,44 @@ public class Character implements IBaseObject {
         updateConduct(); // Обновлення стану обєкта(ПОЗИЦІЯ,ZiЧАС,КРУЧЕННЯ,РОЗШИРЕННЯ,КОЛІР)
         updateFraction(); // Обновлення анімації
         updateShaderRule(); // Обновити стан шейдера
-
+        behaviour.update(physicalParameters);
     }
-
+    protected void updatePhysicalParameters(){
+        if (physicalParameters != null) physicalParameters.update();
+    }
+    protected void updateGameObject(){
+        gameObject.update();
+    }
+    /**
+     * Обновлення жизняк персонажа
+     */
+    protected void updateStatus() { /*status.update(); checkLife();*/ }
+    /**
+     * Обновити стан обєкта
+     */
+    protected void updateCondition() { }
+    /**
+     * Обновлення стану обєкта(ПОЗИЦІЯ,ZiЧАС,КРУЧЕННЯ,РОЗШИРЕННЯ,КОЛІР,ЧАСТИНА ПРОМАЛЬОВКИ)
+     */
+    protected void updateConduct() { /*behaviour.update(condition, position, scale, color, rotation, null); */}
+    /**
+     * Обновлення анімації
+     */
+    protected void updateFraction() {
+        if (fraction != null) {
+            fraction.update();
+            gameObject.setSrcX(fraction.changeSrcX());
+            gameObject.setSrcY(fraction.changeSrcY());
+            gameObject.setSrcW(fraction.getWidth());
+            gameObject.setSrcH(fraction.getHeight());
+            gameObject.setWH(new Vector2(fraction.getWidth(), fraction.getHeight()));
+        }
+    }
+    /**
+     * Обновлення шейдера
+     */
+    protected void updateShaderRule() { /*shaderRule.update();*/ }
+    ///endregion
     @Override
     public void draw() { gameObject.draw(); }
 
@@ -259,41 +304,6 @@ public class Character implements IBaseObject {
     //region method
     public void rotatePlanetObject(float angle) { }
 
-    protected void updatePhysicalParameters(){
-        if (physicalParameters != null) physicalParameters.update();
-    }
-    protected void updateGameObject(){
-        gameObject.update();
-    }
-    /**
-     * Обновлення жизняк персонажа
-     */
-    protected void updateStatus() { /*status.update(); checkLife();*/ }
-    /**
-     * Обновити стан обєкта
-     */
-    protected void updateCondition() { }
-    /**
-     * Обновлення стану обєкта(ПОЗИЦІЯ,ZiЧАС,КРУЧЕННЯ,РОЗШИРЕННЯ,КОЛІР,ЧАСТИНА ПРОМАЛЬОВКИ)
-     */
-    protected void updateConduct() { /*behaviour.update(condition, position, scale, color, rotation, null); */}
-    /**
-     * Обновлення анімації
-     */
-    protected void updateFraction() {
-        if (fraction != null) {
-            fraction.update();
-            gameObject.setSrcX(fraction.changeSrcX());
-            gameObject.setSrcY(fraction.changeSrcY());
-            gameObject.setSrcW(fraction.getWidth());
-            gameObject.setSrcH(fraction.getHeight());
-            gameObject.setWH(new Vector2(fraction.getWidth(), fraction.getHeight()));
-        }
-    }
-    /**
-     * Обновлення шейдера
-     */
-    protected void updateShaderRule() { /*shaderRule.update();*/ }
 
     /**
      * Почати шейдер

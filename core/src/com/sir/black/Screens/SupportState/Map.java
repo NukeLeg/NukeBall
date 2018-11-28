@@ -48,7 +48,7 @@ public class Map implements IHaveMediator {
     protected void initialize(){
         characters = new java.util.LinkedList<Character>();
     }
-    protected void addNewCharacter(Character character){
+    public void addNewCharacter(Character character){
         characters.add(character);
     }
     protected void initializeLocation(){

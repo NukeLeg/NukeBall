@@ -10,19 +10,46 @@ import com.sir.black.Screens.GameState.GameState;
 import com.sir.black.Screens.MainScreen.MainScreen;
 import com.sir.black.Screens.MenuStateGeneral.MenuStateGeneral;
 import com.sir.black.Screens.State;
+import com.sir.black.Tools.Character.Behaviour.Behaviour;
+import com.sir.black.Tools.Character.Behaviour.HappyBall;
+import com.sir.black.Tools.Character.Character;
 import com.sir.black.Tools.Character.InitialObject.CircleObject;
 import com.sir.black.Tools.Character.InitialObject.GameObject;
+import com.sir.black.Tools.Character.PlanetDestroyer;
 import com.sir.black.Tools.Menu.Button;
 import com.sir.black.Tools.Menu.Menu;
+import com.sir.black.Screens.SupportState.Map;
 
 public class CongratulationsState extends MenuStateGeneral {
     public CongratulationsState(GameStateManager gameStateManager) {
         super(gameStateManager);
     }
     ///region initialize
+    @Override
     protected void initialize() {
         super.initialize();
         menu = new Menu(initializeButtons());
+        map = new Map();
+        CircleObject circleObject = new CircleObject(
+                Textures.circle,
+                new Vector2(Fin.WIDTH / 2,Fin.HEIGHT * 0.65f ),
+                30,
+                Fin.foreGroundButtonColor
+        );
+        map.addNewCharacter(
+                new Character(
+                        circleObject,
+                        new HappyBall(circleObject.getPosition())
+                )
+                /**new PlanetDestroyer(
+                        Textures.circle,
+                        new Vector2(Fin.HDWidth / 2, Fin.HDWidth / 2),
+                        400,
+                        1,
+                        Fin.foreGroundButtonColor
+                )**/
+        );
+
     }
 
     protected Button[] initializeButtons(){
@@ -103,5 +130,10 @@ public class CongratulationsState extends MenuStateGeneral {
             case 2 : gameStateManager.push(new CongratulationsState(gameStateManager)); break;
             case 3 : gameStateManager.push(new GameState(gameStateManager)); break;
         }
+    }
+
+    @Override
+    public void render() {
+        super.render();
     }
 }

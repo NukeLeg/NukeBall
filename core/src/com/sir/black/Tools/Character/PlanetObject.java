@@ -18,7 +18,7 @@ public class PlanetObject extends Character {
     /**
      * This is object, which the planet consists of
      * @param texture texture
-     * @param planetCenter Crnter of the planet, which contains this object
+     * @param planetCenter Center of the planet, which contains this object
      * @param angle angle in polar system
      * @param distance distance in polar system
      * @param radius game-in radius of circle object
