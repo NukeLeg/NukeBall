@@ -7,6 +7,7 @@ import com.sir.black.Data.Textures;
 import com.sir.black.Screens.GameState.GameState;
 import com.sir.black.Screens.State;
 import com.sir.black.Screens.FlashState.FlashState;
+import com.sir.black.Data.MusicRuler;
 
 /**
  * Головний клас гри
@@ -27,7 +28,7 @@ public class MainGame extends ApplicationAdapter {
 	 * Вся музика
 	 */
 	Song song; // Вся музика
-
+    MusicRuler musicRuler; //music
 	/**
 	 * Загальні події
 	 */
@@ -51,12 +52,13 @@ public class MainGame extends ApplicationAdapter {
 		fin = new Fin();
 		textures = new Textures();
 		song = new Song();
-
+        musicRuler = MusicRuler.initialize();
 		activity = new Activity();
 		gameStateManager = new GameStateManager();
 
 		state = new FlashState(gameStateManager); // Задати початковий скрін гри
 		gameStateManager.push(state); // встановлюємо перший екран
+		MusicRuler.play();
 	}
 
 	/**
@@ -70,7 +72,7 @@ public class MainGame extends ApplicationAdapter {
 	}
 
 	@Override
-	public void dispose () { textures.dispose(); song.dispose(); }
+	public void dispose () { textures.dispose(); song.dispose(); MusicRuler.dispose(); }
 	//endregion
 
 	//region internal

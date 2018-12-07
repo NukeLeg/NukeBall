@@ -244,7 +244,6 @@ public class InputControl implements IHaveMediator {
         updateLetter();
         updateNum();
         updateClicker();
-
         updateMediator();
     }
     //endregion

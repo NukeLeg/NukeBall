@@ -16,23 +16,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/MainGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Common/MainGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/CongratulationsState/CongratulationsState.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/CongratulationsState/CongratulationsState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/Behaviour/Behaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/Behaviour/Behaviour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/Physics/PhysicalParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/Physics/PhysicalParameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/PlanetDestroyer.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/PlanetDestroyer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameOver/GameOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameOver/GameOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MainScreen/MainScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MainScreen/MainScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MenuState/MenuState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MenuState/MenuStateMediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MenuStateGeneral/MenuStateGeneral.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/MenuStateGeneral/MenuStateGeneral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/InputControl$Inp.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/InputControl$Inp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/InputControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/InputControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Checkbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Menu/Checkbox.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/CongratulationsState/CongratulationsState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/CongratulationsState/CongratulationsState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuStateMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateMediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateGeneral.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateGeneral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,16 +74,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlanetDestroyer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java">
+      <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+            <state relative-caret-position="17">
+              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
               <folding>
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#1551#1552#0" expanded="true" />
-                <element signature="e#1584#1585#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#909#929#0" />
+                <element signature="method#initializeButtons#0;class#MainScreen#0" />
+                <element signature="method#MainScreen#1;class#MainScreen#0" />
+                <element signature="method#MainScreen#1;class#MainScreen#0" />
+                <element signature="method#MainScreen#3;class#MainScreen#0" />
+                <element signature="method#getGameState#0;class#MainScreen#0" />
               </folding>
             </state>
           </provider>
@@ -89,83 +95,95 @@
       <file leaf-file-name="CongratulationsState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/CongratulationsState/CongratulationsState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="66">
+              <caret line="120" column="25" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="51" />
               <folding>
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="method#initializeButtons#0;class#CongratulationsState#0" />
+                <element signature="method#CongratulationsState#1;class#CongratulationsState#0" />
                 <element signature="method#initializeBackButtonPosition#0;class#CongratulationsState#0" />
                 <element signature="method#initializeNextStageButtonPosition#0;class#CongratulationsState#0" />
-                <element signature="e#5101#5102#0" expanded="true" />
-                <element signature="e#5131#5132#0" expanded="true" />
+                <element signature="method#initializeBackButton#0;class#CongratulationsState#0" />
+                <element signature="method#initializeNextStageButton#0;class#CongratulationsState#0" />
+                <element signature="method#initializeMap#0;class#CongratulationsState#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HappyBall.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/HappyBall.java">
+      <file leaf-file-name="MenuStateGeneral.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateGeneral.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+            <state relative-caret-position="134">
+              <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="method#initialize#0;class#MenuStateGeneral#0" />
+                <element signature="method#initializeButtons#0;class#MenuStateGeneral#0" />
+                <element signature="method#initializeStartButtonPosition#0;class#MenuStateGeneral#0" />
+                <element signature="method#initializeMusicButtonPosition#0;class#MenuStateGeneral#0" />
+                <element signature="method#initializeSoundButtonPosition#0;class#MenuStateGeneral#0" />
+                <element signature="method#initializeStartButton#0;class#MenuStateGeneral#0" />
+                <element signature="method#initializeMusicButton#0;class#MenuStateGeneral#0" />
+                <element signature="method#initializeSoundButton#0;class#MenuStateGeneral#0" />
+                <element signature="method#reinitializeSoundAndMusicButtons#0;class#MenuStateGeneral#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Behaviour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java">
+      <file leaf-file-name="Textures.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+            <state>
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
+                <element signature="docComment;class#Textures#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
+      <file leaf-file-name="MusicRuler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/MusicRuler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+            <state relative-caret-position="151">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;class#Fin#0" />
+                <element signature="method#dispose#0;class#MusicRuler#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java">
+      <file leaf-file-name="Checkbox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-              <folding>
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="332">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
+      <file leaf-file-name="Button.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="209" column="7" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
+            <state relative-caret-position="332">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuStateMediator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateMediator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#1772#2100#0" />
-                <element signature="e#8983#9441#0" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,10 +202,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>radius</find>
-      <find>ini</find>
-      <find>circle</find>
-      <find>origin</find>
       <find>in</find>
       <find>touc</find>
       <find>radi</find>
@@ -214,6 +228,10 @@
       <find>mod</find>
       <find>getphy</find>
       <find>beha</find>
+      <find>game</find>
+      <find>Music</find>
+      <find>tex</find>
+      <find>mediator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2762,10 +2780,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameStateFolder/GameStateMediator.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainStateFolder/MainStateMediator.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainStateFolder/GeneralState.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GeneralStateFolder/GeneralState.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GeneralState/GeneralState.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/Mediator.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/IHaveMediator.java" />
@@ -2773,7 +2787,6 @@
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/IHaveMediator.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuStateMediator.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Interaction.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Gravity.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java" />
@@ -2783,11 +2796,9 @@
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/DrawTools.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalMovementGravity.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/FlashState/FlashState.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObjectWithMultipleTextures.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" />
@@ -2799,9 +2810,6 @@
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Buttons.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateGeneral.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java" />
@@ -2810,9 +2818,19 @@
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalParameters.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/CongratulationsState/CongratulationsState.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/HappyBall.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Music.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Sound.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateMediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/MusicRuler.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateGeneral.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/CongratulationsState/CongratulationsState.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java" />
       </list>
     </option>
   </component>
@@ -2829,7 +2847,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2850,6 +2868,13 @@
             </path>
             <path>
               <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="Texture" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="MenuElements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
               <item name="core" type="e9137016:NonAndroidModuleNode" />
             </path>
             <path>
@@ -2862,20 +2887,6 @@
               <item name="core" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="black" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="black" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="black" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
@@ -2890,7 +2901,7 @@
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="black" type="462c0819:PsiDirectoryNode" />
               <item name="Screens" type="462c0819:PsiDirectoryNode" />
-              <item name="Maps" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuStateGeneral" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
@@ -2898,23 +2909,6 @@
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="black" type="462c0819:PsiDirectoryNode" />
               <item name="Tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="black" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-              <item name="Character" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="black" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-              <item name="Character" type="462c0819:PsiDirectoryNode" />
-              <item name="Behaviour" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NukeBall" type="1abcf292:AndroidViewProjectNode" />
@@ -2935,8 +2929,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2951,18 +2945,21 @@
     <property name="sync.plugin.last.upgrade.timestamp" value="1538926315742" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture\Animation" />
+      <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sir.black.Screens.MenuStateGeneral" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sir.black.Tools.Special" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\I\do\III\SaveCode\Runner\core\src\com\sir\black\Tools\Character" />
       <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture" />
       <recent name="D:\I\do\III\SaveCode\Runner\core\src\com\sir\black\Tools\GO" />
       <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture\SinglePicture" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sir.black.Tools.Special" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture\Animation" />
-      <recent name="D:\I\do\III\SaveCode\Runner\android\assets\Texture" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3134,21 +3131,21 @@
       <window_info id="Build Variants" order="3" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.37458745" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3910891" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.504" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3910891" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49924356" weight="0.32838285" />
       <window_info id="Captures" order="4" sideWeight="0.49834985" weight="0.24962178" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49669966" visible="true" weight="0.22012103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49669966" visible="true" weight="0.22012103" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.31683168" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info id="Favorites" order="5" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Assistant" order="6" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -3175,7 +3172,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.37458745" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32744783" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Assistant" order="6" weight="0.3290469" />
       <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49924356" weight="0.32838285" />
@@ -3190,6 +3186,7 @@
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32744783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
     </layout-to-restore>
   </component>
@@ -3236,7 +3233,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -3245,114 +3242,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/util/EmptyStackException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/pauseSign.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/sir/black/AndroidLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/Fox.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/sir/black/desktop/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/arrow1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/hexahonal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1309">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/graphics/g2d/BitmapFont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="198" column="27" selection-start-line="198" selection-start-column="23" selection-end-line="198" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/graphics/g2d/SpriteBatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="167" column="18" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#defaultValuePlayState#0;class#GameState#0" />
-            <element signature="method#initializeButtons#0;class#GameState#0" />
-            <element signature="method#initializePauseButtonPosition#0;class#GameState#0" />
-            <element signature="docComment;method#update#0;class#GameState#0" />
-            <element signature="e#2105#2106#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
-            <element signature="docComment;method#eventListener#0;class#GameState#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Condition/Condition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
@@ -3385,33 +3274,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="123" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initialize#0;class#GameOver#0" />
-            <element signature="method#initializeButtons#0;class#GameOver#0" />
-            <element signature="method#initializeRestartButtonPosition#0;class#GameOver#0" />
-            <element signature="method#render#0;class#GameOver#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/assets/Texture/circle.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
-          <folding>
-            <element signature="docComment;class#Textures#0" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/Graphics.java">
@@ -3435,62 +3300,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/FlashState/FlashState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initializeStartButtonPosition#0;class#MainScreen#0" />
-            <element signature="method#initializeRestartButtonPosition#0;class#MainScreen#0" />
-            <element signature="e#4194#4195#0" expanded="true" />
-            <element signature="e#4233#4234#0" expanded="true" />
-            <element signature="method#getGameState#0;class#MainScreen#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MainGame#0" />
-            <element signature="docComment;field#fin#0;class#MainGame#0" />
-            <element signature="docComment;field#textures#0;class#MainGame#0" />
-            <element signature="docComment;field#song#0;class#MainGame#0" />
-            <element signature="docComment;field#activity#0;class#MainGame#0" />
-            <element signature="docComment;field#state#0;class#MainGame#0" />
-            <element signature="docComment;field#gameStateManager#0;class#MainGame#0" />
-            <element signature="docComment;method#create#0;class#MainGame#0" />
-            <element signature="docComment;method#render#0;class#MainGame#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3501,32 +3314,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateGeneral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="method#initializeMusicButtonPosition#0;class#MenuStateGeneral#0" />
-            <element signature="method#initializeSoundButtonPosition#0;class#MenuStateGeneral#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
-          <folding>
-            <element signature="method#update#0;class#Map#0" />
-            <element signature="e#1931#1932#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-            <element signature="method#updateCharacter#0;class#Map#0" />
-            <element signature="method#deleteCharacter#0;class#Map#0" />
-            <element signature="method#collisionCharacter#0;class#Map#0" />
-            <element signature="method#interaction#0;class#Map#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3548,22 +3339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="933">
           <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-          <folding>
-            <element signature="method#layerRadius#0;class#PlanetLocation#0" />
-            <element signature="method#updatePlanetDestroyer#0;class#PlanetLocation#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#update#0;class#State#0" />
-            <element signature="e#5002#5003#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3576,20 +3351,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="391">
           <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
-          <folding>
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="1224">
           <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3656,35 +3425,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="306">
           <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/CongratulationsState/CongratulationsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="method#initializeButtons#0;class#CongratulationsState#0" />
-            <element signature="method#initializeBackButtonPosition#0;class#CongratulationsState#0" />
-            <element signature="method#initializeNextStageButtonPosition#0;class#CongratulationsState#0" />
-            <element signature="e#5101#5102#0" expanded="true" />
-            <element signature="e#5131#5132#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="3230">
           <caret line="209" column="7" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
           <folding>
             <element signature="e#1772#2100#0" />
@@ -3695,10 +3443,262 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/HappyBall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        <state relative-caret-position="272">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/utils/Disposable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/SoundRuler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/Audio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/audio/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MainGame#0" />
+            <element signature="docComment;field#fin#0;class#MainGame#0" />
+            <element signature="docComment;field#textures#0;class#MainGame#0" />
+            <element signature="docComment;field#song#0;class#MainGame#0" />
+            <element signature="docComment;field#activity#0;class#MainGame#0" />
+            <element signature="docComment;field#state#0;class#MainGame#0" />
+            <element signature="docComment;field#gameStateManager#0;class#MainGame#0" />
+            <element signature="docComment;method#create#0;class#MainGame#0" />
+            <element signature="docComment;method#render#0;class#MainGame#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="245" column="24" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initializeButtons#0;class#GameState#0" />
+            <element signature="method#initializePauseButtonPosition#0;class#GameState#0" />
+            <element signature="docComment;method#update#0;class#GameState#0" />
+            <element signature="e#2105#2106#0" expanded="true" />
+            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="docComment;method#eventListener#0;class#GameState#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#update#0;class#State#0" />
+            <element signature="e#5002#5003#0" expanded="true" />
+            <element signature="e#5033#5034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/FlashState/FlashState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameOver/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="method#GameOver#1;class#GameOver#0" />
+            <element signature="e#1038#1058#0" />
+            <element signature="method#initialize#0;class#GameOver#0" />
+            <element signature="method#initializeButtons#0;class#GameOver#0" />
+            <element signature="method#initializeBackButtonPosition#0;class#GameOver#0" />
+            <element signature="method#initializeRestartButtonPosition#0;class#GameOver#0" />
+            <element signature="method#initializeBackButton#0;class#GameOver#0" />
+            <element signature="method#initializeRestartButton#0;class#GameOver#0" />
+            <element signature="method#render#0;class#GameOver#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/MusicRuler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#dispose#0;class#MusicRuler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/CongratulationsState/CongratulationsState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="120" column="25" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="51" />
+          <folding>
+            <element signature="method#CongratulationsState#1;class#CongratulationsState#0" />
+            <element signature="method#initializeBackButtonPosition#0;class#CongratulationsState#0" />
+            <element signature="method#initializeNextStageButtonPosition#0;class#CongratulationsState#0" />
+            <element signature="method#initializeBackButton#0;class#CongratulationsState#0" />
+            <element signature="method#initializeNextStageButton#0;class#CongratulationsState#0" />
+            <element signature="method#initializeMap#0;class#CongratulationsState#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MainScreen/MainScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#909#929#0" />
+            <element signature="method#initializeButtons#0;class#MainScreen#0" />
+            <element signature="method#MainScreen#1;class#MainScreen#0" />
+            <element signature="method#MainScreen#1;class#MainScreen#0" />
+            <element signature="method#MainScreen#3;class#MainScreen#0" />
+            <element signature="method#getGameState#0;class#MainScreen#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/musicSign.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/Texture/MenuElements/musicIndicationSign.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Textures#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuStateGeneral/MenuStateGeneral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="method#initialize#0;class#MenuStateGeneral#0" />
+            <element signature="method#initializeButtons#0;class#MenuStateGeneral#0" />
+            <element signature="method#initializeStartButtonPosition#0;class#MenuStateGeneral#0" />
+            <element signature="method#initializeMusicButtonPosition#0;class#MenuStateGeneral#0" />
+            <element signature="method#initializeSoundButtonPosition#0;class#MenuStateGeneral#0" />
+            <element signature="method#initializeStartButton#0;class#MenuStateGeneral#0" />
+            <element signature="method#initializeMusicButton#0;class#MenuStateGeneral#0" />
+            <element signature="method#initializeSoundButton#0;class#MenuStateGeneral#0" />
+            <element signature="method#reinitializeSoundAndMusicButtons#0;class#MenuStateGeneral#0" />
           </folding>
         </state>
       </provider>

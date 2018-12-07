@@ -12,10 +12,12 @@ import com.sir.black.Screens.CongratulationsState.CongratulationsState;
 import com.sir.black.Screens.GameState.GameState;
 import com.sir.black.Screens.MainScreen.MainScreen;
 import com.sir.black.Screens.MenuStateGeneral.MenuStateGeneral;
+import com.sir.black.Screens.MenuStateGeneral.MenuStateMediator;
 import com.sir.black.Screens.State;
 import com.sir.black.Tools.Character.InitialObject.CircleObject;
 import com.sir.black.Tools.Character.InitialObject.GameObject;
 import com.sir.black.Tools.Menu.Button;
+import com.sir.black.Tools.Menu.Checkbox;
 import com.sir.black.Tools.Menu.Menu;
 
 public class GameOver extends MenuStateGeneral {
@@ -23,6 +25,11 @@ public class GameOver extends MenuStateGeneral {
     public GameOver(GameStateManager gameStateManager) {
         super(gameStateManager);
     }
+
+    public GameOver(GameStateManager gameStateManager, Checkbox[] checkboxes) {
+        super(gameStateManager, checkboxes);
+    }
+
     ///region initialize
     @Override
     protected void initialize() {
@@ -32,54 +39,11 @@ public class GameOver extends MenuStateGeneral {
         menu = new Menu(initializeButtons());
     }
     protected Button[] initializeButtons(){
-        Button[] buttons = new Button[4];
-        Texture[] textures = new Texture[]{Textures.hexahonal, Textures.backToMainScreen};
-        Vector2[] positions = initializeBackButtonPosition(textures, 2);
-        buttons[0] = new Button(
-                new CircleObject[]{
-                        new CircleObject(textures[0], positions[0], 2,
-                                Fin.backGroundButtonColor,0.0f),
-                        new CircleObject(textures[1], positions[1], 1,
-                                Fin.foreGroundButtonColor, 1)
-                }
-        );
-
-
-        textures = new Texture[]{Textures.hexahonal, Textures.musicSign, Textures.musicIndicationSign};
-        positions = initializeMusicButtonPosition(textures, 1);
-        buttons[1] = new Button(
-                new GameObject[]{
-                        new GameObject(textures[0], positions[0], 1,
-                                Fin.backGroundButtonColor,0.0f),
-                        new GameObject(textures[1], positions[1], 1,
-                                Fin.foreGroundButtonColor, 1),
-                        new GameObject(textures[2], positions[2], 1,
-                                Fin.foreGroundButtonColor, 1),
-
-                }
-        );
-        textures = new Texture[]{Textures.hexahonal, Textures.soundSign};
-        positions = initializeSoundButtonPosition(textures, 1);
-        buttons[2] = new Button(
-                new GameObject[]{
-                        new GameObject(textures[0], positions[0], 1,
-                                Fin.backGroundButtonColor,0.0f),
-                        new GameObject(textures[1], positions[1], 1,
-                                Fin.foreGroundButtonColor, 1)
-                }
-        );
-
-        textures = new Texture[]{Textures.hexahonal, Textures.restartArrow};
-        positions = initializeRestartButtonPosition(textures, 2);
-        buttons[3] = new Button(
-                new CircleObject[]{
-                        new CircleObject(textures[0], positions[0], 2,
-                                Fin.backGroundButtonColor,0.0f),
-                        new CircleObject(textures[1], positions[1], 2,
-                                Fin.foreGroundButtonColor, 1)
-                }
-        );
-
+        Button [] buttons = new Button[4];
+        buttons[0] = initializeBackButton();
+        buttons[1] = initializeMusicButton();
+        buttons[2] = initializeSoundButton();
+        buttons[3] = initializeRestartButton();
         return buttons;
     }
     protected Vector2 [] initializeBackButtonPosition(Texture [] textures, float scale){
@@ -97,6 +61,31 @@ public class GameOver extends MenuStateGeneral {
             positions[i] = new Vector2(Fin.HDWidth / 2 + 250, Fin.HDHeight * 0.4f);
         }
         return positions;
+    }
+    protected Button initializeBackButton(){
+        Texture[] textures = new Texture[]{Textures.hexahonal, Textures.backToMainScreen};
+        Vector2[] positions = initializeBackButtonPosition(textures, 2);
+        return new Button(
+                new CircleObject[]{
+                        new CircleObject(textures[0], positions[0], 2,
+                                Fin.backGroundButtonColor,0.0f),
+                        new CircleObject(textures[1], positions[1], 1,
+                                Fin.foreGroundButtonColor, 1)
+                }
+        );
+    }
+    protected Button initializeRestartButton(){
+
+        Texture [] textures = new Texture[]{Textures.hexahonal, Textures.restartArrow};
+        Vector2 [] positions = initializeRestartButtonPosition(textures, 2);
+        return new Button(
+                new CircleObject[]{
+                        new CircleObject(textures[0], positions[0], 2,
+                                Fin.backGroundButtonColor,0.0f),
+                        new CircleObject(textures[1], positions[1], 2,
+                                Fin.foreGroundButtonColor, 1)
+                }
+        );
     }
     ///endregion
     @Override

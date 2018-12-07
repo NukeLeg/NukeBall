@@ -32,11 +32,16 @@ public class Checkbox extends Button {
         this.checkSymbol = checkSymbol;
         setCheck(isCheck);
     }
+    public Checkbox(GameObject[] element, GameObject checkSymbol, boolean isCheck) {
+        super(element);
+        this.checkSymbol = checkSymbol;
+        setCheck(isCheck);
+    }
 
     /**
      * Тригер так/ні з незаданими кнопками і картинкою показника того чи натиснуто
      */
-    public Checkbox() { this(null, null, false); }
+    //public Checkbox() { this(null, null, false); }
 
     @Override
     protected void defaultValue() { super.defaultValue(); }
@@ -82,8 +87,12 @@ public class Checkbox extends Button {
     public void checker(boolean goForth, Vector2 touch) {
         if (checkSymbol != null) checkSymbol.update();
         for (GameObject elementMenu : elementMenu){ if (elementMenu != null) elementMenu.update(); }
-        for (GameObject elementMenu : elementMenu){
-            if (elementMenu.inSide(goForth, touch)){
+        boolean f = false; //boolean flag for detection of press
+        for (GameObject elementMenu : elementMenu) {
+            if (elementMenu.inSide(goForth, touch)) {
+                f = true;
+            }
+            if (f) {
                 switchCheck();
             }
         }
