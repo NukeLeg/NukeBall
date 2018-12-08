@@ -18,7 +18,9 @@ import com.sir.black.Tools.Special.SpecialMath;
 public class PlanetLocation extends Map {
     //region fields
     private int numberOfLayers;
+    private int numberOfLayersCurrent;
     protected PlanetDestroyer planetDestroyer;
+    protected PlanetObject core;
     protected Vector2 planetCenter;
     //endregion
 
@@ -29,23 +31,50 @@ public class PlanetLocation extends Map {
     }
     protected void refreshExternalDependenciesPlanetLocation() {
         this.planetCenter = new Vector2(Fin.planetCenter);
-        this.numberOfLayers = Fin.numberOfLayers;
+        this.numberOfLayersCurrent = this.numberOfLayers = Fin.numberOfLayers;
     }
     protected void initializePlanetLocation(){
-        initializeCirclesOfPlanet();
+        initializePlanet();
         initializePlanetDestroyer();
     }
     /**
      * creates circles which the planet consists of
      * defines its positions
      */
+    protected void initializePlanet() { // FIXME: 18.11.2018 put normal data references
+        if (numberOfLayersCurrent < 1){
+            this.addNewCharacter(new PlanetObject(Textures.circle, planetCenter, Fin.CentralCircleRadius));
+        }
+        else {
+            float layerRadius = layerRadius(Fin.CentralCircleRadius, numberOfLayersCurrent, Fin.defaultCircleRadius);
+            this.core = new PlanetObject(Textures.circle, planetCenter, layerRadius * 1.02f, -1);
+            this.addNewCharacter(core);
+
+            int numberOfCirclesPerLayer = (int) (Math.PI * layerRadius / Fin.defaultCircleRadius);
+            float deltaAngle = (float) (2 * Math.PI / numberOfCirclesPerLayer);
+            float angle = 0.0f;
+            for (int j = 0; j < numberOfCirclesPerLayer; j++) {
+                this.addNewCharacter(
+                        new PlanetObject(Textures.circle,
+                                planetCenter,
+                                angle,
+                                layerRadius,
+                                Fin.defaultCircleRadius,
+                                //new Color(227, 126, 158, 1)
+                                Color.CYAN
+                        )
+                );
+                angle += deltaAngle;
+            }
+        }
+    }
     protected void initializeCirclesOfPlanet() { // FIXME: 18.11.2018 put normal data references
-        this.addNewCharacter(new PlanetObject(Textures.circle, planetCenter, Fin.CentralCircleRadius));
+
         for(int i = 1; i <= numberOfLayers; i++){
             float layerRadius = layerRadius(Fin.CentralCircleRadius, i, Fin.defaultCircleRadius);
             int numberOfCirclesPerLayer = (int)( Math.PI * layerRadius / Fin.defaultCircleRadius);
             float deltaAngle = (float) (2 * Math.PI / numberOfCirclesPerLayer);
-            float angle = 0.0f; 
+            float angle = 0.0f;
             for(int j = 0; j < numberOfCirclesPerLayer; j++){
                 this.addNewCharacter(
                         new PlanetObject(Textures.circle,
@@ -58,13 +87,6 @@ public class PlanetLocation extends Map {
                 angle += deltaAngle;
             }
         }
-        /*characters.get(10).setColor(new Color(1,1,0,1));
-        characters.get(112).setColor(new Color(0,1,1,1));
-        characters.get(104).setColor(new Color(0,1,1,1));
-        characters.get(134).setColor(new Color(0,1,1,1));
-        characters.get(112).setColor(new Color(0,1,1,1));
-        characters.get(101).setColor(new Color(1,0.5f,1,1));
-        characters.get(45).setColor(new Color(1,0,1,1));*/
     }
     private float layerRadius(float centralRadius, int numberOfLayer, float defaultRadius){
         switch (numberOfLayer){
@@ -73,7 +95,7 @@ public class PlanetLocation extends Map {
         }
     }
     protected void initializePlanetDestroyer(){
-        planetDestroyer = PlanetDestroyer.createDestroyer(Textures.circle, Fin.defaultCircleRadius);
+        planetDestroyer = PlanetDestroyer.createDestroyer();
         addNewCharacter(planetDestroyer);
     }
     //endregion
@@ -112,22 +134,26 @@ public class PlanetLocation extends Map {
         updateAllBalls();
     }
     protected void updatePlanetDestroyer(){
-        for(int i = 0; i < characters.size() - 1; i++){
+        for(int i = 0; i < characters.size(); i++){
+            if (characters.get(i) == planetDestroyer){
+                continue;
+            }
             if (Interaction.BallByBall(planetDestroyer.getPosition(), planetDestroyer.getRadius(),
                     characters.get(i).getPosition(), characters.get(i).getRadius())){
-                if (characters.get(i).getColor().r == 1
-                        && characters.get(i).getColor().g == 1
-                        && characters.get(i).getColor().b == 0
-                        && characters.get(i).getColor().a == 1
-                        ) {
+                if (characters.get(i) == core){
+                    if (characters.size() == 2){
+                        core.readyToDelete();
+                        numberOfLayersCurrent--;
+                        initializePlanet();
+                    }
+                }
+                else {
                     characters.get(i).readyToDelete();
                 }
-                else
-                    characters.get(i).setColor(new Color(1,1,0,1));
                 planetDestroyer.interaction();
             }
         }
     }
-    protected void updateAllBalls(){ }
+    protected void updateAllBalls() { }
     //endregion
 }

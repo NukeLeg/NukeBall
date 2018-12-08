@@ -57,6 +57,37 @@ public class CircleObject extends GameObject {
      * @param texture texture
      * @param position position
      * @param radius radius
+     * @param layer
+     */
+    public CircleObject(Texture texture, Vector2 position, float radius, float layer, Color color) {
+        initialize(); // Значення за замовчуванням
+        refreshExternalDependencies(); // Взято з архіва
+        create(texture, position, new Vector2(), new Vector2(texture.getWidth(), texture.getHeight()),
+                new Vector2(2 * radius / texture.getWidth(),2 * radius / texture.getHeight()),
+                0, 0, 0, texture.getWidth(), texture.getHeight(),
+                false,false, color, layer, radius);
+    }
+    /**
+     * constructor with game-in radius
+     * @param texture texture
+     * @param position position
+     * @param radius radius
+     * @param layer
+     */
+    public CircleObject(Texture texture, Vector2 position, float radius, float layer) {
+        initialize(); // Значення за замовчуванням
+        refreshExternalDependencies(); // Взято з архіва
+        create(texture, position, new Vector2(), new Vector2(texture.getWidth(), texture.getHeight()),
+                new Vector2(2 * radius / texture.getWidth(),2 * radius / texture.getHeight()),
+                0, 0, 0, texture.getWidth(), texture.getHeight(),
+                false,false, new Color(63/256.0f,63/256.0f,79/256.0f,1), layer, radius);
+    }
+
+    /**
+     * constructor with game-in radius
+     * @param texture texture
+     * @param position position
+     * @param radius radius
      */
     public CircleObject(Texture texture, Vector2 position, float radius) {
         initialize(); // Значення за замовчуванням

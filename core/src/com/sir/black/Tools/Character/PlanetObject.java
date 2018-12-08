@@ -1,5 +1,6 @@
 package com.sir.black.Tools.Character;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Vector2;
 import com.sir.black.Data.Fin;
@@ -25,6 +26,23 @@ public class PlanetObject extends Character {
      * @param distance distance in polar system
      * @param radius game-in radius of circle object
      */
+    public PlanetObject (Texture texture, Vector2 planetCenter, float angle, float distance, float radius, Color color){
+        super(new CircleObject(texture,
+                new Vector2(planetCenter.x + (float)(distance * Math.cos(angle)),
+                        planetCenter.y + (float) (distance * Math.sin(angle))),
+                radius, 0, color));
+        setDistance(distance);
+        setAngle(angle);
+        refreshExternalDependencies();
+    }
+    /**
+     * This is object, which the planet consists of
+     * @param texture texture
+     * @param planetCenter Crnter of the planet, which contains this object
+     * @param angle angle in polar system
+     * @param distance distance in polar system
+     * @param radius game-in radius of circle object
+     */
     public PlanetObject (Texture texture, Vector2 planetCenter, float angle, float distance, float radius){
         super(new CircleObject(texture,
                 new Vector2(planetCenter.x + (float)(distance * Math.cos(angle)),
@@ -35,6 +53,9 @@ public class PlanetObject extends Character {
         refreshExternalDependencies();
     }
 
+    public PlanetObject(Texture texture, Vector2 position, float radius, float layer) {
+        super(new CircleObject(texture, position, radius, layer));
+    }
     /**
      * constructor for planetObject
      * @param texture texture

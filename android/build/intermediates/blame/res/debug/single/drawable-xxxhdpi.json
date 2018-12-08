@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\I\\do\\III\\SaveCode\\Runner\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_launcher.png",
-        "source": "D:\\I\\do\\III\\SaveCode\\Runner\\android\\res\\drawable-xxxhdpi\\ic_launcher.png"
+        "merged": "/home/noone/I/do/III/SaveCode/Runner/android/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_launcher.png",
+        "source": "/home/noone/I/do/III/SaveCode/Runner/android/res/drawable-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/noone/I/do/III/SaveCode/Runner/D:\\I\\do\\III\\SaveCode\\Runner\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_launcher.png",
+        "source": "/home/noone/I/do/III/SaveCode/Runner/D:\\I\\do\\III\\SaveCode\\Runner\\android\\res\\drawable-xxxhdpi\\ic_launcher.png"
     }
 ]

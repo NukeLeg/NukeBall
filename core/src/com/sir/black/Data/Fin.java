@@ -180,7 +180,7 @@ public  class Fin {
     public static float accelerationOfGravity = -0.25f; // gravity
     public static float jumpSpeed = 11; // vertical speed ball after hitting
 
-    public static int numberOfLayers = 7;
+    public static int numberOfLayers = 2;
 
     public static float defaultMass = 1;
 

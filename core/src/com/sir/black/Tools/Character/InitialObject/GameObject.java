@@ -304,7 +304,9 @@ public class GameObject implements IBaseObject {
         this.srcH = srcH;
         this.flipX = flipX;
         this.flipY = flipY;
-        this.color.r = color.r; this.color.g = color.g; this.color.b = color.b; this.color.a = color.a;
+        if (color!=null)
+            this.color = color;
+        //this.color.r = color.r; this.color.g = color.g; this.color.b = color.b; this.color.a = color.a;
         this.layer = layer;
     }
     //endregion
