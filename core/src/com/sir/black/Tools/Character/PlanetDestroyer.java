@@ -9,8 +9,8 @@ import com.sir.black.Tools.Character.Physics.PhysicalMovementGravity;
 
 public class PlanetDestroyer extends Character {
     //region static
-    public static PlanetDestroyer createDestroyer(){
-        return new PlanetDestroyer(Textures.circle, new Vector2(Fin.WIDTH / 2.0f, Fin.HEIGHT * 0.7f), Fin.defaultCircleRadius, 1);
+    public static PlanetDestroyer createDestroyer(float distance){
+        return new PlanetDestroyer(Textures.circle, new Vector2(Fin.planetCenter.x, Fin.planetCenter.y + distance), Fin.defaultCircleRadius, 1);
     }
     public static PlanetDestroyer createDestroyer(Texture texture, float radius){
         return new PlanetDestroyer(texture, new Vector2(Fin.WIDTH / 2.0f, Fin.HEIGHT * 0.7f), radius, 1);

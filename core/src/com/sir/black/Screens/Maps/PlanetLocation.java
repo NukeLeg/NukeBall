@@ -54,14 +54,14 @@ public class PlanetLocation extends Map {
             float deltaAngle = (float) (2 * Math.PI / numberOfCirclesPerLayer);
             float angle = 0.0f;
             for (int j = 0; j < numberOfCirclesPerLayer; j++) {
+                Color color = new Color(Color.CYAN);//new Color(227, 126, 158, 1);
                 this.addNewCharacter(
                         new PlanetObject(Textures.circle,
                                 planetCenter,
                                 angle,
                                 layerRadius,
                                 Fin.defaultCircleRadius,
-                                //new Color(227, 126, 158, 1)
-                                Color.CYAN
+                                color
                         )
                 );
                 angle += deltaAngle;
@@ -95,7 +95,8 @@ public class PlanetLocation extends Map {
         }
     }
     protected void initializePlanetDestroyer(){
-        planetDestroyer = PlanetDestroyer.createDestroyer();
+        float layerRadius = layerRadius(Fin.CentralCircleRadius, numberOfLayersCurrent + 6, Fin.defaultCircleRadius);
+        planetDestroyer = PlanetDestroyer.createDestroyer(layerRadius);
         addNewCharacter(planetDestroyer);
     }
     //endregion
@@ -105,6 +106,7 @@ public class PlanetLocation extends Map {
     public float getSpinAngle(){
         return planetDestroyer.getSpinAngle();
     }
+    public int getNumberOfLayersCurrent() { return numberOfLayersCurrent; }
     //endregion
 
     public void rotatePlanet(Vector2 mousePositionRevert, Vector2 coordinateDeltaVector){

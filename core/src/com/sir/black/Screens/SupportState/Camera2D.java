@@ -75,6 +75,9 @@ public class Camera2D implements IHaveMediator {
             rotationAngleUpdate();
         }
     }
+    public void setZoom(int numberOfLayersCurrent){
+        //getCamera().zoom = 1 + numberOfLayersCurrent * 0.0625f;
+    }
 
     public void update(){
         camera.update();

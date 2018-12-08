@@ -173,7 +173,7 @@ public  class Fin {
     /**
      * where centra circle should be drawn
      */
-    public static Vector2 planetCenter = new Vector2(WIDTH / 2, -100);
+    public static Vector2 planetCenter = new Vector2(WIDTH / 2, 0);
     /**
      * number of planet layers
      */

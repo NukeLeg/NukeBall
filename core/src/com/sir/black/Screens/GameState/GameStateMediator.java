@@ -49,18 +49,11 @@ public class GameStateMediator implements Mediator {
         if (sender instanceof PlanetLocation) reactMap((PlanetLocation) sender);
     }
 
-    public void reactInputControl(InputControl inputControl) { // FIXME: 18.11.2018 spin ball and camera, not the Earth
+    public void reactInputControl(InputControl inputControl) {
         if (map instanceof PlanetLocation && inputControl.isTouched()) {
             float angle = calculateRotation(inputControl.getMousePositionRevert(), inputControl.getCoordinateDeltaVector());
             boolean isTouched = inputControl.isTouched();
             ((PlanetLocation) map).rotateBall(angle, isTouched);
-
-            //camera2D.setRotationOfWorld(angle, ((PlanetLocation) map).getPlanetCenter());
-
-            //((PlanetLocation) map).rotatePlanet(
-            //        inputControl.getMousePositionRevert(),
-            //        inputControl.getCoordinateDeltaVector());
-            //camera2D.getCamera().rotate(1, /*Fin.planetCenter.x*/0, 0, 1);//.rotate(1);
         }
     }
     protected float calculateRotation(Vector2 mousePositionRevert, Vector2 coordinateDeltaVector){
@@ -74,6 +67,7 @@ public class GameStateMediator implements Mediator {
     public void reactMap(PlanetLocation planetLocation) {
         float angle = planetLocation.getSpinAngle();
         camera2D.setRotationOfWorld(angle,((PlanetLocation) map).getPlanetCenter());
+        camera2D.setZoom(((PlanetLocation)map).getNumberOfLayersCurrent());
     }
 
     public void reactCamera2D(Camera2D camera2D) {

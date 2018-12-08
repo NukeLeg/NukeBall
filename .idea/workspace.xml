@@ -11,131 +11,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_1_9_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_1_9_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_backend_android_1_9_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_backend_android_1_9_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_1_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_1_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_headless_1_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_headless_1_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_lwjgl_1_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_backend_lwjgl_1_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_1_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_1_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_platform_1_9_8_natives_desktop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_freetype_platform_1_9_8_natives_desktop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_platform_1_9_8_natives_desktop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_platform_1_9_8_natives_desktop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_tools_1_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gdx_tools_1_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jinput_2_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jinput_2_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jinput_platform_2_0_5_natives_linux.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jinput_platform_2_0_5_natives_linux.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jinput_platform_2_0_5_natives_osx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jinput_platform_2_0_5_natives_osx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jinput_platform_2_0_5_natives_windows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jinput_platform_2_0_5_natives_windows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jlayer_1_0_1_gdx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jlayer_1_0_1_gdx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jorbis_0_0_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jorbis_0_0_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jutils_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jutils_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_platform_2_9_2_natives_linux.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_platform_2_9_2_natives_linux.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_platform_2_9_2_natives_osx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_platform_2_9_2_natives_osx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_platform_2_9_2_natives_windows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_platform_2_9_2_natives_windows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_util_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lwjgl_util_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/core_core_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/core_core_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/desktop_desktop_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Runner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Font/TimeNewRoman32.fnt" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Font/TimeNewRoman32.fnt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Font/TimeNewRoman60.fnt" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Font/TimeNewRoman60.fnt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/source/r/debug/com/sir/black/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/source/r/debug/com/sir/black/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Font/TimeNewRoman32.fnt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Font/TimeNewRoman32.fnt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Font/TimeNewRoman60.fnt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Font/TimeNewRoman60.fnt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/31/6356057C36CEC8C942566213B72D0B7769E5C1" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/31/6356057C36CEC8C942566213B72D0B7769E5C1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9A/D5CB5EF6C907C4469ED32B6AAB70AAAE41AE42" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9A/D5CB5EF6C907C4469ED32B6AAB70AAAE41AE42" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/index" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/jack/debug/ecj-options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/jack/debug/ecj-options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Fin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Data/Fin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameState/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameState/GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameState/GameStateMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/GameState/GameStateMediator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/Maps/PlanetLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/Maps/PlanetLocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/CircleObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/InitialObject/GameObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/Physics/PhysicalMovementGravity.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/Physics/PhysicalMovementGravity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/Camera2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Screens/SupportState/Camera2D.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/PlanetDestroyer.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/PlanetDestroyer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/PlanetObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/main/com/sir/black/Tools/Character/PlanetObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/GameStateManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Common/MainGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Data/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Data/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Data/Textures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/IHaveMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/IHaveMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/Mediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuStateMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuStateMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/DrawTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/DrawTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/InputControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/LocalCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/LocalCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/ScreenParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/ScreenParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Behaviour/Behaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/CameraControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Condition/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Condition/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Fraction/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/IBaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/IBaseObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/LayerRuler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalMovementGravity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalMovementGravity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Physics/PhysicalParameters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Shader/ShaderRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Shader/ShaderRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/Status/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Checkbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Slider.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Slider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Menu/Switch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Checker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Dimension2.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Dimension2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Interaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Interaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/KeyJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/KeyJump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/SpecialMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/SpecialMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Transition.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Transition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Vector4.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/Vector4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/ZeroFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/sir/black/Tools/Special/ZeroFun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/desktop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/html/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/com/sir/black/GdxDefinition.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/sir/black/GdxDefinition.gwt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/com/sir/black/GdxDefinitionSuperdev.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/sir/black/GdxDefinitionSuperdev.gwt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/com/sir/black/client/HtmlLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/sir/black/client/HtmlLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -158,36 +48,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlanetLocation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlanetLocation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="467">
+              <caret line="108" column="75" selection-start-line="108" selection-start-column="75" selection-end-line="108" selection-end-column="75" />
               <folding>
                 <element signature="docComment;class#PlanetLocation#0" />
                 <element signature="method#PlanetLocation#0;class#PlanetLocation#0" />
                 <element signature="method#initializePlanetLocation#0;class#PlanetLocation#0" />
                 <element signature="docComment;method#initializeCirclesOfPlanet#0;class#PlanetLocation#0" />
+                <element signature="method#initializeCirclesOfPlanet#0;class#PlanetLocation#0" />
                 <element signature="method#layerRadius#0;class#PlanetLocation#0" />
-                <element signature="e#3204#3224#0" />
                 <element signature="method#getPlanetCenter#0;class#PlanetLocation#0" />
-                <element signature="e#4157#4158#0" expanded="true" />
-                <element signature="e#4210#4211#0" expanded="true" />
                 <element signature="method#rotatePlanet#0;class#PlanetLocation#0" />
                 <element signature="method#rotatePlanet#1;class#PlanetLocation#0" />
                 <element signature="method#rotateBall#0;class#PlanetLocation#0" />
                 <element signature="docComment;method#update#0;class#PlanetLocation#0" />
                 <element signature="method#update#0;class#PlanetLocation#0" />
+                <element signature="method#updatePlanetDestroyer#0;class#PlanetLocation#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fin.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+              <folding>
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
-              <caret line="182" column="36" selection-start-line="182" selection-start-column="36" selection-end-line="182" selection-end-column="36" />
+              <caret line="182" column="39" selection-start-line="182" selection-start-column="39" selection-end-line="182" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -195,39 +97,44 @@
       <file leaf-file-name="PlanetObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="360">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="docComment;method#PlanetObject#0;class#PlanetObject#0" />
                 <element signature="docComment;method#PlanetObject#0;class#PlanetObject#0" />
                 <element signature="docComment;method#PlanetObject#1;class#PlanetObject#0" />
+                <element signature="e#1696#1697#0" expanded="true" />
+                <element signature="e#1756#1757#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CircleObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java">
+      <file leaf-file-name="Camera2D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+            <state relative-caret-position="212">
+              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
               <folding>
-                <element signature="docComment;field#circleRadius#0;class#CircleObject#0" />
-                <element signature="docComment;method#CircleObject#0;class#CircleObject#0" />
-                <element signature="docComment;method#CircleObject#1;class#CircleObject#0" />
-                <element signature="method#CircleObject#1;class#CircleObject#0" />
-                <element signature="docComment;method#CircleObject#2;class#CircleObject#0" />
-                <element signature="docComment;method#CircleObject#3;class#CircleObject#0" />
+                <element signature="docComment;class#Camera2D#0" />
+                <element signature="e#495#510#0" />
+                <element signature="docComment;field#camera#0;class#Camera2D#0" />
+                <element signature="docComment;field#touchPos#0;class#Camera2D#0" />
+                <element signature="e#815#833#0" />
+                <element signature="method#Camera2D#0;class#Camera2D#0" />
+                <element signature="e#1276#1292#0" />
+                <element signature="method#getCamera#0;class#Camera2D#0" />
+                <element signature="method#getTouchPos#0;class#Camera2D#0" />
+                <element signature="method#getTouchPosV2#0;class#Camera2D#0" />
+                <element signature="method#getMediator#0;class#Camera2D#0" />
+                <element signature="method#setMediator#0;class#Camera2D#0" />
+                <element signature="docComment;method#setCameraMenu#0;class#Camera2D#0" />
+                <element signature="method#setCameraMenu#0;class#Camera2D#0" />
+                <element signature="method#setTouchPos#0;class#Camera2D#0" />
+                <element signature="method#setRotationOfWorld#0;class#Camera2D#0" />
+                <element signature="method#update#0;class#Camera2D#0" />
+                <element signature="method#mediatorUpdate#0;class#Camera2D#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="308" column="10" selection-start-line="308" selection-start-column="10" selection-end-line="308" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -235,11 +142,9 @@
       <file leaf-file-name="PlanetDestroyer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
-                <element signature="e#340#355#0" />
-                <element signature="method#createDestroyer#0;class#PlanetDestroyer#0" />
                 <element signature="method#createDestroyer#0;class#PlanetDestroyer#0" />
                 <element signature="e#571#586#0" />
                 <element signature="e#642#662#0" />
@@ -251,8 +156,8 @@
       <file leaf-file-name="GameState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -2807,13 +2712,15 @@
       <list>
         <option value="$PROJECT_DIR$/android/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java" />
-        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java" />
         <option value="$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java" />
+        <option value="$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java" />
       </list>
     </option>
   </component>
@@ -3049,7 +2956,7 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980423" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17462803" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.37540984" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="right" id="Gradle" order="3" />
@@ -3110,20 +3017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="e#340#355#0" />
-            <element signature="method#createDestroyer#0;class#PlanetDestroyer#0" />
-            <element signature="method#createDestroyer#0;class#PlanetDestroyer#0" />
-            <element signature="e#571#586#0" />
-            <element signature="e#642#662#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/graphics/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -3131,35 +3024,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="308" column="10" selection-start-line="308" selection-start-column="10" selection-end-line="308" selection-end-column="10" />
+        <state relative-caret-position="270">
+          <caret line="307" column="21" selection-start-line="307" selection-start-column="21" selection-end-line="307" selection-end-column="21" />
+          <folding>
+            <element signature="e#9061#9062#0" expanded="true" />
+            <element signature="e#9109#9110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/InitialObject/CircleObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+        <state relative-caret-position="349">
+          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
           <folding>
             <element signature="docComment;field#circleRadius#0;class#CircleObject#0" />
             <element signature="docComment;method#CircleObject#0;class#CircleObject#0" />
@@ -3171,14 +3050,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/MenuState/MenuStateMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameStateMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/GameState/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Mediator/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="360">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
           <folding>
             <element signature="docComment;method#PlanetObject#0;class#PlanetObject#0" />
             <element signature="docComment;method#PlanetObject#0;class#PlanetObject#0" />
             <element signature="docComment;method#PlanetObject#1;class#PlanetObject#0" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/SupportState/Camera2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+          <folding>
+            <element signature="docComment;class#Camera2D#0" />
+            <element signature="e#495#510#0" />
+            <element signature="docComment;field#camera#0;class#Camera2D#0" />
+            <element signature="docComment;field#touchPos#0;class#Camera2D#0" />
+            <element signature="e#815#833#0" />
+            <element signature="method#Camera2D#0;class#Camera2D#0" />
+            <element signature="e#1276#1292#0" />
+            <element signature="method#getCamera#0;class#Camera2D#0" />
+            <element signature="method#getTouchPos#0;class#Camera2D#0" />
+            <element signature="method#getTouchPosV2#0;class#Camera2D#0" />
+            <element signature="method#getMediator#0;class#Camera2D#0" />
+            <element signature="method#setMediator#0;class#Camera2D#0" />
+            <element signature="docComment;method#setCameraMenu#0;class#Camera2D#0" />
+            <element signature="method#setCameraMenu#0;class#Camera2D#0" />
+            <element signature="method#setTouchPos#0;class#Camera2D#0" />
+            <element signature="method#setRotationOfWorld#0;class#Camera2D#0" />
+            <element signature="method#update#0;class#Camera2D#0" />
+            <element signature="method#mediatorUpdate#0;class#Camera2D#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Tools/Character/PlanetDestroyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="method#createDestroyer#0;class#PlanetDestroyer#0" />
+            <element signature="e#571#586#0" />
+            <element signature="e#642#662#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="108" column="75" selection-start-line="108" selection-start-column="75" selection-end-line="108" selection-end-column="75" />
+          <folding>
+            <element signature="docComment;class#PlanetLocation#0" />
+            <element signature="method#PlanetLocation#0;class#PlanetLocation#0" />
+            <element signature="method#initializePlanetLocation#0;class#PlanetLocation#0" />
+            <element signature="docComment;method#initializeCirclesOfPlanet#0;class#PlanetLocation#0" />
+            <element signature="method#initializeCirclesOfPlanet#0;class#PlanetLocation#0" />
+            <element signature="method#layerRadius#0;class#PlanetLocation#0" />
+            <element signature="method#getPlanetCenter#0;class#PlanetLocation#0" />
+            <element signature="method#rotatePlanet#0;class#PlanetLocation#0" />
+            <element signature="method#rotatePlanet#1;class#PlanetLocation#0" />
+            <element signature="method#rotateBall#0;class#PlanetLocation#0" />
+            <element signature="docComment;method#update#0;class#PlanetLocation#0" />
+            <element signature="method#update#0;class#PlanetLocation#0" />
+            <element signature="method#updatePlanetDestroyer#0;class#PlanetLocation#0" />
           </folding>
         </state>
       </provider>
@@ -3186,30 +3167,7 @@
     <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Data/Fin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="182" column="36" selection-start-line="182" selection-start-column="36" selection-end-line="182" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/sir/black/Screens/Maps/PlanetLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#PlanetLocation#0" />
-            <element signature="method#PlanetLocation#0;class#PlanetLocation#0" />
-            <element signature="method#initializePlanetLocation#0;class#PlanetLocation#0" />
-            <element signature="docComment;method#initializeCirclesOfPlanet#0;class#PlanetLocation#0" />
-            <element signature="method#layerRadius#0;class#PlanetLocation#0" />
-            <element signature="e#3204#3224#0" />
-            <element signature="method#getPlanetCenter#0;class#PlanetLocation#0" />
-            <element signature="e#4157#4158#0" expanded="true" />
-            <element signature="e#4210#4211#0" expanded="true" />
-            <element signature="method#rotatePlanet#0;class#PlanetLocation#0" />
-            <element signature="method#rotatePlanet#1;class#PlanetLocation#0" />
-            <element signature="method#rotateBall#0;class#PlanetLocation#0" />
-            <element signature="docComment;method#update#0;class#PlanetLocation#0" />
-            <element signature="method#update#0;class#PlanetLocation#0" />
-          </folding>
+          <caret line="182" column="39" selection-start-line="182" selection-start-column="39" selection-end-line="182" selection-end-column="39" />
         </state>
       </provider>
     </entry>
