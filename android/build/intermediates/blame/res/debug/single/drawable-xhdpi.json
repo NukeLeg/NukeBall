@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Lutsifer\\AndroidStudioProjects\\NukeBall\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Lutsifer\\AndroidStudioProjects\\NukeBall\\android\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "/home/devil/Documents/AndroidStudioProjects/NukeLeg/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/home/devil/Documents/AndroidStudioProjects/NukeLeg/android/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/devil/Documents/AndroidStudioProjects/NukeLeg/C:\\Users\\Lutsifer\\AndroidStudioProjects\\NukeBall\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "/home/devil/Documents/AndroidStudioProjects/NukeLeg/C:\\Users\\Lutsifer\\AndroidStudioProjects\\NukeBall\\android\\res\\drawable-xhdpi\\ic_launcher.png"
     }
 ]
